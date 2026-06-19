@@ -24,6 +24,9 @@ docs/
     08-proximos-comandos.md
     09-analise-financeira-real-e-decisao.md   ← análise com dados reais + decisão da rota
     10-comparativo-rota-A-vs-B.md             ← A vs B lado a lado (operação, reforma, compras)
+  fase-2-reforma-compras/                     ← rota escolhida: HÍBRIDA (A+B)
+    01-plano-reforma-hibrido.md               Reforma priorizada + orçamento
+    02-lista-compras-completa.md              Compras em 4 etapas + CAPEX total
   templates/
     modelo-financeiro.csv            Planilha calibrada com números reais (3 cenários)
     info-imovel-coletar.md           Formulário (a maior parte já foi respondida)
@@ -36,24 +39,20 @@ As fases 2 a 6 ganham suas próprias pastas conforme avançarmos.
 | Fase | Tema | Status |
 |------|------|--------|
 | 1 | Diagnóstico do imóvel e anúncio | ✅ Entregue e **calibrado com dados reais** (anúncio, fotos, histórico 2021–2025, custos) |
-| 2 | Reforma mínima e compras | 🟡 Versão preliminar dentro da Fase 1 (a finalizar após escolha da rota) |
-| 3 | Sistema operacional remoto (diarista) | ⬜ A iniciar |
+| 2 | Reforma e compras | ✅ Entregue para a **rota híbrida** (plano de reforma + lista de compras + CAPEX) |
+| 3 | Sistema operacional remoto (diarista) | ⬜ Próxima fase sugerida |
 | 4 | Reposicionamento do anúncio | ⬜ A iniciar |
 | 5 | Modelo financeiro | 🟡 Mecânica + cenários reais entregues; falta camada fiscal |
 | 6 | Estratégia de expansão patrimonial | ⬜ A iniciar (alavanca de home equity identificada) |
 
-## A decisão que destrava as próximas fases
+## Rota escolhida: HÍBRIDA (A+B) ✅
 
-Os dados reais revelaram que, **como o imóvel operou até hoje, o Airbnb rendeu líquido perto de um
-inquilino fixo — com muito mais trabalho e risco** (detalhe em
-[`09-analise-financeira-real-e-decisao.md`](docs/fase-1-diagnostico/09-analise-financeira-real-e-decisao.md)).
-O Airbnb só vale a pena **reposicionado**. Recomendo a **Rota A** (Airbnb reposicionado, aceitando
-curta + média temporada, com AC/TV/enxoval/automação). Confirme a rota para eu detalhar as Fases 2–4 sob medida.
+Equipar o imóvel no padrão da Rota A (curta temporada) e operar com flexibilidade para aceitar também
+estadias de 28+ dias (Rota B). Imóvel **quitado** — alavanca de home equity disponível para a Fase 6.
 
 ## Próximo passo imediato
 
-1. **Confirmar a rota de operação** (A recomendada / B média temporada / C inquilino fixo).
-2. Responder 4 perguntas que ainda faltam (ver topo de
-   [`03-informacoes-a-levantar.md`](docs/fase-1-diagnostico/03-informacoes-a-levantar.md)):
-   imóvel quitado?, inquilino fixo paga condomínio/IPTU?, opera como PF?, orçamento para AC+TV+enxoval.
-3. Escolher o próximo comando em [`08-proximos-comandos.md`](docs/fase-1-diagnostico/08-proximos-comandos.md).
+1. Definir o **pacote de CAPEX**: "Reabrir enxuto" (~R$ 5–9 mil) agora vs "Híbrido completo" (~R$ 9–16 mil) —
+   ver [`fase-2/02-lista-compras-completa.md`](docs/fase-2-reforma-compras/02-lista-compras-completa.md).
+2. Pedir **"buscar links da Etapa 1"** para eu trazer produtos reais com preço atual.
+3. Ou avançar para a **Fase 3 (operação da diarista)** — checklists e rotina remota.
