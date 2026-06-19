@@ -23,6 +23,7 @@ docs/
     07-modelo-financeiro-inicial.md
     08-proximos-comandos.md
     09-analise-financeira-real-e-decisao.md   ← análise com dados reais + decisão da rota
+    10-comparativo-rota-A-vs-B.md             ← A vs B lado a lado (operação, reforma, compras)
   templates/
     modelo-financeiro.csv            Planilha calibrada com números reais (3 cenários)
     info-imovel-coletar.md           Formulário (a maior parte já foi respondida)
