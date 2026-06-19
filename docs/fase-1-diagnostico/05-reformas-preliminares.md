@@ -7,6 +7,15 @@
 ## Classificação usada
 `ESSENCIAL` (antes de reabrir) · `ALTA` · `MÉDIA` · `BAIXA` · `PODE ESPERAR` · `NÃO VALE AGORA`
 
+> ### ⭐ Confirmado pelas fotos reais (intervenções de R$ ~0 com alto impacto na foto)
+> As fotos mostram um imóvel funcional, porém "cru": **prateleiras vazias, portas de armário abertas/
+> faltando, sofá desgastado, zero styling e luz amarela fraca**. Antes de gastar com reforma, isto rende muito:
+> - **Consertar/alinhar portas dos armários** da cozinha (aparecem abertas/tortas nas fotos) — `ESSENCIAL`.
+> - **Trocar lâmpadas por LED branco potente** em todos os cômodos fotografados — `ESSENCIAL`, custo baixíssimo.
+> - **Despersonalizar e organizar** (prateleiras com 2–3 itens de decoração neutra, nada de objetos soltos) — `ALTA`.
+> - **Pôr o enxoval branco na cama e toalhas dobradas** antes de fotografar — `ESSENCIAL` para a foto de capa.
+> - **Avaliar trocar/repaginar o sofá bege desgastado** (capa nova ou peça simples) — `MÉDIA`.
+
 ---
 
 ## ESSENCIAL — sem isto, não reabrir

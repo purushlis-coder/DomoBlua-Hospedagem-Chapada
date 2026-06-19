@@ -1,48 +1,35 @@
-# Fase 1 · Informações que Ainda Preciso Levantar
+# Fase 1 · Informações — o que já temos e o que ainda falta
 
-Tudo o que está como `HIPÓTESE` nos outros documentos vira `DADO` quando isto for respondido.
-O formulário completo está em [`../templates/info-imovel-coletar.md`](../templates/info-imovel-coletar.md).
-Aqui está a **priorização**: o que destrava decisões agora vs. o que pode vir depois.
+> ✅ Atualizado em 19/06/2026. Você enviou anúncio, fotos, comodidades, notas, **histórico financeiro
+> 2021–2025** e custos. A maior parte já é `DADO`. Restam **4 pontos** que mudam decisões importantes.
 
-## 🔴 Bloqueadores (sem isto, não dá para decidir reforma nem investir com segurança)
+## 🔴 Ainda faltam (cada um muda uma decisão real)
 
-| # | Informação | Por que é bloqueador | Como obter |
-|---|------------|----------------------|------------|
-| 1 | **Estado físico real** (pintura, colchão, vazamentos, mofo, defeitos) | Define a lista e o orçamento de reforma | Vistoria presencial ou por vídeo em junho |
-| 2 | **Fotos atuais de cada cômodo** | Sem elas o diagnóstico visual é só hipótese | Você, conhecido ou diarista fotografa |
-| 3 | **Convenção do condomínio permite temporada?** | Risco de multa/embargo após investir | Síndico/administradora/convenção |
-| 4 | **Configuração** (quartos, banheiros, camas, capacidade, m²) | Base de capacidade, preço e enxoval | Você informa |
-| 5 | **Custos fixos** (condomínio, IPTU, energia, água, internet) | Sem isto o modelo financeiro não fecha | Boletos/extratos |
+| # | Pergunta | Por que importa |
+|---|----------|-----------------|
+| 1 | **O imóvel está quitado** ou há financiamento/dívida? | Define a estratégia de expansão (home equity como alavanca) — Fase 6 |
+| 2 | O **inquilino fixo (R$ 2.500)** paga condomínio/IPTU/contas, ou é "tudo incluso"? | Muda a comparação Airbnb × aluguel (pode tornar o fixo bem mais vantajoso) |
+| 3 | Você opera como **pessoa física** ou tem **MEI/CNPJ**? | Tratamento de IR sobre a receita; impacta o líquido real |
+| 4 | Qual **orçamento disponível agora** para AC + TV + enxoval (CAPEX ~R$ 3–6 mil)? | Define o tamanho e o ritmo do reposicionamento |
 
-## 🟠 Importantes (calibram preço e estratégia, mas não travam o início da reforma)
+## 🟠 Decisão a confirmar (não é dado, é escolha sua)
+- **Rota de operação:** A (Airbnb reposicionado, recomendada) · B (média temporada) · C (inquilino fixo).
+  Detalhe em [09-analise-financeira-real-e-decisao.md](09-analise-financeira-real-e-decisao.md).
 
-| # | Informação | Para quê |
-|---|------------|----------|
-| 6 | Diária e taxa de limpeza que praticava antes | Ponto de partida da precificação |
-| 7 | Status atual (Superhost? nota? nº de avaliações?) | Define agressividade do relançamento |
-| 8 | Print do anúncio atual (título/descrição/comodidades) | Reescrever o anúncio (Fase 4) |
-| 9 | 3–5 concorrentes diretos (links) | Pesquisa de preço (Fase 5) |
-| 10 | Já tem diarista? Valor por faxina? | Caminho crítico da operação remota |
+## ✅ Já temos (DADO)
+- Imóvel: quitinete/1-quarto, 1 banheiro, capacidade 2, SGAN 912 Norte (Master Place, Bloco B), Asa Norte.
+- Atributos: andar alto, nascente, garagem coberta, elevador, Wi-Fi 250 Mbps.
+- **Faltam (confirmado por comodidades + avaliações):** ar-condicionado, TV, máquina de lavar, toalhas
+  de banho, utensílios de cozinha, detector de fumaça.
+- Custos fixos reais: ~R$ 660/mês. Diarista: R$ 100/troca. Taxa de limpeza cobrada: R$ 90.
+- Anúncio: título atual, descrição, nota 4,53 (40 avaliações), subnotas, **taxa de resposta 50%**.
+- Histórico de payouts 2021–2025 (analisado em [09](09-analise-financeira-real-e-decisao.md)).
 
-## 🟡 Úteis (afinam a estratégia patrimonial e fiscal)
-
-| # | Informação | Para quê |
-|---|------------|----------|
-| 11 | Pessoa física ou MEI/CNPJ | Planejamento tributário da operação |
-| 12 | Reserva de emergência pessoal já existe? | Define o quanto dá para investir agora |
-| 13 | Quanto pode aportar/mês além dos 50% | Acelera o fundo de aquisição |
-| 14 | Horizonte e entrada desejados para o 2º imóvel | Calibra o plano patrimonial (Fase 6) |
+## 🟡 Útil ter (quando puder)
+- 3–5 anúncios concorrentes diretos na Asa Norte (para afinar a precificação de relançamento).
+- Print da lista completa das 18 comodidades e dos textos das 40 avaliações (para a Fase 4).
+- Já tem diarista atual ou contato local de confiança em Brasília?
 
 ## Dados de mercado que EU levanto (não são sua tarefa)
-
-Quando você pedir, eu pesquiso e trago com fontes:
-- ADR e ocupação de concorrentes diretos na sua quadra/região.
-- Faixa de preço real de 1-quarto/kitinete à venda no Plano Piloto (para o plano de expansão).
-- Calendário de eventos de Brasília que elevam diária (período de concursos, eventos do governo, etc.).
-- Regras vigentes de locação por temporada no DF.
-
-> **Achado preliminar de mercado** (a aprofundar na Fase 6): 1-quarto no Plano Piloto por
-> **R$ 300–400 mil é uma faixa apertada** — kitinetes aparecem a partir de ~R$ 355 mil e 1-quartos
-> "de verdade" costumam passar de R$ 500 mil. Isso não inviabiliza a meta, mas significa que o 2º
-> imóvel provavelmente será **kitinete/JK/quitinete** nessa faixa, ou exigirá rever orçamento/região.
-> Fonte: levantamento em portais (Lugar Certo, Viva Real, Wimoveis), jun/2026.
+ADR/ocupação de concorrentes na Asa Norte; faixa real de preço de 1-quarto/kitinete à venda no Plano
+Piloto; calendário de eventos de Brasília que elevam diária; regras de temporada no DF e do condomínio.

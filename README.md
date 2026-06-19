@@ -22,9 +22,10 @@ docs/
     06-compras-obrigatorias-preliminares.md
     07-modelo-financeiro-inicial.md
     08-proximos-comandos.md
+    09-analise-financeira-real-e-decisao.md   ← análise com dados reais + decisão da rota
   templates/
-    modelo-financeiro.csv            Planilha-base para preencher (3 cenários)
-    info-imovel-coletar.md           Formulário do que preciso que você responda
+    modelo-financeiro.csv            Planilha calibrada com números reais (3 cenários)
+    info-imovel-coletar.md           Formulário (a maior parte já foi respondida)
 ```
 
 As fases 2 a 6 ganham suas próprias pastas conforme avançarmos.
@@ -33,20 +34,25 @@ As fases 2 a 6 ganham suas próprias pastas conforme avançarmos.
 
 | Fase | Tema | Status |
 |------|------|--------|
-| 1 | Diagnóstico do imóvel e anúncio | ✅ Entregue (aguardando seus dados) |
-| 2 | Reforma mínima e compras | 🟡 Versão preliminar dentro da Fase 1 |
+| 1 | Diagnóstico do imóvel e anúncio | ✅ Entregue e **calibrado com dados reais** (anúncio, fotos, histórico 2021–2025, custos) |
+| 2 | Reforma mínima e compras | 🟡 Versão preliminar dentro da Fase 1 (a finalizar após escolha da rota) |
 | 3 | Sistema operacional remoto (diarista) | ⬜ A iniciar |
 | 4 | Reposicionamento do anúncio | ⬜ A iniciar |
-| 5 | Modelo financeiro | 🟡 Estrutura inicial dentro da Fase 1 |
-| 6 | Estratégia de expansão patrimonial | ⬜ A iniciar |
+| 5 | Modelo financeiro | 🟡 Mecânica + cenários reais entregues; falta camada fiscal |
+| 6 | Estratégia de expansão patrimonial | ⬜ A iniciar (alavanca de home equity identificada) |
+
+## A decisão que destrava as próximas fases
+
+Os dados reais revelaram que, **como o imóvel operou até hoje, o Airbnb rendeu líquido perto de um
+inquilino fixo — com muito mais trabalho e risco** (detalhe em
+[`09-analise-financeira-real-e-decisao.md`](docs/fase-1-diagnostico/09-analise-financeira-real-e-decisao.md)).
+O Airbnb só vale a pena **reposicionado**. Recomendo a **Rota A** (Airbnb reposicionado, aceitando
+curta + média temporada, com AC/TV/enxoval/automação). Confirme a rota para eu detalhar as Fases 2–4 sob medida.
 
 ## Próximo passo imediato
 
-1. Preencher [`docs/templates/info-imovel-coletar.md`](docs/templates/info-imovel-coletar.md) com os dados do imóvel.
-2. Me enviar **5–10 fotos atuais** do apartamento (cada cômodo) para o diagnóstico visual real.
-3. Escolher o próximo comando em [`docs/fase-1-diagnostico/08-proximos-comandos.md`](docs/fase-1-diagnostico/08-proximos-comandos.md).
-
-> ⚠️ **Importante:** o diagnóstico da Fase 1 foi feito **sem acesso ao conteúdo do anúncio**
-> (o Airbnb bloqueia leitura automatizada). Por isso ele trabalha com **hipóteses explícitas**,
-> sinalizadas como `HIPÓTESE` ao longo dos documentos. Elas serão substituídas por dados reais
-> assim que você preencher o formulário e enviar as fotos.
+1. **Confirmar a rota de operação** (A recomendada / B média temporada / C inquilino fixo).
+2. Responder 4 perguntas que ainda faltam (ver topo de
+   [`03-informacoes-a-levantar.md`](docs/fase-1-diagnostico/03-informacoes-a-levantar.md)):
+   imóvel quitado?, inquilino fixo paga condomínio/IPTU?, opera como PF?, orçamento para AC+TV+enxoval.
+3. Escolher o próximo comando em [`08-proximos-comandos.md`](docs/fase-1-diagnostico/08-proximos-comandos.md).

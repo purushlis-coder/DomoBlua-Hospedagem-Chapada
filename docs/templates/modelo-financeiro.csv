@@ -1,27 +1,25 @@
-Bloco,Linha,Conservador,Realista,Otimista,Seu_valor_real,Observacao
-PREMISSAS,Diaria media (ADR) R$,170,220,280,,Calibrar com concorrentes da sua quadra
-PREMISSAS,Ocupacao %,45,60,72,,Media capitais BR ~59-62%
-PREMISSAS,Dias no mes,30,30,30,,Base de calculo
-PREMISSAS,Noites ocupadas (= dias x ocup),13.5,18,21.6,,Calculado
-PREMISSAS,Taxa plataforma %,15,15,15,,Modelo host-paid simplificado
-PREMISSAS,Consumiveis por noite R$,10,10,10,,Papel/cafe/amenities
-PREMISSAS,Fundo manutencao % da receita,5,5,5,,CAPEX recorrente
-RECEITA,Receita hospedagem (ADR x noites) R$,2295,3960,6048,,Calculado
-RECEITA,(-) Taxa plataforma R$,-344,-594,-907,,15% da receita
-RECEITA,= Receita liquida de plataforma R$,1951,3366,5141,,Calculado
-CUSTOS FIXOS,Condominio R$,,,,,PREENCHER com boleto real
-CUSTOS FIXOS,IPTU mensalizado R$,,,,,PREENCHER
-CUSTOS FIXOS,Energia R$,,,,,PREENCHER
-CUSTOS FIXOS,Agua R$,,,,,PREENCHER (se separada do condominio)
-CUSTOS FIXOS,Internet R$,,,,,PREENCHER
-CUSTOS FIXOS,Subtotal custos fixos (estimado) R$,-1300,-1300,-1300,,Substituir pela soma real
-CUSTOS VARIAVEIS,Consumiveis R$,-135,-180,-216,,= consumiveis/noite x noites
-CUSTOS VARIAVEIS,Lavanderia/diferenca de limpeza R$,0,0,0,,Se taxa de limpeza nao cobrir a diarista
-CUSTOS VARIAVEIS,Fundo de manutencao R$,-98,-168,-257,,5% da receita liquida
-RESULTADO,= Receita liquida operacional (NOI) R$,418,1718,3368,,Calculado
-ALOCACAO,Fundo de aquisicao 2o imovel (50%) R$,209,859,1684,,Intocavel
-ALOCACAO,Voce + reserva de vacancia (50%) R$,209,859,1684,,
-META AQUISICAO,Valor alvo do 2o imovel R$,350000,350000,350000,,Ajustar
-META AQUISICAO,Entrada + custos (~23%) R$,80000,80000,80000,,20% + ITBI/escritura
-META AQUISICAO,Meses para formar entrada (so 50%),383,93,48,,= alvo / aporte mensal
-META AQUISICAO,Anos aprox,32,7.8,4,,Ver alavancas na Fase 6
+Bloco,Linha,Conservador,Realista,Otimista,Observacao
+PREMISSAS,Diaria media efetiva R$,130,165,200,Calibrado pelo historico real 2022-2025
+PREMISSAS,Ocupacao %,60,70,80,Historico + meta de reposicionamento
+PREMISSAS,Noites ocupadas/mes,18,21,24,= 30 x ocupacao
+PREMISSAS,Taxa Airbnb anfitriao %,3,3,3,Modelo host-only confirmado no extrato
+PREMISSAS,Consumiveis+diarista liq./mes R$,150,200,250,Liquido da taxa de limpeza cobrada
+PREMISSAS,Fundo manutencao % receita,5,5,5,CAPEX recorrente
+RECEITA,Receita hospedagem (ADR x noites) R$,2340,3465,4800,Calculado
+RECEITA,(-) Taxa Airbnb ~3% R$,-70,-104,-144,
+RECEITA,= Receita apos plataforma R$,2270,3361,4656,
+CUSTOS FIXOS,Condominio R$,-380,-380,-380,Real
+CUSTOS FIXOS,Luz R$,-80,-80,-80,Real (60-100)
+CUSTOS FIXOS,Internet R$,-110,-110,-110,Real
+CUSTOS FIXOS,IPTU mensalizado R$,-90,-90,-90,Real
+CUSTOS FIXOS,Subtotal fixo R$,-660,-660,-660,
+CUSTOS VARIAVEIS,Diarista liq.+consumiveis R$,-150,-200,-250,
+CUSTOS VARIAVEIS,Fundo de manutencao R$,-117,-173,-240,5% da receita
+RESULTADO,= Liquido ao dono (NOI) R$,1343,2328,3506,Calculado
+COMPARACAO,Inquilino fixo liquido R$,1840,2340,2500,Depende de quem paga condominio/IPTU
+COMPARACAO,Vantagem Airbnb vs fixo R$,-497,-12,1006,Negativo = fixo ganha
+ALOCACAO,Fundo aquisicao 2o imovel (50%) R$,672,1164,1753,
+META AQUISICAO,Valor alvo 2o imovel R$,350000,350000,350000,Ajustar
+META AQUISICAO,Entrada+custos (~23%) R$,80000,80000,80000,
+META AQUISICAO,Meses para formar entrada,119,69,46,So com os 50% - ver alavanca de home equity na Fase 6
+META AQUISICAO,Anos aprox,10,5.7,3.8,

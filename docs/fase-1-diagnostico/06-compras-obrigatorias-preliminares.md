@@ -6,7 +6,18 @@ Fase 2 — quando você pedir, eu busco links reais (Mercado Livre, Amazon, Shop
 custo-confiabilidade.
 
 > Faixas de preço são `HIPÓTESE` (mercado BR, jun/2026), a confirmar na pesquisa de links.
-> Quantidades assumem **1 cama de casal + capacidade ~2–3 hóspedes** — recalibrar com a configuração real.
+> Configuração **confirmada**: 1 cama de casal, capacidade 2 hóspedes, 1 banheiro.
+
+> ### ⭐ Prioridades confirmadas pelas avaliações reais (não são opinião — hóspedes pediram)
+> Estes itens aparecem repetidamente nos comentários e nas comodidades faltantes. Têm **ROI comprovado**
+> em nota e diária:
+> | Item | Evidência | Prioridade | Faixa |
+> |------|-----------|-----------|-------|
+> | **Ar-condicionado** (split) ou, no mínimo, **ventilador** | "apê fica quente", "faltou ventilador" (Diego, Mateus) + filtro de busca | AC: Alta · Ventilador: **Essencial** | Ventilador R$ 100–250 · Split R$ 1.800–3.000 instalado |
+> | **TV** (smart, 32–43") | "faltou uma TV" (Carlos, Ricardo) + filtro de busca | Alta | R$ 900–1.600 |
+> | **Toalhas de banho** | "anfitrião não fornece roupa de banho" (Marcos, Priscila) | **Essencial** | já na lista abaixo |
+> | **Utensílios de cozinha** (frigideira, panelas, xícaras, talheres, pano de prato) | Adriano, Priscila, Camila | **Essencial** | já na lista abaixo |
+> | **Detector de fumaça** | comodidade de segurança ausente | **Essencial** (segurança) | R$ 60–150 |
 
 ## Princípio do enxoval: regra dos 3 jogos
 Para cada cama, **3 jogos** de roupa de cama (1 em uso, 1 lavando, 1 no armário). Idem toalhas.
