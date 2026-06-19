@@ -27,6 +27,7 @@ docs/
   fase-2-reforma-compras/                     ← rota escolhida: HÍBRIDA (A+B)
     01-plano-reforma-hibrido.md               Reforma priorizada + orçamento
     02-lista-compras-completa.md              Compras em 4 etapas + CAPEX total
+    03-links-de-compra.md                     Links reais de compra (jun/2026)
   templates/
     modelo-financeiro.csv            Planilha calibrada com números reais (3 cenários)
     info-imovel-coletar.md           Formulário (a maior parte já foi respondida)
