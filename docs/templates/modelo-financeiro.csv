@@ -1,0 +1,27 @@
+Bloco,Linha,Conservador,Realista,Otimista,Seu_valor_real,Observacao
+PREMISSAS,Diaria media (ADR) R$,170,220,280,,Calibrar com concorrentes da sua quadra
+PREMISSAS,Ocupacao %,45,60,72,,Media capitais BR ~59-62%
+PREMISSAS,Dias no mes,30,30,30,,Base de calculo
+PREMISSAS,Noites ocupadas (= dias x ocup),13.5,18,21.6,,Calculado
+PREMISSAS,Taxa plataforma %,15,15,15,,Modelo host-paid simplificado
+PREMISSAS,Consumiveis por noite R$,10,10,10,,Papel/cafe/amenities
+PREMISSAS,Fundo manutencao % da receita,5,5,5,,CAPEX recorrente
+RECEITA,Receita hospedagem (ADR x noites) R$,2295,3960,6048,,Calculado
+RECEITA,(-) Taxa plataforma R$,-344,-594,-907,,15% da receita
+RECEITA,= Receita liquida de plataforma R$,1951,3366,5141,,Calculado
+CUSTOS FIXOS,Condominio R$,,,,,PREENCHER com boleto real
+CUSTOS FIXOS,IPTU mensalizado R$,,,,,PREENCHER
+CUSTOS FIXOS,Energia R$,,,,,PREENCHER
+CUSTOS FIXOS,Agua R$,,,,,PREENCHER (se separada do condominio)
+CUSTOS FIXOS,Internet R$,,,,,PREENCHER
+CUSTOS FIXOS,Subtotal custos fixos (estimado) R$,-1300,-1300,-1300,,Substituir pela soma real
+CUSTOS VARIAVEIS,Consumiveis R$,-135,-180,-216,,= consumiveis/noite x noites
+CUSTOS VARIAVEIS,Lavanderia/diferenca de limpeza R$,0,0,0,,Se taxa de limpeza nao cobrir a diarista
+CUSTOS VARIAVEIS,Fundo de manutencao R$,-98,-168,-257,,5% da receita liquida
+RESULTADO,= Receita liquida operacional (NOI) R$,418,1718,3368,,Calculado
+ALOCACAO,Fundo de aquisicao 2o imovel (50%) R$,209,859,1684,,Intocavel
+ALOCACAO,Voce + reserva de vacancia (50%) R$,209,859,1684,,
+META AQUISICAO,Valor alvo do 2o imovel R$,350000,350000,350000,,Ajustar
+META AQUISICAO,Entrada + custos (~23%) R$,80000,80000,80000,,20% + ITBI/escritura
+META AQUISICAO,Meses para formar entrada (so 50%),383,93,48,,= alvo / aporte mensal
+META AQUISICAO,Anos aprox,32,7.8,4,,Ver alavancas na Fase 6
