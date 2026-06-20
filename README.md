@@ -42,6 +42,10 @@ docs/
     04-mensagens-automaticas.md               M1–M7 + respostas salvas (corrige taxa de resposta)
     05-manual-da-casa-e-guia-local.md         Manual da casa + guia local
     06-estrategia-relancamento-e-avaliacoes.md Relançamento, 5★ rápido, anti-dano, ocupação, ADR
+  fase-5-financeiro/                          ← precificação, cenários e tributação
+    01-modelo-de-precificacao.md              Preço por dia/evento, descontos, taxa de limpeza
+    02-modelo-financeiro-e-cenarios.md        P&L, 3 cenários, reinvestimento, entrada
+    03-tributacao-e-estrutura.md              Carnê-leão, deduções, PF × MEI × empresa
   templates/
     modelo-financeiro.csv            Planilha calibrada com números reais (3 cenários)
     info-imovel-coletar.md           Formulário (a maior parte já foi respondida)
@@ -57,8 +61,8 @@ As fases 2 a 6 ganham suas próprias pastas conforme avançarmos.
 | 2 | Reforma e compras | ✅ Entregue para a **rota híbrida** (plano de reforma + lista de compras + CAPEX) |
 | 3 | Sistema operacional remoto (diarista) | ✅ Entregue (checklists, estoque, protocolos, auditoria) |
 | 4 | Reposicionamento do anúncio | ✅ Entregue (título, descrição, fotos, regras, mensagens, manual, relançamento) |
-| 5 | Modelo financeiro | 🟡 Mecânica + cenários reais entregues; falta precificação dinâmica + camada fiscal |
-| 6 | Estratégia de expansão patrimonial | ⬜ Próxima fase sugerida (alavanca de home equity identificada) |
+| 5 | Modelo financeiro | ✅ Entregue (precificação, 3 cenários, reinvestimento, tributação) |
+| 6 | Estratégia de expansão patrimonial | ⬜ Última fase (alavanca de home equity identificada) |
 
 ## Rota escolhida: HÍBRIDA (A+B) ✅
 
