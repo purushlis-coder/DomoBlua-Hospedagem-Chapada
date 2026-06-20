@@ -47,7 +47,8 @@ docs/
     02-modelo-financeiro-e-cenarios.md        P&L, 3 cenários, reinvestimento, entrada
     03-tributacao-e-estrutura.md              Carnê-leão, deduções, PF × MEI × empresa
     04-guia-imposto-de-renda.md               Curso de IR do zero + como usar a planilha fiscal
-    controle-fiscal-airbnb.xlsx               Planilha dinâmica: carnê-leão + P&L + fundo (com fórmulas)
+    05-situacao-fiscal-multiplas-rendas.md    Análise das suas 4 fontes de renda + regularização
+    controle-fiscal-airbnb.xlsx               Planilha dinâmica: carnê-leão + P&L + panorama de rendas
   templates/
     modelo-financeiro.csv            Planilha calibrada com números reais (3 cenários)
     info-imovel-coletar.md           Formulário (a maior parte já foi respondida)
