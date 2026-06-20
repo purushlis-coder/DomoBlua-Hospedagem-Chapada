@@ -46,6 +46,8 @@ docs/
     01-modelo-de-precificacao.md              Preço por dia/evento, descontos, taxa de limpeza
     02-modelo-financeiro-e-cenarios.md        P&L, 3 cenários, reinvestimento, entrada
     03-tributacao-e-estrutura.md              Carnê-leão, deduções, PF × MEI × empresa
+    04-guia-imposto-de-renda.md               Curso de IR do zero + como usar a planilha fiscal
+    controle-fiscal-airbnb.xlsx               Planilha dinâmica: carnê-leão + P&L + fundo (com fórmulas)
   templates/
     modelo-financeiro.csv            Planilha calibrada com números reais (3 cenários)
     info-imovel-coletar.md           Formulário (a maior parte já foi respondida)
