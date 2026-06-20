@@ -28,6 +28,13 @@ docs/
     01-plano-reforma-hibrido.md               Reforma priorizada + orçamento
     02-lista-compras-completa.md              Compras em 4 etapas + CAPEX total
     03-links-de-compra.md                     Links reais de compra (jun/2026)
+  fase-3-operacao-remota/                     ← operação sem presença física
+    01-sistema-operacional-visao-geral.md     Papéis, ferramentas, ritmos, comunicação
+    02-checklist-turnover-diarista.md         Passo a passo de cada troca (imprimível)
+    03-checklist-fotografico.md               Fotos obrigatórias por turnover
+    04-controle-de-estoque-e-reposicao.md     Enxoval (3 jogos) + consumíveis
+    05-protocolos-danos-perdidos-manutencao-urgencias.md
+    06-rotina-de-auditoria-remota.md          Rotina do gestor + dashboard de KPIs
   templates/
     modelo-financeiro.csv            Planilha calibrada com números reais (3 cenários)
     info-imovel-coletar.md           Formulário (a maior parte já foi respondida)
@@ -41,8 +48,8 @@ As fases 2 a 6 ganham suas próprias pastas conforme avançarmos.
 |------|------|--------|
 | 1 | Diagnóstico do imóvel e anúncio | ✅ Entregue e **calibrado com dados reais** (anúncio, fotos, histórico 2021–2025, custos) |
 | 2 | Reforma e compras | ✅ Entregue para a **rota híbrida** (plano de reforma + lista de compras + CAPEX) |
-| 3 | Sistema operacional remoto (diarista) | ⬜ Próxima fase sugerida |
-| 4 | Reposicionamento do anúncio | ⬜ A iniciar |
+| 3 | Sistema operacional remoto (diarista) | ✅ Entregue (checklists, estoque, protocolos, auditoria) |
+| 4 | Reposicionamento do anúncio | ⬜ Próxima fase sugerida |
 | 5 | Modelo financeiro | 🟡 Mecânica + cenários reais entregues; falta camada fiscal |
 | 6 | Estratégia de expansão patrimonial | ⬜ A iniciar (alavanca de home equity identificada) |
 
