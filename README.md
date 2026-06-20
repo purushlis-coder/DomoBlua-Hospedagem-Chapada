@@ -35,6 +35,13 @@ docs/
     04-controle-de-estoque-e-reposicao.md     Enxoval (3 jogos) + consumíveis
     05-protocolos-danos-perdidos-manutencao-urgencias.md
     06-rotina-de-auditoria-remota.md          Rotina do gestor + dashboard de KPIs
+  fase-4-anuncio/                             ← reposicionamento do anúncio
+    01-titulo-e-descricao.md                  Título (opções) + descrição pronta
+    02-fotos-ordem-e-roteiro.md               Shot list, ordem e legendas
+    03-regras-checkin-acesso.md               Regras, política de hóspedes, acesso remoto
+    04-mensagens-automaticas.md               M1–M7 + respostas salvas (corrige taxa de resposta)
+    05-manual-da-casa-e-guia-local.md         Manual da casa + guia local
+    06-estrategia-relancamento-e-avaliacoes.md Relançamento, 5★ rápido, anti-dano, ocupação, ADR
   templates/
     modelo-financeiro.csv            Planilha calibrada com números reais (3 cenários)
     info-imovel-coletar.md           Formulário (a maior parte já foi respondida)
@@ -49,9 +56,9 @@ As fases 2 a 6 ganham suas próprias pastas conforme avançarmos.
 | 1 | Diagnóstico do imóvel e anúncio | ✅ Entregue e **calibrado com dados reais** (anúncio, fotos, histórico 2021–2025, custos) |
 | 2 | Reforma e compras | ✅ Entregue para a **rota híbrida** (plano de reforma + lista de compras + CAPEX) |
 | 3 | Sistema operacional remoto (diarista) | ✅ Entregue (checklists, estoque, protocolos, auditoria) |
-| 4 | Reposicionamento do anúncio | ⬜ Próxima fase sugerida |
-| 5 | Modelo financeiro | 🟡 Mecânica + cenários reais entregues; falta camada fiscal |
-| 6 | Estratégia de expansão patrimonial | ⬜ A iniciar (alavanca de home equity identificada) |
+| 4 | Reposicionamento do anúncio | ✅ Entregue (título, descrição, fotos, regras, mensagens, manual, relançamento) |
+| 5 | Modelo financeiro | 🟡 Mecânica + cenários reais entregues; falta precificação dinâmica + camada fiscal |
+| 6 | Estratégia de expansão patrimonial | ⬜ Próxima fase sugerida (alavanca de home equity identificada) |
 
 ## Rota escolhida: HÍBRIDA (A+B) ✅
 
