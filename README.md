@@ -49,6 +49,11 @@ docs/
     04-guia-imposto-de-renda.md               Curso de IR do zero + como usar a planilha fiscal
     05-situacao-fiscal-multiplas-rendas.md    Análise das suas 4 fontes de renda + regularização
     controle-fiscal-airbnb.xlsx               Planilha dinâmica: carnê-leão + P&L + panorama de rendas
+  fase-6-expansao/                            ← estratégia de expansão patrimonial
+    01-estrategia-de-alavancagem-e-contas.md  Alavancagem (taxas 2026), carrego negativo, contas
+    02-criterios-do-proximo-imovel.md         O que comprar, realidade de preço, red flags
+    03-analise-financiamento-e-indicadores.md Conta do financiamento + indicadores go/no-go
+    04-plano-de-replicacao.md                 Playbook replicável + ponte p/ finanças pessoais
   templates/
     modelo-financeiro.csv            Planilha calibrada com números reais (3 cenários)
     info-imovel-coletar.md           Formulário (a maior parte já foi respondida)
@@ -65,7 +70,10 @@ As fases 2 a 6 ganham suas próprias pastas conforme avançarmos.
 | 3 | Sistema operacional remoto (diarista) | ✅ Entregue (checklists, estoque, protocolos, auditoria) |
 | 4 | Reposicionamento do anúncio | ✅ Entregue (título, descrição, fotos, regras, mensagens, manual, relançamento) |
 | 5 | Modelo financeiro | ✅ Entregue (precificação, 3 cenários, reinvestimento, tributação) |
-| 6 | Estratégia de expansão patrimonial | ⬜ Última fase (alavanca de home equity identificada) |
+| 6 | Estratégia de expansão patrimonial | ✅ Entregue (alavancagem, critérios, indicadores, replicação) |
+
+> ✅ **Ciclo das 6 fases concluído.** Próxima etapa combinada: análise da **saúde financeira e fiscal
+> pessoal** para planejar regularização + reservas + cronograma de alavancagem do 3º imóvel.
 
 ## Rota escolhida: HÍBRIDA (A+B) ✅
 
