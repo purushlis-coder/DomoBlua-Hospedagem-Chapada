@@ -1,5 +1,11 @@
 # Fase 5 · Tributação e Estrutura
 
+> ⚠️ **ATUALIZADO:** este documento traz a visão **simplificada** (1 imóvel, pessoa física). Depois você
+> informou **múltiplas rendas** (2 aluguéis + MEI + bolsa) e um **passivo de 4 anos a regularizar**. A
+> análise **válida para o seu caso** está em
+> [`05-situacao-fiscal-multiplas-rendas.md`](05-situacao-fiscal-multiplas-rendas.md). Leia este como
+> fundamento conceitual; o doc 05 tem a conclusão real.
+
 > ⚠️ **Isto é orientação geral, não consultoria contábil.** As regras de IR mudam e há detalhes do seu
 > caso (outros rendimentos, etc.). **Valide com um contador** antes de decidir. O objetivo aqui é você
 > entender a ordem de grandeza e as opções, sem surpresas.

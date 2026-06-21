@@ -72,8 +72,13 @@ As fases 2 a 6 ganham suas próprias pastas conforme avançarmos.
 | 5 | Modelo financeiro | ✅ Entregue (precificação, 3 cenários, reinvestimento, tributação) |
 | 6 | Estratégia de expansão patrimonial | ✅ Entregue (alavancagem, critérios, indicadores, replicação) |
 
-> ✅ **Ciclo das 6 fases concluído.** Próxima etapa combinada: análise da **saúde financeira e fiscal
-> pessoal** para planejar regularização + reservas + cronograma de alavancagem do 3º imóvel.
+> ✅ **Ciclo das 6 fases concluído e rota lapidada.**
+>
+> 👉 **Comece por aqui:** [`docs/00-PLANO-MESTRE-E-ROTA.md`](docs/00-PLANO-MESTRE-E-ROTA.md) — consolida
+> tudo, reorganiza por urgência (3 trilhas) e lista o que fazer agora. A reabertura é o foco imediato;
+> a regularização fiscal corre em paralelo; a expansão é horizonte 2027+.
+>
+> Próxima sessão combinada: análise da **saúde financeira e fiscal pessoal**.
 
 ## Rota escolhida: HÍBRIDA (A+B) ✅
 

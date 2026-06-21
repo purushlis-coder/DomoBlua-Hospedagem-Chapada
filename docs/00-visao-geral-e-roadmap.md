@@ -1,5 +1,8 @@
 # Visão Geral e Roadmap do Projeto
 
+> ℹ️ Este documento é a **visão conceitual** das 6 fases. Para o **estado atual, a rota lapidada e o que
+> fazer agora**, o documento vivo é o [PLANO-MESTRE](00-PLANO-MESTRE-E-ROTA.md).
+
 ## 1. Tese do negócio (em uma frase)
 
 Transformar um apartamento ocioso no Plano Piloto em uma **operação de curta temporada remota,

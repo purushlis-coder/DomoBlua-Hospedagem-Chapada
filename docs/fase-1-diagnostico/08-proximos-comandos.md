@@ -1,5 +1,8 @@
 # Fase 1 · Próximos Comandos (o que pedir a mim em seguida)
 
+> ⚠️ **SUPERADO (histórico):** estes comandos eram da Fase 1. O ciclo das 6 fases já foi concluído. Para
+> a rota atual e os próximos passos, use o [PLANO-MESTRE](../00-PLANO-MESTRE-E-ROTA.md).
+
 A Fase 1 está entregue. Agora o avanço depende de **(a)** você me dar dados/fotos e **(b)** você
 escolher para onde aprofundamos. Abaixo, os comandos prontos — é só me dizer um deles.
 
