@@ -28,6 +28,7 @@ docs/
     01-plano-reforma-hibrido.md               Reforma priorizada + orçamento
     02-lista-compras-completa.md              Compras em 4 etapas + CAPEX total
     03-links-de-compra.md                     Links reais de compra (jun/2026)
+    planilha-compras-e-execucao.xlsx          Planilha de compras+execução por prioridade (com tracking)
   fase-3-operacao-remota/                     ← operação sem presença física
     01-sistema-operacional-visao-geral.md     Papéis, ferramentas, ritmos, comunicação
     02-checklist-turnover-diarista.md         Passo a passo de cada troca (imprimível)
