@@ -50,6 +50,14 @@ docs/
     04-guia-imposto-de-renda.md               Curso de IR do zero + como usar a planilha fiscal
     05-situacao-fiscal-multiplas-rendas.md    Análise das suas 4 fontes de renda + regularização
     controle-fiscal-airbnb.xlsx               Planilha dinâmica: carnê-leão + P&L + panorama de rendas
+  pacote-operacional/                         ← KIT PRONTO PARA EXECUTAR (go-live)
+    00-indice-e-go-live.md                    Índice + checklist de go-live + papéis
+    01-manual-secretaria-do-lar.md (+ .html)  Manual p/ compartilhar com a secretária
+    02-acordo-parceria-servico.md (+ .html)   Acordo de prestação de serviço p/ assinar
+    03-cartao-referencia-rapida.md            1 página de bolso (imprimir no apê)
+    04-pacote-automacao-airbnb.md             Passo a passo de configuração do Airbnb
+    05-setup-ferramentas-apoio.md             WhatsApp + Drive + Forms
+    06-fluxo-de-processos-sop.md              Fluxo ponta a ponta (quem faz o quê)
   fase-6-expansao/                            ← estratégia de expansão patrimonial
     01-estrategia-de-alavancagem-e-contas.md  Alavancagem (taxas 2026), carrego negativo, contas
     02-criterios-do-proximo-imovel.md         O que comprar, realidade de preço, red flags
