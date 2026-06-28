@@ -8,6 +8,10 @@ O objetivo não é apenas "ganhar dinheiro com Airbnb", e sim construir um **mod
 operar este imóvel com máxima automação e baixa dependência física, gerar caixa previsível e usar
 ~50% da renda líquida para formar a entrada de um **segundo imóvel no Plano Piloto (R$ 300–400 mil)**.
 
+> 🧩 **Skill local:** `airbnb-go-live-ops` (em `.claude/skills/`) — ensina o Claude Code a atuar como
+> gestor operacional/financeiro/estratégico deste projeto. Acionada automaticamente em pedidos sobre
+> go-live, compras, operação, finanças ou expansão deste imóvel.
+
 ## Como este projeto está organizado
 
 ```
