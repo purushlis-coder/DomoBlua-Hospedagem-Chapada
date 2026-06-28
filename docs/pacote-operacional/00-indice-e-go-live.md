@@ -15,23 +15,26 @@
 | [05 · Setup das Ferramentas de Apoio](05-setup-ferramentas-apoio.md) | WhatsApp, Drive, Forms | Gestor (você) |
 | [06 · Fluxo de Processos (SOP)](06-fluxo-de-processos-sop.md) | O "filme" de uma reserva, ponta a ponta | Todos |
 
+> 📅 **Para a reabertura de julho/2026 com datas e portões de decisão, use o documento executivo:**
+> [`../GO-LIVE-JULHO-2026.md`](../GO-LIVE-JULHO-2026.md). Este índice é o pacote operacional permanente.
+
 ## Mapa de papéis
 - **Gestor / Anfitrião (remoto):** {Purush} — reservas, hóspedes, preço, decisões, auditoria, pagamentos.
-- **Secretária do lar (presencial):** {nome} — limpeza, vistoria, estoque, fotos, reposição.
-- **Apoio / escalonamento de urgência:** **Talita Torres** — assume o papel do gestor quando ele estiver
-  indisponível em uma urgência.
+- **Secretária do lar (presencial):** **Talita Torres** — limpeza, vistoria pós-hóspede, estoque, fotos, reposição.
+- **Apoio de confiança local (urgência):** {a definir} — **somente** suporte excepcional em urgência que
+  ultrapasse a competência da secretária (ex.: gestor inacessível + emergência).
 
 ---
 
 ## ✅ CHECKLIST DE GO-LIVE (só publicar o anúncio quando tudo estiver marcado)
 
 ### Bloco 1 — Pessoas e processos
-- [ ] Secretária alinhada: **Manual** entregue + **Acordo** assinado + bônus 5★ definido.
-- [ ] **Talita Torres** ciente do papel de backup; contatos trocados.
+- [ ] **Talita Torres** (secretária do lar) alinhada: **Manual** entregue + **Acordo** assinado + bônus 5★ definido.
+- [ ] **Apoio de confiança local** definido e ciente do papel de urgência; contatos trocados.
 - [ ] Contatos de emergência preenchidos (portaria, chaveiro, encanador/eletricista, administradora).
 
 ### Bloco 2 — Ferramentas
-- [ ] WhatsApp organizado (secretária, Talita, emergências).
+- [ ] WhatsApp organizado (Talita/secretária, apoio local, emergências).
 - [ ] Google Drive criado (pastas por reserva) + Google Forms de registro pronto.
 - [ ] Fechadura eletrônica testada (gerar/expirar senha) + lockbox de backup instalado.
 

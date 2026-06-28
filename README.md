@@ -83,9 +83,12 @@ As fases 2 a 6 ganham suas próprias pastas conforme avançarmos.
 
 > ✅ **Ciclo das 6 fases concluído e rota lapidada.**
 >
-> 👉 **Comece por aqui:** [`docs/00-PLANO-MESTRE-E-ROTA.md`](docs/00-PLANO-MESTRE-E-ROTA.md) — consolida
-> tudo, reorganiza por urgência (3 trilhas) e lista o que fazer agora. A reabertura é o foco imediato;
-> a regularização fiscal corre em paralelo; a expansão é horizonte 2027+.
+> 🚀 **REABERTURA JULHO/2026 — documento de execução:** [`docs/GO-LIVE-JULHO-2026.md`](docs/GO-LIVE-JULHO-2026.md)
+> (portões de decisão, bloqueadores, cronograma datado 30/06→13/07, checklists de publicação e 1ª reserva).
+>
+> 👉 **Visão consolidada:** [`docs/00-PLANO-MESTRE-E-ROTA.md`](docs/00-PLANO-MESTRE-E-ROTA.md) — reorganiza
+> tudo por urgência (3 trilhas). A reabertura é o foco imediato; a regularização fiscal corre em paralelo
+> (inicia em agosto, com o Airbnb 100%); a expansão é horizonte 2027+.
 >
 > Próxima sessão combinada: análise da **saúde financeira e fiscal pessoal**.
 

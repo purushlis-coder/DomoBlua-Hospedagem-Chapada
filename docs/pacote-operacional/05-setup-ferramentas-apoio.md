@@ -4,7 +4,7 @@
 > (fotos) e **Google Forms** (registro auditável). Tudo gratuito. Monte uma vez e replica no futuro.
 
 ## 1. WhatsApp
-- [ ] Criar uma conversa fixada com a **secretária** e outra com a **Talita Torres**.
+- [ ] Criar uma conversa fixada com a **secretária do lar (Talita Torres)** e outra com o **apoio de confiança local**.
 - [ ] Salvar os contatos de emergência (portaria 24h, chaveiro, encanador/eletricista, administradora).
 - [ ] Combinar: comunicação oficial é por aqui; urgência é **ligação**.
 

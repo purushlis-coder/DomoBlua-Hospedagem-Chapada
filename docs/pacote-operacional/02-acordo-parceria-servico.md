@@ -8,7 +8,7 @@
 ---
 
 **CONTRATANTE:** {Nome completo}, CPF {___}, doravante "Anfitrião".
-**CONTRATADA:** {Nome completo da secretária}, CPF {___}, doravante "Prestadora".
+**CONTRATADA:** Talita Torres, CPF {___}, doravante "Prestadora" (secretária do lar).
 **Imóvel:** Apartamento {nº}, Bloco B, Condomínio Master Place, SGAN 912 Norte, Asa Norte — Brasília/DF.
 
 ## Cláusula 1 — Objeto
@@ -27,7 +27,7 @@ b) Fazer a vistoria de saída e **comunicar danos/ocorrências com foto, antes d
 c) Manter o estoque mínimo e solicitar reposição;
 d) Enviar as **fotos obrigatórias** e o registro de cada troca;
 e) Zelar pelas **chaves/senhas de acesso**, mantendo **sigilo** sobre dados de hóspedes e do imóvel;
-f) Comunicar urgências conforme a árvore de escalonamento (Anfitrião → Talita Torres → portaria).
+f) Comunicar urgências conforme a árvore de escalonamento (Anfitrião → apoio de confiança local → portaria).
 
 ## Cláusula 4 — Responsabilidades do Anfitrião
 a) Avisar com antecedência razoável as datas de troca;
@@ -58,8 +58,8 @@ usando-os **apenas** para a operação (ex.: cadastro na portaria). Não compart
 terceiros e responderá pela guarda das chaves recebidas.
 
 ## Cláusula 10 — Urgências e escalonamento
-Em urgências, a ordem de acionamento é: **(1) Anfitrião**; **(2) Talita Torres** (apoio de confiança),
-caso o Anfitrião esteja indisponível; **(3) portaria 24h / serviços de emergência** em risco imediato.
+Em urgências, a ordem de acionamento é: **(1) Anfitrião**; **(2) apoio de confiança local**, caso o
+Anfitrião esteja indisponível; **(3) portaria 24h / serviços de emergência** em risco imediato.
 
 ## Cláusula 11 — Vigência e rescisão
 Vigência por **prazo indeterminado**, a partir de {data}. Qualquer parte pode encerrar mediante aviso de

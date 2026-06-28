@@ -1,7 +1,7 @@
 # Fluxo de Processos Ponta a Ponta (SOP)
 
 > O "filme" de uma reserva, do clique do hóspede à avaliação — mostrando **quem faz o quê e quando**.
-> 🤖 = automático (Airbnb) · 🧑‍💼 = Gestor (Purush, remoto) · 🧹 = Secretária (presencial) · 🆘 = Talita (backup).
+> 🤖 = automático (Airbnb) · 🧑‍💼 = Gestor (Purush, remoto) · 🧹 = Secretária do lar (**Talita Torres**, presencial) · 🆘 = Apoio de confiança local (urgência).
 
 ## Linha do tempo de uma reserva
 
@@ -36,7 +36,7 @@ Ocorrência → 🧹 Secretária tenta resolver/avalia o nível
   ├─ 🟢 rotina → registra no Forms
   ├─ 🟡 importante → 🧑‍💼 Gestor (WhatsApp, foto)
   └─ 🔴 urgente → 🧑‍💼 Gestor (ligação)
-         ├─ se Gestor não responde → 🆘 Talita Torres assume a decisão
+         ├─ se Gestor não responde → 🆘 apoio de confiança local assume a decisão
          └─ risco imediato (gás/incêndio/água) → portaria 24h + emergência NA HORA
 ```
 

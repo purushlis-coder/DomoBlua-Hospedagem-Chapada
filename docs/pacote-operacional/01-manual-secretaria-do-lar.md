@@ -1,7 +1,7 @@
-# Manual da Secretária do Lar
+# Manual da Secretária do Lar — Talita Torres
 ### Operação do apartamento — Condomínio Master Place, SGAN 912 Norte, Bloco B (Asa Norte)
 
-> Olá! Este é o seu guia de trabalho. Ele explica **passo a passo** o que fazer a cada troca de
+> Olá, Talita! Este é o seu guia de trabalho. Ele explica **passo a passo** o que fazer a cada troca de
 > hóspede. É simples e repetível. **Regra de ouro:** na dúvida, **tire foto e mande no WhatsApp antes
 > de mexer**. Qualquer coisa, é só chamar. Bom trabalho! 💙
 
@@ -12,8 +12,8 @@
 | Pessoa | Papel | Quando acionar |
 |--------|-------|----------------|
 | **Purush (anfitrião)** | Gestor à distância: reservas, hóspedes, decisões, pagamentos | Dúvidas e urgências do dia a dia (WhatsApp) |
-| **Você (secretária do lar)** | Limpeza, vistoria pós-hóspede, estoque, fotos, reposição | É a peça central da operação no imóvel |
-| **Talita Torres** | Apoio de confiança local | Só quando há **urgência** e o Purush **não responder** a tempo |
+| **Você, Talita (secretária do lar)** | Limpeza, vistoria pós-hóspede, estoque, fotos, reposição | É a peça central da operação no imóvel |
+| **Apoio de confiança local** | Suporte excepcional | Só quando há **urgência**, o Purush **não responder** a tempo e estiver **além do que você consegue resolver** |
 
 > O Purush mora fora de Brasília. Por isso **suas fotos e mensagens são os olhos dele** no apartamento.
 
@@ -96,7 +96,8 @@ Mínimo 10, na horizontal, mostrando o cômodo inteiro:
 > E fotos extras **sempre que houver**: dano, item esquecido, item faltando, lâmpada queimada, estoque.
 
 ## 9. Estoque e reposição
-Manter sempre estoque para **2 trocas** de cada item, no **armário com chave**.
+Manter sempre estoque para **2 trocas** de cada item, em **local designado** (armário/gaveta; com
+cadeado quando houver — o armário com chave entra depois da reabertura).
 - **Mínimos:** papel higiênico (4 rolos), sabonete (2), shampoo (1 extra), detergente (1), esponjas (2),
   saco de lixo (1 rolo), café (1 pacote), açúcar (1), filtro (1 caixa), produtos de limpeza (1 de cada).
 - **Quando faltar:** mandar mensagem assim:
@@ -123,16 +124,16 @@ emperrando, mancha/mofo/infiltração, móvel bambo.
 ## 13. Urgências — como agir
 | Nível | Exemplos | O que fazer |
 |-------|----------|-------------|
-| 🔴 **Urgente** | Vazamento, sem luz/água, fechadura travada, hóspede sem acesso, cheiro de gás | **Ligar** para o Purush + foto. Se não responder, ligar para a **Talita Torres**. Risco grave (gás/incêndio/alagamento): avisar a **portaria 24h** na hora. |
+| 🔴 **Urgente** | Vazamento, sem luz/água, fechadura travada, hóspede sem acesso, cheiro de gás | **Ligar** para o Purush + foto. Se não responder, ligar para o **apoio de confiança local**. Risco grave (gás/incêndio/alagamento): avisar a **portaria 24h** na hora. |
 | 🟡 **Importante** | Item quebrado/sumido, dano, falta de estoque | WhatsApp com foto, no mesmo dia |
 | 🟢 **Rotina** | Desgaste leve, reposição comum | Registrar no formulário |
 
-**Árvore rápida:** Risco a pessoas/imóvel agora? → 🔴 ligar (Purush → se não atender, Talita) + portaria.
+**Árvore rápida:** Risco a pessoas/imóvel agora? → 🔴 ligar (Purush → se não atender, apoio local) + portaria.
 Quebrou/sumiu/dano? → 🟡 foto hoje. Desgaste/reposição? → 🟢 registrar.
 
 ## 14. Contatos (preencher)
 - Purush (anfitrião): __________
-- **Talita Torres** (apoio/urgência): __________
+- **Apoio de confiança local** (urgência): __________
 - Portaria 24h Master Place: __________
 - Chaveiro: __________ · Encanador/eletricista: __________ · Administradora: __________
 

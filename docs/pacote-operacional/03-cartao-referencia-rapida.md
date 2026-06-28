@@ -15,7 +15,7 @@
 | Situação | Ação |
 |----------|------|
 | Gás, água, incêndio, alagamento | **Portaria 24h JÁ** + Purush |
-| Sem luz/água, fechadura, hóspede sem acesso | **Ligar Purush** → se não atender, **Talita Torres** |
+| Sem luz/água, fechadura, hóspede sem acesso | **Ligar Purush** → se não atender, **apoio de confiança local** |
 | Quebrou / sumiu / dano | Foto no WhatsApp hoje |
 | Desgaste / reposição | Registrar no formulário |
 
@@ -27,7 +27,8 @@ Café (1) · Açúcar (1) · Filtro (1 cx) · Limpeza (1 de cada)
 🟢 Limpa → armário · 🟡 Usada → lavar · 🔴 Danificada → separar + foto + avisar
 
 ## ☎️ Contatos
-Purush: __________ · **Talita Torres:** __________ · Portaria 24h: __________
+Purush: __________ · **Apoio local (urgência):** __________ · Portaria 24h: __________
 Chaveiro: __________ · Encanador/eletricista: __________
+> Secretária do lar: **Talita Torres** (este cartão é o dela).
 
 ## 📸 Fotos sempre: apê pronto (10) + dano/esquecido/falta/estoque
