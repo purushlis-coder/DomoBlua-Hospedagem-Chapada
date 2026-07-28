@@ -1,0 +1,98 @@
+name: "Instagram — publicar post"
+
+# 🤖 Robô de posts do Instagram (ecoturismo • cerrado • Chapada dos Veadeiros)
+#
+# Agenda (horário de Brasília = UTC-3):
+#   • segunda, quarta e sexta às 17h30
+#   • sábado às 10h00
+# Para mudar, edite os dois "cron" abaixo (eles usam UTC!).
+#
+# Também dá para publicar na hora: aba Actions → este workflow → "Run workflow".
+#
+# Pré-requisitos (uma única vez — passo a passo em docs/INSTAGRAM-SETUP.md):
+#   1. Repositório público + GitHub Pages ativado (Source: GitHub Actions)
+#   2. Secrets IG_ACCESS_TOKEN e IG_USER_ID configurados em
+#      Settings → Secrets and variables → Actions
+# Enquanto os secrets não existirem, o robô roda "em branco" e só avisa — não falha.
+
+on:
+  schedule:
+    - cron: "30 20 * * 1,3,5"   # seg/qua/sex 17h30 BRT
+    - cron: "0 13 * * 6"        # sábado 10h00 BRT
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    outputs:
+      ok: ${{ steps.checa.outputs.ok }}
+    steps:
+      - id: checa
+        env:
+          TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          USERID: ${{ secrets.IG_USER_ID }}
+        run: |
+          if [ -z "$TOKEN" ] || [ -z "$USERID" ]; then
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Secrets IG_ACCESS_TOKEN / IG_USER_ID ainda não configurados — nada será publicado. Siga docs/INSTAGRAM-SETUP.md"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  publicar:
+    needs: verificar
+    if: needs.verificar.outputs.ok == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install --quiet pillow requests
+
+      - name: Preparar post (escolher conteúdo + gerar imagem + legenda)
+        run: python instagram/post_instagram.py prepare
+
+      - name: Commitar imagem e estado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add instagram/generated instagram/state.json instagram/outbox.json
+          git commit -m "🤖 Post automático do Instagram" || echo "nada novo para commitar"
+          git pull --rebase origin main
+          git push origin main
+
+      - name: Montar pasta do site
+        run: |
+          mkdir -p _site
+          rsync -a --exclude '.git' --exclude '.github' --exclude '_site' ./ _site/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - uses: actions/deploy-pages@v4
+
+      - name: Publicar no Instagram
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python instagram/post_instagram.py publish

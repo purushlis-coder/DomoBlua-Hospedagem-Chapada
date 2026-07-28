@@ -1,0 +1,19 @@
+{
+  "_comentario": "✏️ EDITE os campos entre «». Este arquivo controla a automação do Instagram. NÃO coloque tokens/senhas aqui — eles vão nos Secrets do GitHub (veja docs/INSTAGRAM-SETUP.md).",
+
+  "handle": "«seu.instagram»",
+  "nome_hospedagem": "«Nome da hospedagem»",
+  "cidade_hospedagem": "«Cidade – UF»",
+
+  "landing_url": "https://purushlis-coder.github.io/airbnb-goal/",
+  "airbnb_url": "https://www.airbnb.com.br/rooms/1482393056413027238?guests=1&adults=1&s=67&unique_share_id=ff2f1b2e-acb2-416a-9163-8b88e3bd4119",
+
+  "pages_base_url": "https://purushlis-coder.github.io/airbnb-goal",
+  "raw_base_url": "https://raw.githubusercontent.com/purushlis-coder/airbnb-goal/main",
+
+  "graph_api_version": "v23.0",
+
+  "rodape_legenda": "🌿 Ecoturismo de verdade, direto do cerrado.\n📍 Nossa base fica pertinho das cachoeiras — link da hospedagem na bio!",
+
+  "assinatura_card": "@«seu.instagram»"
+}

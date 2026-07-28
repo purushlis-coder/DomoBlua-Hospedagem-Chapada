@@ -1,0 +1,325 @@
+{
+  "_comentario": "Banco de conteúdo da automação. A ordem já intercala temas (regra 80% valor / 20% venda). Pode editar, acrescentar ou reordenar à vontade — a automação segue a ordem e recomeça ao chegar no fim. Nos posts de tema 'promo', os tokens {nome} e {cidade} são preenchidos pelo instagram/config.json.",
+  "posts": [
+    {
+      "id": "cerrado-berco-das-aguas",
+      "tema": "cerrado",
+      "kicker": "Você sabia?",
+      "titulo": "O cerrado é chamado de 'berço das águas' do Brasil",
+      "legenda": "💧 Aqui nascem águas que abastecem grandes bacias do país, como as do Tocantins-Araguaia, do São Francisco e do Prata.\n\nQuando você caminha por uma trilha do cerrado, está pisando numa das caixas d'água mais importantes da América do Sul. Cuidar dele é cuidar da água de milhões de pessoas. 🌎\n\n👉 Salve este post e compartilhe com alguém que precisa conhecer o cerrado de verdade.",
+      "hashtags": ["#cerrado", "#bercodasaguas", "#ecoturismo", "#naturezabrasileira", "#meioambiente", "#chapadadosveadeiros", "#turismosustentavel", "#viajarpelobrasil", "#aguaevida", "#cerradovive"]
+    },
+    {
+      "id": "chapada-vale-da-lua",
+      "tema": "chapada",
+      "kicker": "Chapada dos Veadeiros",
+      "titulo": "Vale da Lua: o lugar mais 'fora da Terra' do cerrado",
+      "legenda": "🌙 As rochas esculpidas pelo Rio São Bartolomeu formam crateras e curvas que parecem paisagem lunar — daí o nome.\n\nÉ um dos passeios mais acessíveis da Chapada dos Veadeiros: trilha curta, visual absurdo e piscinas naturais entre as pedras. Vá cedo para pegar o lugar mais vazio e a luz mais bonita. 📸\n\nVocê já conhecia o Vale da Lua? Conta aqui nos comentários! 👇",
+      "hashtags": ["#valedalua", "#chapadadosveadeiros", "#altoparaisodegoias", "#saojorge", "#ecoturismo", "#trilhas", "#cerrado", "#goias", "#viajarpelobrasil", "#destinosnacionais"]
+    },
+    {
+      "id": "dica-melhor-epoca",
+      "tema": "dica",
+      "kicker": "Dica de viagem",
+      "titulo": "Seca ou chuva? Qual a melhor época para a Chapada?",
+      "legenda": "🗓️ As duas! Só muda a experiência:\n\n☀️ Maio a setembro (seca): águas mais cristalinas, trilhas secas, céu absurdamente estrelado e o espetáculo dos ipês floridos.\n\n🌧️ Outubro a abril (águas): cerrado verde vibrante, cachoeiras cheias e poderosas — mas atenção redobrada com trombas d'água: siga sempre a orientação dos guias.\n\nQual time você é: seca ou águas? 👇",
+      "hashtags": ["#chapadadosveadeiros", "#dicasdeviagem", "#ecoturismo", "#cerrado", "#cachoeiras", "#trilheiros", "#viajarpelobrasil", "#turismodenatureza", "#goiasturismo"]
+    },
+    {
+      "id": "chapada-santa-barbara",
+      "tema": "chapada",
+      "kicker": "Chapada dos Veadeiros",
+      "titulo": "Santa Bárbara: a cachoeira azul-turquesa de Cavalcante",
+      "legenda": "💙 Tem água dessa cor no cerrado, sim! A Cachoeira Santa Bárbara, em Cavalcante (GO), é famosa pelo tom turquesa que parece de outro país.\n\nO passeio é feito com guias locais e atravessa o território do povo Kalunga — a maior comunidade quilombola do Brasil. Turismo que gera renda para quem sempre cuidou desse território. 🙏\n\nMarca aqui aquela pessoa que precisa ver essa água com você! 👇",
+      "hashtags": ["#cachoeirasantabarbara", "#cavalcantegoias", "#chapadadosveadeiros", "#kalunga", "#ecoturismo", "#cachoeiras", "#cerrado", "#turismodecomunidade", "#viajarpelobrasil", "#aguaturquesa"]
+    },
+    {
+      "id": "cerrado-floresta-invertida",
+      "tema": "cerrado",
+      "kicker": "Você sabia?",
+      "titulo": "O cerrado é uma 'floresta de cabeça para baixo'",
+      "legenda": "🌳 As árvores do cerrado parecem baixinhas e tortas, mas embaixo da terra a história é outra: as raízes podem passar dos 10 metros de profundidade buscando água.\n\nPor isso os cientistas chamam o cerrado de 'floresta invertida' — a maior parte da biomassa está no subsolo. É essa arquitetura que segura água, carbono e vida. 🤯\n\nJá tinha ouvido essa? Salva aí para não esquecer! 📌",
+      "hashtags": ["#cerrado", "#florestainvertida", "#curiosidades", "#naturezabrasileira", "#ecoturismo", "#biodiversidade", "#chapadadosveadeiros", "#cerradovive", "#meioambiente"]
+    },
+    {
+      "id": "cachoeira-seguranca-cabeca-dagua",
+      "tema": "cachoeira",
+      "kicker": "Segurança na natureza",
+      "titulo": "Cabeça d'água: o perigo invisível das cachoeiras",
+      "legenda": "⚠️ Pode estar sol onde você está — e chovendo forte na serra. Quando isso acontece, o volume do rio sobe de repente: é a tromba ou cabeça d'água.\n\nSinais de alerta:\n💦 A água começa a turvar ou escurecer\n🍃 Galhos e folhas descendo no rio\n📈 O nível sobe rápido, mesmo pouco\n\nViu qualquer um deles? Saia da água na hora e avise todo mundo. Em passeios com guia local, esse risco é monitorado — mais um motivo para valorizar quem conhece o território. 🙌\n\nCompartilhe: essa informação salva vidas.",
+      "hashtags": ["#cachoeiras", "#segurancanatrilha", "#cabecadagua", "#ecoturismo", "#trilhas", "#chapadadosveadeiros", "#dicasdeviagem", "#turismoresponsavel", "#naturezabrasileira"]
+    },
+    {
+      "id": "chapada-saltos-rio-preto",
+      "tema": "chapada",
+      "kicker": "Chapada dos Veadeiros",
+      "titulo": "Os Saltos do Rio Preto: 120 metros de queda livre",
+      "legenda": "🏞️ Dentro do Parque Nacional da Chapada dos Veadeiros, o Rio Preto despenca em dois saltos gigantes — o maior com cerca de 120 metros.\n\nA trilha parte da vila de São Jorge e o visual compensa cada passo. De quebra, o poço do salto menor rende um dos banhos mais épicos da sua vida. 🥾\n\nJá encarou essa trilha? Conta como foi! 👇",
+      "hashtags": ["#parquenacionaldachapadadosveadeiros", "#saltosdoriopreto", "#chapadadosveadeiros", "#saojorge", "#trilhas", "#ecoturismo", "#cachoeiras", "#cerrado", "#viajarpelobrasil"]
+    },
+    {
+      "id": "promo-conheca-a-base",
+      "tema": "promo",
+      "kicker": "Sua base no cerrado",
+      "titulo": "Depois da trilha, você merece um lugar para chamar de casa",
+      "legenda": "🏡 Sabe aquela sensação de voltar da cachoeira, tomar um banho quente e descansar num lugar limpo, silencioso e acolhedor?\n\nÉ exatamente isso que preparamos na {nome}, em {cidade}. Hospedagem com carinho de anfitrião local — daqueles que desenham o roteiro no papel e contam onde o pôr do sol é mais bonito. 🌅\n\n✨ Reserve pelo link na bio e venha viver o cerrado com a gente.",
+      "hashtags": ["#hospedagem", "#airbnb", "#ondeficar", "#ecoturismo", "#cerrado", "#chapadadosveadeiros", "#viagemperfeita", "#turismodenatureza", "#ferias"]
+    },
+    {
+      "id": "cerrado-ipes-na-seca",
+      "tema": "cerrado",
+      "kicker": "Você sabia?",
+      "titulo": "Os ipês florescem justamente no auge da seca",
+      "legenda": "💛💜🤍 Agosto e setembro: o cerrado está dourado, o ar seco... e de repente explodem ipês amarelos, rosas e brancos por todo lado.\n\nÉ a estratégia da árvore: sem folhas, as flores ficam visíveis para os polinizadores — e transformam a paisagem mais dura do ano no espetáculo mais bonito dele. 🌸\n\nQual cor de ipê é a sua favorita? 👇",
+      "hashtags": ["#ipe", "#ipeamarelo", "#cerrado", "#floradocerrado", "#naturezabrasileira", "#ecoturismo", "#chapadadosveadeiros", "#paisagensbrasileiras", "#cerradoemflor"]
+    },
+    {
+      "id": "chapada-loquinhas",
+      "tema": "chapada",
+      "kicker": "Chapada dos Veadeiros",
+      "titulo": "Loquinhas: piscinas verde-esmeralda para relaxar",
+      "legenda": "💚 Nem toda cachoeira da Chapada exige perna de trilheiro. A Cachoeira Loquinhas, pertinho de Alto Paraíso, tem trilha tranquila, passarelas e uma sequência de poços verde-esmeralda que parecem spa natural.\n\nPerfeita para famílias, dias de descanso entre trilhas pesadas — ou para quem só quer flutuar e ouvir o mato. 🧘\n\nSalva esse post para o seu roteiro! 📌",
+      "hashtags": ["#loquinhas", "#chapadadosveadeiros", "#altoparaisodegoias", "#cachoeiras", "#ecoturismo", "#viagememfamilia", "#cerrado", "#aguascristalinas", "#goiasturismo"]
+    },
+    {
+      "id": "dica-o-que-levar-trilha",
+      "tema": "dica",
+      "kicker": "Dica de viagem",
+      "titulo": "O kit essencial para um dia de trilha e cachoeira",
+      "legenda": "🎒 Checklist de quem já aprendeu na prática:\n\n💧 2 litros de água por pessoa\n🥾 Tênis ou bota com sola aderente (chinelo não!)\n🧢 Chapéu/boné + óculos de sol\n🧴 Protetor e repelente — aplicados com antecedência, e evite entrar na água logo depois de passar\n🥜 Lanches leves (frutas, castanhas, sanduíche)\n🗑️ Saquinho para trazer TODO o seu lixo de volta\n📱 Celular carregado (e power bank)\n\nO que você acrescentaria? Comenta aí 👇 e salva para a próxima trilha!",
+      "hashtags": ["#dicasdetrilha", "#trilheiros", "#ecoturismo", "#cachoeiras", "#chapadadosveadeiros", "#montanhismo", "#turismodenatureza", "#dicasdeviagem", "#aventura"]
+    },
+    {
+      "id": "cerrado-biodiversidade",
+      "tema": "cerrado",
+      "kicker": "Você sabia?",
+      "titulo": "O cerrado é a savana mais biodiversa do mundo",
+      "legenda": "🦌 Lobo-guará, tamanduá-bandeira, ema, veado-campeiro, seriema... e milhares de espécies de plantas que só existem aqui.\n\nO cerrado ocupa cerca de um quarto do Brasil e é considerado a savana com maior biodiversidade do planeta — mas também um dos biomas mais ameaçados. Conhecer é o primeiro passo para proteger. 🌍\n\nQual animal do cerrado você mais sonha em ver na natureza? 👇",
+      "hashtags": ["#cerrado", "#biodiversidade", "#loboguara", "#tamanduabandeira", "#naturezabrasileira", "#ecoturismo", "#cerradovive", "#fauna", "#chapadadosveadeiros"]
+    },
+    {
+      "id": "chapada-mirante-da-janela",
+      "tema": "chapada",
+      "kicker": "Chapada dos Veadeiros",
+      "titulo": "Mirante da Janela: a moldura mais famosa da Chapada",
+      "legenda": "🖼️ Uma janela de pedra emoldurando os Saltos do Rio Preto ao fundo — sim, aquela foto que você já viu em todo lugar é aqui.\n\nA trilha parte de perto de São Jorge e o horário dos sonhos é o fim de tarde, quando o sol desce atrás da serra (leve lanterna para a volta e, de preferência, vá com guia). 🌄\n\nMarca quem toparia ver esse pôr do sol com você! 👇",
+      "hashtags": ["#mirantedajanela", "#chapadadosveadeiros", "#saojorge", "#trilhas", "#porDoSol", "#ecoturismo", "#cerrado", "#paisagensbrasileiras", "#viajarpelobrasil"]
+    },
+    {
+      "id": "cachoeira-banho-frio-beneficios",
+      "tema": "cachoeira",
+      "kicker": "Vida ao ar livre",
+      "titulo": "Por que um banho de cachoeira melhora tudo",
+      "legenda": "🧊 A água fria desperta o corpo, a queda massageia os ombros e o barulho constante desliga a cabeça do feed e das notificações.\n\nNão é à toa que todo mundo sai de uma cachoeira mais leve: é natureza fazendo o trabalho que nenhum aplicativo de meditação consegue. 😄\n\nQual foi o banho de cachoeira mais inesquecível da sua vida? Conta pra gente 👇",
+      "hashtags": ["#cachoeira", "#banhodecachoeira", "#vidaaoarlivre", "#ecoturismo", "#bemestar", "#naturezaterapia", "#cerrado", "#chapadadosveadeiros", "#desconectar"]
+    },
+    {
+      "id": "dica-nao-deixe-rastro",
+      "tema": "dica",
+      "kicker": "Turismo responsável",
+      "titulo": "Não deixe rastro: as regras de ouro do ecoturismo",
+      "legenda": "🌱 A natureza não precisa da nossa 'melhoria'. Precisa que a gente saiba visitar:\n\n1️⃣ Todo lixo volta com você — até casca de fruta\n2️⃣ Fique nas trilhas demarcadas\n3️⃣ Não faça fogueira fora de área permitida\n4️⃣ Não leve 'lembrancinhas': pedra, planta e cristal ficam onde estão\n5️⃣ Não alimente animais silvestres\n6️⃣ Som alto, não — o show é dos pássaros\n\nCompartilha com aquele amigo que ainda não pegou a visão. 🙏",
+      "hashtags": ["#naodeixerastro", "#turismoresponsavel", "#ecoturismo", "#preservacao", "#trilhas", "#cerrado", "#chapadadosveadeiros", "#meioambiente", "#educacaoambiental"]
+    },
+    {
+      "id": "promo-roteiro-personalizado",
+      "tema": "promo",
+      "kicker": "Anfitrião local",
+      "titulo": "Hóspede nosso não viaja com roteiro de Google",
+      "legenda": "🗺️ Quem reserva com a gente recebe um mini-roteiro personalizado: cachoeiras para o seu pique, horários para fugir de multidão, onde comer bem e o que fazer se chover.\n\nÉ a diferença entre visitar um lugar e ser recebido por ele. E isso só um anfitrião local consegue oferecer. 😉\n\n✨ Fala com a gente pelo link na bio e comece a planejar sua vinda para {cidade}.",
+      "hashtags": ["#anfitriaolocal", "#hospedagem", "#airbnb", "#roteirodeviagem", "#ecoturismo", "#cerrado", "#chapadadosveadeiros", "#dicaslocais", "#viajarpelobrasil"]
+    },
+    {
+      "id": "chapada-almecegas",
+      "tema": "chapada",
+      "kicker": "Chapada dos Veadeiros",
+      "titulo": "Almécegas I e II: a dupla perfeita para um dia inteiro",
+      "legenda": "🏞️ Na mesma fazenda perto de São Jorge, duas cachoeiras que se completam:\n\n💪 Almécegas I: paredão imponente de ~45 metros, visual de tirar o fôlego.\n🏊 Almécegas II: menor, com poço delicioso e clima de piscina entre amigos.\n\nDá para combinar as duas no mesmo dia com tranquilidade — e ainda ver o pôr do sol no caminho de volta. 🌅\n\nSalva no seu roteiro! 📌",
+      "hashtags": ["#almecegas", "#chapadadosveadeiros", "#saojorge", "#cachoeiras", "#ecoturismo", "#trilhas", "#cerrado", "#goiasturismo", "#destinosnacionais"]
+    },
+    {
+      "id": "cerrado-frutos",
+      "tema": "cerrado",
+      "kicker": "Sabores do cerrado",
+      "titulo": "Pequi, baru, cagaita: você já provou o cerrado?",
+      "legenda": "🍴 O cerrado também se conhece pela boca:\n\n🟡 Pequi — amor ou ódio, nunca indiferença (e nunca morda de uma vez!)\n🌰 Baru — a castanha queridinha, rica em proteína\n🍏 Cagaita — azedinha refrescante (com moderação 😅)\n🥭 Mangaba e murici — sorvetes que valem a viagem\n\nExperimentar a comida local é ecoturismo também: valoriza produtores e mantém a cultura viva. Qual desses você já provou? 👇",
+      "hashtags": ["#pequi", "#baru", "#frutosdocerrado", "#cerrado", "#gastronomiabrasileira", "#comidadecerrado", "#ecoturismo", "#culturalocal", "#saboresdobrasil"]
+    },
+    {
+      "id": "dica-comece-cedo",
+      "tema": "dica",
+      "kicker": "Dica de viagem",
+      "titulo": "O segredo dos viajantes experientes: começar cedo",
+      "legenda": "⏰ Na natureza, quem madruga ganha três vezes:\n\n1️⃣ Trilha fresca, sem o sol forte do meio-dia\n2️⃣ Cachoeira vazia (às vezes só sua!)\n3️⃣ Mais chance de ver bichos — eles também preferem o comecinho do dia\n\nBônus: sobra a tarde para descansar na hospedagem e ainda pegar um pôr do sol no mirante. 😎\n\nVocê é do time 'acorda às 5h na viagem' ou 'férias é para dormir'? 👇",
+      "hashtags": ["#dicasdeviagem", "#trilheiros", "#ecoturismo", "#madrugar", "#cachoeiras", "#chapadadosveadeiros", "#cerrado", "#viagem", "#turismodenatureza"]
+    },
+    {
+      "id": "chapada-jardim-maytrea",
+      "tema": "chapada",
+      "kicker": "Chapada dos Veadeiros",
+      "titulo": "Jardim de Maytrea: o cartão-postal místico da Chapada",
+      "legenda": "🌾 Um vale de veredas e buritis aos pés do Morro da Baleia, na beira da estrada entre Alto Paraíso e São Jorge.\n\nPara uns, é um dos visuais mais bonitos do cerrado. Para outros, um lugar de energia especial — a Chapada é famosa também pelo seu lado místico. Seja qual for a sua vibe, é parada obrigatória para fotos. 📸✨\n\nVocê acredita na energia especial da Chapada? 👇",
+      "hashtags": ["#jardimdemaytrea", "#morrodabaleia", "#chapadadosveadeiros", "#altoparaisodegoias", "#cerrado", "#misticismo", "#ecoturismo", "#paisagensbrasileiras", "#buriti"]
+    },
+    {
+      "id": "cerrado-buriti-agua",
+      "tema": "cerrado",
+      "kicker": "Sabedoria do sertão",
+      "titulo": "'Onde tem buriti, tem água': o GPS natural do cerrado",
+      "legenda": "🌴 O povo do cerrado sabe: avistou uma linha de buritis no horizonte, ali embaixo tem nascente, vereda ou curso d'água.\n\nEssas palmeiras elegantes marcam os caminhos da água no bioma — e sustentam um mundo de vida: araras, peixes, gente. As veredas são santuários que merecem nosso maior respeito. 💚\n\nJá tinha ouvido esse ditado? Salva e compartilha! 📌",
+      "hashtags": ["#buriti", "#veredas", "#cerrado", "#sabedoriapopular", "#naturezabrasileira", "#ecoturismo", "#chapadadosveadeiros", "#cerradovive", "#agua"]
+    },
+    {
+      "id": "cachoeira-etiqueta",
+      "tema": "cachoeira",
+      "kicker": "Turismo responsável",
+      "titulo": "Etiqueta de cachoeira: o combinado que ninguém te contou",
+      "legenda": "🤝 Cachoeira boa é cachoeira compartilhada com respeito:\n\n🔇 Caixinha de som? Deixa em casa — o som ambiente é a atração\n🧴 Entre na água sem protetor/repelente recém-aplicado (eles contaminam a água)\n📸 Foto sim, mas sem monopolizar o melhor poço por 40 minutos\n🐕 Pet só onde é permitido\n🚯 E óbvio: seu lixo vai embora com você\n\nConcorda com a lista? Manda para o grupo da próxima viagem! 😄",
+      "hashtags": ["#cachoeiras", "#turismoresponsavel", "#ecoturismo", "#etiquetadetrilha", "#preservacao", "#cerrado", "#chapadadosveadeiros", "#naturezabrasileira", "#respeito"]
+    },
+    {
+      "id": "dica-guias-locais",
+      "tema": "dica",
+      "kicker": "Turismo responsável",
+      "titulo": "Por que contratar guia local muda a sua viagem",
+      "legenda": "🧭 Não é só 'não se perder'. Um guia local:\n\n✅ Conhece as condições do dia (chuva na serra? trilha fechada?)\n✅ Conta histórias e detalhes que nenhum blog ensina\n✅ Garante sua segurança em travessias e poços\n✅ E o principal: seu dinheiro fica na comunidade que preserva o lugar\n\nEm várias atrações da Chapada o guia é obrigatório — e nas outras, é um upgrade que vale cada real. 🙌\n\nJá teve uma experiência marcante com um guia? Conta aqui 👇",
+      "hashtags": ["#guialocal", "#turismodecomunidade", "#ecoturismo", "#chapadadosveadeiros", "#turismoresponsavel", "#trilhas", "#cerrado", "#economialocal", "#viajarpelobrasil"]
+    },
+    {
+      "id": "promo-silencio",
+      "tema": "promo",
+      "kicker": "Sua base no cerrado",
+      "titulo": "O luxo que a cidade não vende: silêncio e céu estrelado",
+      "legenda": "🌌 Tem coisas que não dá para colocar em anúncio: o silêncio de uma noite sem trânsito, o céu carregado de estrelas, o café passado com calma de manhã.\n\nNa {nome}, esse é o padrão da casa. E o resto — cama boa, limpeza impecável, dicas de anfitrião local — a gente garante também. 😊\n\n✨ As datas de alta temporada esgotam primeiro. Garanta a sua pelo link na bio.",
+      "hashtags": ["#hospedagem", "#airbnb", "#ceuestrelado", "#silencio", "#ecoturismo", "#cerrado", "#chapadadosveadeiros", "#descanso", "#slowtravel"]
+    },
+    {
+      "id": "chapada-catarata-couros",
+      "tema": "chapada",
+      "kicker": "Chapada dos Veadeiros",
+      "titulo": "Catarata dos Couros: sequência de quedas de cinema",
+      "legenda": "🎬 Um rio inteiro descendo em degraus gigantes no meio do cerrado: assim é a Catarata dos Couros, um dos visuais mais impressionantes da região.\n\nSão várias quedas e piscinões naturais em sequência — na época da seca dá para explorar com mais segurança; nas águas, o espetáculo é de força bruta (respeite as orientações!). 💥\n\nJá conhecia essa? Marca alguém para ir junto! 👇",
+      "hashtags": ["#cataratadoscouros", "#chapadadosveadeiros", "#cachoeiras", "#ecoturismo", "#cerrado", "#trilhas", "#goias", "#aventura", "#viajarpelobrasil"]
+    },
+    {
+      "id": "cerrado-patrimonio-unesco",
+      "tema": "cerrado",
+      "kicker": "Você sabia?",
+      "titulo": "A Chapada dos Veadeiros é Patrimônio Mundial da UNESCO",
+      "legenda": "🏆 Desde 2001, o Parque Nacional da Chapada dos Veadeiros (junto com o Parque das Emas) é reconhecido pela UNESCO como Patrimônio Natural da Humanidade.\n\nO motivo? Ser uma das áreas mais bem conservadas do cerrado, com paisagens únicas e espécies que não existem em nenhum outro lugar do planeta. 🌍\n\nOrgulho do Brasil central! Compartilha para mais gente saber. 🇧🇷",
+      "hashtags": ["#unesco", "#patrimoniomundial", "#chapadadosveadeiros", "#parquenacional", "#cerrado", "#ecoturismo", "#naturezabrasileira", "#orgulhobrasileiro", "#conservacao"]
+    },
+    {
+      "id": "dica-hidratacao-sol",
+      "tema": "dica",
+      "kicker": "Saúde na trilha",
+      "titulo": "Sol de cerrado não perdoa: hidrate-se como um local",
+      "legenda": "☀️ O clima do cerrado é seco — MUITO seco na metade do ano. A umidade despenca e você desidrata sem nem suar.\n\nRegra dos locais:\n💧 Beba água antes de sentir sede\n🧴 Protetor solar sempre, mesmo com céu nublado\n🧢 Chapéu e roupas leves de manga comprida valem ouro\n🕐 Evite trilha pesada entre 11h e 15h\n🍉 Frutas suculentas no lanche ajudam demais\n\nSua garrafa de água tem quantos litros? 👇😄",
+      "hashtags": ["#hidratacao", "#dicasdetrilha", "#cerrado", "#climaseco", "#ecoturismo", "#saude", "#trilheiros", "#chapadadosveadeiros", "#dicasdeviagem"]
+    },
+    {
+      "id": "chapada-sao-jorge",
+      "tema": "chapada",
+      "kicker": "Chapada dos Veadeiros",
+      "titulo": "São Jorge: a vila que trocou o cristal pelo turismo",
+      "legenda": "⛏️➡️🌿 A vila de São Jorge nasceu do garimpo de cristal de quartzo. Quando o Parque Nacional foi criado, os garimpeiros viraram guias — e hoje a vila é a porta de entrada do parque.\n\nRuas de terra, céu estrelado, restaurantes charmosos e aquele clima de fim de mundo (no melhor sentido). É história de transformação pelo ecoturismo. ✨\n\nVocê é team Alto Paraíso ou team São Jorge? 👇",
+      "hashtags": ["#saojorge", "#vilasaojorge", "#chapadadosveadeiros", "#historia", "#ecoturismo", "#cristais", "#cerrado", "#goiasturismo", "#viladecharme"]
+    },
+    {
+      "id": "cerrado-nome-veadeiros",
+      "tema": "cerrado",
+      "kicker": "Você sabia?",
+      "titulo": "De onde vem o nome 'Chapada dos VEADEIROS'?",
+      "legenda": "🦌 Diz a história local que a região era famosa pelos caçadores de veado-campeiro — os 'veadeiros' — e seus cães, muito antes do parque existir.\n\nHoje a caça deu lugar à câmera fotográfica: o veado-campeiro segue por lá, agora protegido, e é um dos símbolos do parque. Um nome que carrega a memória e a transformação do lugar. 📖\n\nCuriosidade boa? Salva e compartilha! 📌",
+      "hashtags": ["#chapadadosveadeiros", "#veadocampeiro", "#historia", "#curiosidades", "#cerrado", "#ecoturismo", "#faunabrasileira", "#parquenacional", "#goias"]
+    },
+    {
+      "id": "cachoeira-melhor-horario-foto",
+      "tema": "cachoeira",
+      "kicker": "Foto na natureza",
+      "titulo": "O horário certo para fotografar cachoeira (sem estourar)",
+      "legenda": "📸 Foto de cachoeira ao meio-dia = água estourada e sombras duras. Anota o macete:\n\n🌅 Comecinho da manhã ou fim de tarde: luz suave e dourada\n☁️ Dia nublado é AMIGO: funciona como um difusor gigante\n🌈 Sol atrás da queda em certos horários = arco-íris na névoa\n📱 No celular, trave o foco na água e desça a exposição um tiquinho\n\nSalva para a próxima trip! E marca o fotógrafo do seu grupo 👇",
+      "hashtags": ["#fotografiadenatureza", "#cachoeiras", "#dicasdefoto", "#ecoturismo", "#fotododia", "#chapadadosveadeiros", "#cerrado", "#mobilephotography", "#paisagens"]
+    },
+    {
+      "id": "dica-respeito-comunidades",
+      "tema": "dica",
+      "kicker": "Turismo responsável",
+      "titulo": "Visitar territórios tradicionais é um privilégio — aja como tal",
+      "legenda": "🙏 Muitas maravilhas do cerrado ficam em territórios de comunidades tradicionais — como o povo Kalunga, herdeiro de uma história gigante de resistência.\n\nBoas práticas de visitante:\n✅ Contrate guias e serviços da própria comunidade\n✅ Peça licença antes de fotografar pessoas\n✅ Compre o artesanato e a comida local\n✅ Ouça as histórias — elas valem mais que a foto\n\nTurismo bom é o que deixa o lugar mais forte do que encontrou. 💪\n\nConcorda? Compartilha essa ideia!",
+      "hashtags": ["#kalunga", "#comunidadestradicionais", "#turismodecomunidade", "#turismoresponsavel", "#ecoturismo", "#cerrado", "#chapadadosveadeiros", "#culturabrasileira", "#respeito"]
+    },
+    {
+      "id": "promo-trabalho-remoto",
+      "tema": "promo",
+      "kicker": "Sua base no cerrado",
+      "titulo": "E se a sua 'home office' tivesse som de passarinho?",
+      "legenda": "💻 Wi-Fi estável, canto tranquilo para trabalhar, e na pausa do almoço... uma cachoeira em vez de um shopping.\n\nA {nome} é perfeita para quem trabalha remoto e quer trocar o cinza da cidade por umas semanas de verde. Semana útil produtiva, fim de semana de trilha. 🌿\n\n✨ Chama a gente pelo link na bio e monte sua temporada em {cidade}.",
+      "hashtags": ["#trabalhoremoto", "#homeoffice", "#nomadedigital", "#workation", "#hospedagem", "#airbnb", "#cerrado", "#chapadadosveadeiros", "#qualidadedevida"]
+    },
+    {
+      "id": "chapada-travessia-sete-quedas",
+      "tema": "chapada",
+      "kicker": "Chapada dos Veadeiros",
+      "titulo": "Travessia das Sete Quedas: 23 km de imersão total",
+      "legenda": "🎒 Para quem quer MAIS: a travessia das Sete Quedas cruza o Parque Nacional em cerca de 23 km, com pernoite em camping dentro do parque, rio para banhar e céu estrelado como teto.\n\nÉ experiência de conexão profunda — exige preparo, reserva antecipada e guia/autorização conforme as regras do parque. Mas quem faz, não esquece nunca mais. 🌌\n\nVocê toparia? Marca seu parceiro de trilha! 👇",
+      "hashtags": ["#travessiasetequedas", "#chapadadosveadeiros", "#trekking", "#camping", "#trilhas", "#ecoturismo", "#aventura", "#cerrado", "#mochilao"]
+    },
+    {
+      "id": "cerrado-lobo-guara",
+      "tema": "cerrado",
+      "kicker": "Fauna do cerrado",
+      "titulo": "Lobo-guará: o cavaleiro solitário do cerrado",
+      "legenda": "🐺 Pernas longas para enxergar por cima do capim, pelagem vermelho-fogo e um jeitão tímido: o lobo-guará é o maior canídeo da América do Sul — e não é lobo nem raposa, é único.\n\nEle adora a lobeira, fruta que ganhou o nome por causa dele, e cruza os campos do cerrado sozinho, quase sempre ao entardecer. Ver um na natureza é presente raro. ✨\n\nJá teve a sorte de avistar um? 👇",
+      "hashtags": ["#loboguara", "#faunadocerrado", "#cerrado", "#animaisbrasileiros", "#vidaselvagem", "#ecoturismo", "#naturezabrasileira", "#biodiversidade", "#chapadadosveadeiros"]
+    },
+    {
+      "id": "dica-chuva-plano-b",
+      "tema": "dica",
+      "kicker": "Dica de viagem",
+      "titulo": "Choveu na viagem? O cerrado tem plano B (e é ótimo)",
+      "legenda": "🌧️ Chuva não é o fim do rolê — é outro rolê:\n\n☕ Cafés e restaurantes charmosos das vilas\n🛍️ Ateliês, cristais e artesanato local\n💆 Massagens e terapias (a Chapada é o templo disso)\n📖 Aquela leitura na varanda ouvindo a chuva no telhado\n🌈 E quando abrir: luz linda e cachoeiras renovadas\n\nImportante: depois de chuva forte, só volte às cachoeiras com aval dos guias (lembra da cabeça d'água!).\n\nQual seu programa de chuva favorito? 👇",
+      "hashtags": ["#dicasdeviagem", "#chuva", "#chapadadosveadeiros", "#altoparaisodegoias", "#ecoturismo", "#cerrado", "#slowtravel", "#viagem", "#planob"]
+    },
+    {
+      "id": "chapada-ceu-estrelado",
+      "tema": "chapada",
+      "kicker": "Chapada dos Veadeiros",
+      "titulo": "O céu da Chapada: um planetário a olho nu",
+      "legenda": "🌌 Altitude elevada, ar seco e pouquíssima poluição luminosa: a receita do céu mais estrelado que você já viu.\n\nNa época da seca, a Via Láctea aparece inteira riscando o céu — dá para ver a olho nu, deitado numa canga, sem equipamento nenhum. Uma das experiências mais subestimadas da região. ✨\n\nDica: noites de lua nova são as melhores. Salva essa! 📌\n\nVocê já viu a Via Láctea de verdade? 👇",
+      "hashtags": ["#ceuestrelado", "#vialactea", "#astroturismo", "#chapadadosveadeiros", "#cerrado", "#ecoturismo", "#stargazing", "#altoparaisodegoias", "#noiteestrelada"]
+    },
+    {
+      "id": "cerrado-capim-dourado",
+      "tema": "cerrado",
+      "kicker": "Cultura do cerrado",
+      "titulo": "Capim dourado: o 'ouro' que nasce das veredas",
+      "legenda": "✨ Parece fio de ouro, mas é planta: o capim dourado cresce nos campos úmidos do cerrado e vira brincos, bolsas e mandalas nas mãos de artesãs incríveis.\n\nA colheita segue regras rigorosas (só em certa época do ano, com manejo certo) — um exemplo lindo de como tradição e conservação andam juntas. Comprar de artesãos locais é levar cerrado no coração (e financiar quem o protege). 💛\n\nVocê já tem alguma peça de capim dourado? 👇",
+      "hashtags": ["#capimdourado", "#artesanatobrasileiro", "#cerrado", "#culturalocal", "#economiacriativa", "#ecoturismo", "#feitoamao", "#tradicao", "#sustentabilidade"]
+    },
+    {
+      "id": "dica-reservar-antecedencia",
+      "tema": "dica",
+      "kicker": "Dica de viagem",
+      "titulo": "Feriado na Chapada se planeja com meses de antecedência",
+      "legenda": "📅 Verdade dura: quem deixa para reservar hospedagem de feriado na última semana paga mais caro ou fica sem opção boa.\n\nO fluxo ideal:\n1️⃣ 2-3 meses antes: feche a hospedagem\n2️⃣ 1 mês antes: agende guias e atrativos concorridos\n3️⃣ 1 semana antes: monte o roteiro dia a dia (com folga!)\n4️⃣ Na viagem: acorde cedo e aproveite 🌅\n\nSeu estilo é planejar tudo ou decidir na hora? 👇😄",
+      "hashtags": ["#planejamentodeviagem", "#dicasdeviagem", "#feriado", "#chapadadosveadeiros", "#ecoturismo", "#hospedagem", "#viajarpelobrasil", "#cerrado", "#ferias"]
+    },
+    {
+      "id": "cachoeira-inverno-aguas-claras",
+      "tema": "cachoeira",
+      "kicker": "Você sabia?",
+      "titulo": "Por que as águas ficam cristalinas no meio do ano?",
+      "legenda": "💎 De maio a setembro, a chuva some do cerrado — e sem chuva, os rios param de carregar sedimento.\n\nResultado: a água decanta, limpa e vira vidro. É quando os poços ganham aqueles tons de esmeralda e turquesa que parecem edição de foto (não são!). 🤿\n\nPor isso o 'inverno' seco é alta temporada de cachoeira por aqui. Já viveu essa época? 👇",
+      "hashtags": ["#aguascristalinas", "#cachoeiras", "#cerrado", "#chapadadosveadeiros", "#estacaoseca", "#ecoturismo", "#naturezabrasileira", "#curiosidades", "#viajarpelobrasil"]
+    },
+    {
+      "id": "promo-fim-de-ano",
+      "tema": "promo",
+      "kicker": "Sua base no cerrado",
+      "titulo": "Sua próxima folga merece mais que sofá e delivery",
+      "legenda": "🧳 Fecha os olhos: café na varanda, trilha de manhã, cachoeira à tarde, céu estrelado à noite. Agora abre: falta só reservar. 😄\n\nA {nome}, em {cidade}, é a base que transforma folga em história para contar. Anfitrião local, roteiro na mão e aquele acolhimento que hotel não entrega.\n\n✨ Link na bio → veja as datas disponíveis antes que alguém reserve no seu lugar.",
+      "hashtags": ["#hospedagem", "#airbnb", "#escapada", "#fimdesemana", "#ecoturismo", "#cerrado", "#chapadadosveadeiros", "#viagemcurta", "#recarregar"]
+    }
+  ]
+}
