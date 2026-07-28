@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recebemos seu pedido! 🌿</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<!-- ═══ ANALYTICS: esta página só é vista por quem enviou o formulário.
+     Cole aqui o mesmo GA4/Pixel do index.html e dispare o evento de conversão:
+     GA4:  gtag('event', 'generate_lead');
+     Meta: fbq('track', 'Lead');
+═══ -->
+
+<style>
+:root{--verde-900:#1c3324;--verde-700:#2e5233;--terra:#c2603d;--areia:#faf6ef;--dourado:#d9a441;--zap:#1fa855}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',system-ui,sans-serif;background:linear-gradient(160deg,var(--verde-700),var(--verde-900));min-height:100vh;display:flex;align-items:center;justify-content:center;padding:1.5rem;color:#22271f}
+.cartao{background:var(--areia);border-radius:18px;max-width:520px;width:100%;padding:2.6rem 2.2rem;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.3)}
+.emoji{font-size:3rem}
+h1{font-family:'Fraunces',Georgia,serif;color:var(--verde-900);font-size:1.7rem;margin:.8rem 0}
+p{color:#5c6355;font-size:.97rem;line-height:1.6;margin-bottom:1rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.9rem 1.5rem;border-radius:999px;font-weight:700;text-decoration:none;margin:.3rem;font-size:.95rem}
+.btn-zap{background:var(--zap);color:#fff}
+.btn-airbnb{background:var(--terra);color:#fff}
+.btn-voltar{background:transparent;color:var(--verde-700);border:2px solid var(--verde-700)}
+</style>
+</head>
+<body>
+  <div class="cartao">
+    <div class="emoji">🌿✅</div>
+    <h1>Recebemos seu pedido!</h1>
+    <p>Vamos responder <strong>o quanto antes</strong> com a disponibilidade, valores e um mini-roteiro da região feito para você.</p>
+    <p>Enquanto isso, você pode adiantar sua reserva conferindo o calendário em tempo real:</p>
+    <a class="btn btn-airbnb" id="btn-airbnb" href="#" target="_blank" rel="noopener">📅 Ver datas no Airbnb</a>
+    <a class="btn btn-zap" id="btn-zap" href="#" target="_blank" rel="noopener">💬 Falar agora no WhatsApp</a>
+    <br>
+    <a class="btn btn-voltar" href="index.html">← Voltar para a página</a>
+  </div>
+<script>
+/* Reaproveita os links da página principal sem duplicar configuração:
+   edite o CONFIG apenas no index.html. Aqui só colocamos os mesmos valores. */
+const LINK_AIRBNB = "https://www.airbnb.com.br/rooms/1482393056413027238?guests=1&adults=1&s=67&unique_share_id=ff2f1b2e-acb2-416a-9163-8b88e3bd4119";
+const WHATSAPP = "«5561999999999»"; // mesmo número do CONFIG do index.html
+document.getElementById("btn-airbnb").href = LINK_AIRBNB;
+document.getElementById("btn-zap").href = "https://wa.me/"+WHATSAPP.replace(/\D/g,"")+"?text="+encodeURIComponent("Olá! Acabei de enviar o formulário na página da hospedagem. 😊");
+</script>
+</body>
+</html>

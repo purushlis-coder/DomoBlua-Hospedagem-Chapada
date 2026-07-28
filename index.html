@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ============================================================
+     LANDING PAGE — HOSPEDAGEM (frente de trabalho nº 2)
+     Esta página é 100% controlada pelo bloco CONFIG logo abaixo.
+     Você só precisa editar o CONFIG — o resto se ajusta sozinho.
+     ============================================================ -->
+
+<title>Casa em Colinas do Sul – GO | Chapada dos Veadeiros e Lago Serra da Mesa</title>
+<meta name="description" content="Casa inteira em Colinas do Sul (GO), no portal da Chapada dos Veadeiros: 2 quartos, 5 camas e 3 banheiros, perto das cachoeiras e do Lago Serra da Mesa. Reserve com o anfitrião local.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Casa em Colinas do Sul – GO | Chapada dos Veadeiros">
+<meta property="og:description" content="Casa inteira no portal da Chapada dos Veadeiros: 2 quartos, 5 camas e 3 banheiros, entre as cachoeiras e o Lago Serra da Mesa.">
+<meta property="og:image" content="assets/fotos/foto-1.jpg">
+<meta property="og:locale" content="pt_BR">
+<meta name="robots" content="index, follow">
+
+<!-- Fontes -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<script>
+/* ================================================================
+   ✏️  CONFIG — EDITE APENAS ESTE BLOCO  ✏️
+   Tudo que está entre «...» precisa ser trocado pelos seus dados.
+   Depois de editar, salve, commit e o site se atualiza sozinho.
+   ================================================================ */
+const CONFIG = {
+  // — Identidade da hospedagem (NÃO misture com a outra hospedagem) —
+  // ✅ Dados confirmados no anúncio do Airbnb (PDF de 28/07/2026).
+  nome:            "DomoBlua",
+  cidade:          "Colinas do Sul – GO",
+  fraseHero:       "Rio privativo, deck panorâmico e a Chapada inteira ao seu redor",
+  subFraseHero:    "Casa completa em Colinas do Sul com acesso exclusivo ao Ribeirão dos Padres, deck com vista panorâmica e o Poço do Motor a poucos metros. Espaço para até 10 pessoas — e sim, seu pet vem junto.",
+
+  // — Links de conversão (o link do Airbnb já é o real) —
+  linkAirbnb:      "https://www.airbnb.com.br/rooms/1482393056413027238?guests=1&adults=1&s=67&unique_share_id=ff2f1b2e-acb2-416a-9163-8b88e3bd4119",
+  whatsapp:        "«5561999999999»",               // ⚠️ FALTA: só números, com DDI 55 + DDD
+  instagram:       "«seu.instagram»",               // ⚠️ FALTA: sem @. ex.: "domoblua"
+
+  // — Números que geram confiança —
+  // ⚠️ A nota fica ESCONDIDA de propósito: com 2 avaliações o próprio Airbnb ainda
+  //    não exibe média ("aparece depois de 3 avaliações"). Assim que a 3ª chegar,
+  //    troque os dois campos abaixo pelos valores reais e eles aparecem sozinhos.
+  avaliacao:       "«4,5»",
+  numAvaliacoes:   "«3»",
+  precoAPartir:    "«R$ 450»",                       // ⚠️ FALTA: diária "a partir de"
+  capacidade:      "10 hóspedes · 2 quartos · 5 camas · 3 banheiros",
+
+  // — Fotos (coloque os arquivos em assets/fotos/ com estes nomes) —
+  // As 6 primeiras são as do anúncio. As 3 últimas são do rio e da cachoeira:
+  // enquanto não existirem, a página mostra um espaço reservado elegante.
+  fotos: [
+    "assets/fotos/foto-1.jpg",
+    "assets/fotos/foto-2.jpg",
+    "assets/fotos/foto-3.jpg",
+    "assets/fotos/foto-4.jpg",
+    "assets/fotos/foto-5.jpg",
+    "assets/fotos/foto-6.jpg",
+    "assets/fotos/rio-1.jpg",
+    "assets/fotos/rio-2.jpg",
+    "assets/fotos/poco-do-motor.jpg"
+  ],
+
+  // — Foto de destaque do rio (seção larga). Some sozinha se o arquivo não existir. —
+  fotoRio: "assets/fotos/rio-1.jpg",
+
+  // — Diferenciais — todos confirmados no anúncio do Airbnb —
+  diferenciais: [
+    { icone: "🏞️", titulo: "Rio privativo",              texto: "Acesso exclusivo ao Ribeirão dos Padres. Dormir ouvindo o barulho da água é o padrão da casa." },
+    { icone: "🌄", titulo: "Deck panorâmico",            texto: "Um deck suspenso com vista aberta do cerrado — o melhor lugar da casa para o café da manhã e o pôr do sol." },
+    { icone: "💦", titulo: "Poço do Motor a poucos metros", texto: "A cachoeira fica logo ali. Dá para ir a pé, sem pegar estrada nem pagar passeio." },
+    { icone: "👨‍👩‍👧‍👦", titulo: "Cabe todo mundo",           texto: "Até 10 pessoas em 2 suítes e 3 banheiros. Ideal para famílias grandes, grupos de amigos e retiros." },
+    { icone: "🐶", titulo: "Pet é bem-vindo",            texto: "Seu cachorro faz parte da família — e vem junto, sem taxa surpresa." },
+    { icone: "🔑", titulo: "Check-in sozinho",            texto: "Cofre de chaves: chegue no seu horário, sem depender de ninguém te esperar." }
+  ],
+
+  // — Depoimentos — avaliação REAL do Airbnb (Ronald, fev/2026) —
+  // Conforme novas avaliações chegarem, acrescente aqui no mesmo formato.
+  depoimentos: [
+    { nome: "Ronald, fevereiro de 2026",
+      texto: "Local hiper agradável, seguro, tudo funciona, cozinha ampla, ideal para família, vista maravilhosa, cama aconchegante, local tranquilo e a única companhia são os macacos." }
+  ],
+
+  // — Selos que o próprio Airbnb exibe no anúncio ("o que os hóspedes destacam") —
+  destaques: ["🏞️ Rio", "🍳 Cozinha", "👨‍👩‍👧 Família"],
+
+  // — O que fazer na região —
+  // ⚠️ Confirme as distâncias a partir da casa antes de divulgar.
+  atracoes: [
+    "Poço do Motor — a cachoeira mais perto, dá para ir a pé",
+    "Ribeirão dos Padres — o rio da própria casa, com acesso privativo",
+    "Lago Serra da Mesa — passeio de barco, pesca e pôr do sol",
+    "Cachoeira das Pedras Bonitas — trilha curta e poços amplos para banho",
+    "Cachoeira Véu de Noiva — acesso simples, ideal para quem quer só relaxar na água",
+    "Vila de São Jorge e o Parque Nacional da Chapada dos Veadeiros — cerca de 34 km",
+    "Alto Paraíso de Goiás — cerca de 71 km, com restaurantes, feiras e vida noturna"
+  ]
+};
+/* ============== FIM DO CONFIG — não edite daqui pra baixo ============== */
+</script>
+
+<!-- ═══ ANALYTICS (opcional, mas recomendado — veja docs/CONFIGURACAO-OBRIGATORIA.md) ═══
+  1) Google Analytics 4: cole aqui o snippet "gtag.js" do seu GA4.
+  2) Meta Pixel: cole aqui o snippet do Pixel para poder anunciar depois.
+═══════════════════════════════════════════════════════════════════════ -->
+
+<style>
+:root{
+  --verde-900:#1c3324; --verde-700:#2e5233; --verde-500:#4a7a50;
+  --terra:#c2603d; --terra-esc:#9a4527;
+  --areia:#faf6ef; --areia-2:#f0e7d8;
+  --dourado:#d9a441; --ink:#22271f; --cinza:#6b7264;
+  --zap:#1fa855; --branco:#fff;
+  --radius:14px; --shadow:0 10px 30px rgba(28,51,36,.12);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,-apple-system,sans-serif;color:var(--ink);background:var(--areia);line-height:1.6}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;line-height:1.15;color:var(--verde-900)}
+img{max-width:100%;display:block}
+a{color:var(--terra)}
+.container{width:min(1080px,92%);margin:0 auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.95rem 1.6rem;border-radius:999px;font-weight:700;font-size:1rem;text-decoration:none;transition:.2s;border:none;cursor:pointer}
+.btn-primario{background:var(--terra);color:#fff;box-shadow:0 6px 18px rgba(194,96,61,.35)}
+.btn-primario:hover{background:var(--terra-esc);transform:translateY(-2px)}
+.btn-zap{background:var(--zap);color:#fff}
+.btn-zap:hover{filter:brightness(.93);transform:translateY(-2px)}
+.btn-fantasma{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.7)}
+.btn-fantasma:hover{background:rgba(255,255,255,.15)}
+section{padding:4.5rem 0}
+.kicker{display:inline-block;text-transform:uppercase;letter-spacing:.14em;font-size:.75rem;font-weight:700;color:var(--terra);margin-bottom:.6rem}
+.h2{font-size:clamp(1.7rem,4vw,2.4rem);margin-bottom:1rem}
+
+/* Topbar */
+.topbar{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(28,51,36,.92);backdrop-filter:blur(8px);color:#fff}
+.topbar .container{display:flex;align-items:center;justify-content:space-between;padding:.65rem 0}
+.topbar .marca{font-family:'Fraunces',serif;font-weight:700;font-size:1.05rem;color:#fff;text-decoration:none}
+.topbar .btn{padding:.5rem 1.1rem;font-size:.85rem}
+
+/* Hero */
+.hero{position:relative;min-height:92vh;display:flex;align-items:center;color:#fff;background:linear-gradient(160deg,var(--verde-900) 0%,var(--verde-700) 55%,var(--verde-500) 100%);overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:url('assets/fotos/foto-1.jpg') center/cover no-repeat;opacity:0;transition:opacity .6s}
+.hero.tem-foto::before{opacity:1}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,35,25,.55) 0%,rgba(20,35,25,.35) 50%,rgba(20,35,25,.75) 100%)}
+.hero .container{position:relative;z-index:2;padding:7rem 0 5rem}
+.hero .selo{display:inline-flex;align-items:center;gap:.45rem;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);padding:.4rem 1rem;border-radius:999px;font-size:.85rem;font-weight:600;margin-bottom:1.2rem}
+.hero h1{font-size:clamp(2rem,5.5vw,3.4rem);color:#fff;max-width:17ch;margin-bottom:1rem}
+.hero p.sub{font-size:clamp(1rem,2.2vw,1.2rem);max-width:52ch;opacity:.92;margin-bottom:1.8rem}
+.hero .ctas{display:flex;gap:.8rem;flex-wrap:wrap;margin-bottom:1.6rem}
+.hero .mini-prova{display:flex;gap:1.4rem;flex-wrap:wrap;font-size:.9rem;opacity:.95}
+.hero .mini-prova b{color:var(--dourado)}
+
+/* Faixa de prova social */
+.prova{background:var(--verde-900);color:#fff;padding:1.1rem 0}
+.prova .container{display:flex;justify-content:center;gap:2.5rem;flex-wrap:wrap;font-size:.95rem}
+.prova b{color:var(--dourado)}
+
+/* Diferenciais */
+.grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.2rem;margin-top:2rem}
+.card{background:#fff;border-radius:var(--radius);padding:1.6rem;box-shadow:var(--shadow)}
+.card .ico{font-size:1.8rem;margin-bottom:.6rem}
+.card h3{font-size:1.1rem;margin-bottom:.4rem}
+.card p{font-size:.93rem;color:var(--cinza)}
+
+/* Destaque do rio */
+.destaque-rio{display:grid;grid-template-columns:1fr 1fr;gap:0;padding:0;align-items:stretch;background:var(--verde-900);color:#fff}
+.destaque-rio .rio-foto{min-height:420px}
+.destaque-rio .rio-foto img{width:100%;height:100%;object-fit:cover}
+.destaque-rio .rio-texto{padding:3.4rem clamp(1.6rem,4vw,3.4rem);align-self:center}
+.destaque-rio .h2,.destaque-rio h2{color:#fff}
+.destaque-rio .kicker{color:var(--dourado)}
+.destaque-rio p{opacity:.92;margin-bottom:1rem;font-size:.98rem}
+.destaque-rio .btn{margin-top:.6rem}
+@media(max-width:820px){.destaque-rio{grid-template-columns:1fr}.destaque-rio .rio-foto{min-height:300px}}
+
+/* Galeria */
+.galeria{background:var(--areia-2)}
+.grid-fotos{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:.8rem;margin-top:2rem}
+.grid-fotos .foto{position:relative;aspect-ratio:4/3;border-radius:var(--radius);overflow:hidden;cursor:pointer;background:linear-gradient(135deg,var(--verde-500),var(--verde-900))}
+.grid-fotos .foto img{width:100%;height:100%;object-fit:cover;transition:.35s}
+.grid-fotos .foto:hover img{transform:scale(1.06)}
+.grid-fotos .foto .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.85);font-size:.85rem;text-align:center;padding:1rem}
+.lightbox{position:fixed;inset:0;background:rgba(15,22,17,.94);display:none;align-items:center;justify-content:center;z-index:100;padding:2rem}
+.lightbox.aberto{display:flex}
+.lightbox img{max-height:85vh;max-width:92vw;border-radius:10px}
+.lightbox .fechar{position:absolute;top:1.2rem;right:1.6rem;color:#fff;font-size:2.2rem;cursor:pointer;background:none;border:none}
+
+/* Depoimentos */
+.destaques{display:flex;gap:.6rem;flex-wrap:wrap;margin:1.4rem 0 .4rem}
+.destaques span{background:#fff;border:1.5px solid var(--areia-2);border-radius:999px;padding:.45rem 1.1rem;font-size:.9rem;font-weight:600;color:var(--verde-700);box-shadow:0 2px 8px rgba(28,51,36,.06)}
+.depo{background:#fff;border-radius:var(--radius);padding:1.6rem;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:.8rem}
+.depo .aspas{font-family:'Fraunces',serif;font-size:2.6rem;line-height:.6;color:var(--dourado);height:1.1rem}
+.depo p{font-size:.95rem;color:var(--ink)}
+.depo .autor{font-weight:700;font-size:.88rem;color:var(--verde-700)}
+
+/* Passos */
+.passos{background:var(--verde-900);color:#fff}
+.passos .h2,.passos h3{color:#fff}
+.passos .kicker{color:var(--dourado)}
+.passo{display:flex;gap:1.1rem;align-items:flex-start;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);padding:1.4rem}
+.passo .num{flex:0 0 auto;width:2.4rem;height:2.4rem;border-radius:50%;background:var(--dourado);color:var(--verde-900);display:flex;align-items:center;justify-content:center;font-weight:800;font-family:'Fraunces',serif}
+.passo p{font-size:.92rem;opacity:.9}
+
+/* Widget oficial do Airbnb */
+.embed-airbnb{margin-top:2.4rem;display:flex;justify-content:center}
+.embed-airbnb .airbnb-embed-frame{background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.embed-airbnb a{display:block;padding:.4rem 1rem;color:var(--verde-900);text-decoration:none;font-size:.9rem;font-weight:600}
+
+/* Localização */
+.lista-atracoes{margin-top:1.4rem;display:grid;gap:.7rem}
+.lista-atracoes li{list-style:none;background:#fff;border-radius:10px;padding:.9rem 1.2rem;box-shadow:var(--shadow);font-size:.95rem;display:flex;gap:.6rem;align-items:center}
+
+/* FAQ */
+details{background:#fff;border-radius:10px;box-shadow:var(--shadow);margin-bottom:.7rem;overflow:hidden}
+summary{padding:1.05rem 1.3rem;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+summary::after{content:"+";font-size:1.3rem;color:var(--terra);transition:.2s}
+details[open] summary::after{transform:rotate(45deg)}
+details .resp{padding:0 1.3rem 1.1rem;font-size:.93rem;color:var(--cinza)}
+
+/* Formulário */
+.captura{background:linear-gradient(160deg,var(--verde-700),var(--verde-900));color:#fff}
+.captura .h2,.captura h3{color:#fff}
+.captura .kicker{color:var(--dourado)}
+.form-wrap{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;margin-top:2rem;align-items:start}
+form{background:#fff;border-radius:var(--radius);padding:1.8rem;box-shadow:var(--shadow);display:grid;gap:.9rem}
+label{font-size:.82rem;font-weight:700;color:var(--verde-900);display:block;margin-bottom:.25rem}
+input,textarea,select{width:100%;padding:.8rem .95rem;border:1.5px solid #d8d2c4;border-radius:9px;font:inherit;font-size:.95rem;background:var(--areia)}
+input:focus,textarea:focus,select:focus{outline:2px solid var(--verde-500);border-color:var(--verde-500)}
+.linha-2{display:grid;grid-template-columns:1fr 1fr;gap:.9rem}
+.consent{display:flex;gap:.55rem;align-items:flex-start;font-size:.78rem;color:var(--cinza)}
+.consent input{width:auto;margin-top:.2rem}
+.alt-zap{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:var(--radius);padding:1.6rem}
+.alt-zap p{font-size:.95rem;opacity:.9;margin:.6rem 0 1.2rem}
+
+/* Footer */
+footer{background:var(--verde-900);color:rgba(255,255,255,.75);padding:2.2rem 0 6.5rem;font-size:.85rem}
+footer .container{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+footer a{color:var(--dourado);text-decoration:none}
+
+/* Barra fixa mobile */
+.barra-fixa{position:fixed;bottom:0;left:0;right:0;z-index:60;display:flex;gap:.6rem;padding:.7rem .9rem calc(.7rem + env(safe-area-inset-bottom));background:rgba(255,255,255,.96);backdrop-filter:blur(8px);box-shadow:0 -6px 24px rgba(0,0,0,.12)}
+.barra-fixa .btn{flex:1;padding:.85rem .5rem;font-size:.9rem}
+@media(min-width:820px){.barra-fixa{display:none}footer{padding-bottom:2.2rem}}
+@media(max-width:680px){.form-wrap{grid-template-columns:1fr}.linha-2{grid-template-columns:1fr}section{padding:3.2rem 0}}
+</style>
+</head>
+<body>
+
+<!-- Topbar -->
+<nav class="topbar">
+  <div class="container">
+    <a href="#" class="marca" data-bind="nome">Hospedagem</a>
+    <a class="btn btn-primario" data-link="airbnb" target="_blank" rel="noopener">Ver disponibilidade</a>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header class="hero" id="topo">
+  <div class="container">
+    <span class="selo">📍 <span data-bind="cidade">Cidade – UF</span> · Anfitrião local</span>
+    <h1 data-bind="fraseHero">Acorde no meio da natureza</h1>
+    <p class="sub" data-bind="subFraseHero">Conforto de casa, silêncio de mato.</p>
+    <div class="ctas">
+      <a class="btn btn-primario" data-link="airbnb" target="_blank" rel="noopener">📅 Ver datas e reservar no Airbnb</a>
+      <a class="btn btn-fantasma" data-link="whats" target="_blank" rel="noopener">Tirar dúvida no WhatsApp</a>
+    </div>
+    <div class="mini-prova">
+      <span>⭐ <b data-bind="avaliacao">5,0</b> (<span data-bind="numAvaliacoes">—</span> avaliações)</span>
+      <span>👥 <span data-bind="capacidade">10 hóspedes</span></span>
+      <span>💰 a partir de <b data-bind="precoAPartir">R$ —</b>/noite</span>
+      <span>🐶 Pet friendly</span>
+      <span>🔑 Check-in autônomo</span>
+    </div>
+  </div>
+</header>
+
+<!-- Faixa de prova social -->
+<div class="prova">
+  <div class="container">
+    <span>🏞️ Acesso privativo ao rio</span>
+    <span>✅ Reserva com proteção do Airbnb</span>
+    <span>🏡 Anfitrião há <b>5 anos</b> no Airbnb</span>
+  </div>
+</div>
+
+<!-- Diferenciais -->
+<section id="diferenciais">
+  <div class="container">
+    <span class="kicker">Por que aqui</span>
+    <h2 class="h2">Feito para quem quer descansar de verdade</h2>
+    <p style="max-width:60ch;color:var(--cinza)">Não é só um lugar para dormir: é a base perfeita para explorar a região — e voltar para um espaço limpo, silencioso e acolhedor.</p>
+    <div class="grid-3" id="lista-diferenciais"></div>
+  </div>
+</section>
+
+<!-- Destaque do rio (só aparece quando a foto existe) -->
+<section class="destaque-rio" id="secao-rio" hidden>
+  <div class="rio-foto"><img id="img-rio" src="" alt="Ribeirão dos Padres, o rio privativo da casa"></div>
+  <div class="rio-texto">
+    <span class="kicker">O diferencial que ninguém copia</span>
+    <h2 class="h2">O rio é seu. Literalmente.</h2>
+    <p>A casa tem acesso privativo ao <strong>Ribeirão dos Padres</strong>: é descer e mergulhar, sem sair da propriedade, sem dividir com ninguém. À noite, o barulho da água entra pela janela e resolve qualquer insônia.</p>
+    <p>E quando bater vontade de cachoeira de verdade, o <strong>Poço do Motor</strong> fica a poucos metros — dá para ir a pé, sem carro e sem pagar passeio.</p>
+    <a class="btn btn-primario" data-link="airbnb" target="_blank" rel="noopener">📅 Quero acordar assim</a>
+  </div>
+</section>
+
+<!-- Galeria -->
+<section class="galeria" id="fotos">
+  <div class="container">
+    <span class="kicker">Conheça o espaço</span>
+    <h2 class="h2">Fotos reais, sem filtro exagerado</h2>
+    <div class="grid-fotos" id="grid-fotos"></div>
+  </div>
+</section>
+
+<!-- Depoimentos -->
+<section id="depoimentos">
+  <div class="container">
+    <span class="kicker">Quem já se hospedou</span>
+    <h2 class="h2">O que os hóspedes mais destacam</h2>
+    <div class="destaques" id="lista-destaques"></div>
+    <div class="grid-3" id="lista-depoimentos"></div>
+  </div>
+</section>
+
+<!-- Como reservar -->
+<section class="passos">
+  <div class="container">
+    <span class="kicker">Simples assim</span>
+    <h2 class="h2">Reservar leva menos de 3 minutos</h2>
+    <div class="grid-3">
+      <div class="passo"><span class="num">1</span><div><h3>Escolha as datas</h3><p>Toque em "Ver datas e reservar" e confira a disponibilidade em tempo real no Airbnb.</p></div></div>
+      <div class="passo"><span class="num">2</span><div><h3>Reserve com proteção</h3><p>Pagamento seguro pelo Airbnb, com política de cancelamento clara e suporte 24h.</p></div></div>
+      <div class="passo"><span class="num">3</span><div><h3>Receba o guia de chegada</h3><p>Mandamos o caminho com fotos, a senha do cofre de chaves e o roteiro de cachoeiras no seu WhatsApp. É só chegar.</p></div></div>
+    </div>
+    <!-- Widget oficial do Airbnb: mostra o anúncio real, com selo da plataforma.
+         Se o visitante usar bloqueador de anúncios, os links abaixo aparecem no lugar. -->
+    <div class="embed-airbnb">
+      <div class="airbnb-embed-frame" data-id="1482393056413027238" data-view="home" data-hide-price="true" style="width:100%;max-width:450px;height:300px;margin:auto">
+        <a href="https://www.airbnb.com.br/rooms/1482393056413027238?guests=1&amp;adults=1&amp;s=66&amp;source=embed_widget">Ver no Airbnb</a>
+        <a href="https://www.airbnb.com.br/rooms/1482393056413027238?guests=1&amp;adults=1&amp;s=66&amp;source=embed_widget" rel="nofollow">Casa · Colinas do Sul · 2 quartos · 5 camas · 3 banheiros</a>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:2.2rem">
+      <a class="btn btn-primario" data-link="airbnb" target="_blank" rel="noopener">📅 Quero ver as datas disponíveis</a>
+    </div>
+  </div>
+</section>
+<script async src="https://www.airbnb.com.br/embeddable/airbnb_jssdk"></script>
+
+<!-- Localização -->
+<section id="regiao">
+  <div class="container">
+    <span class="kicker">A região</span>
+    <h2 class="h2">O que fazer por perto</h2>
+    <p style="max-width:60ch;color:var(--cinza)">Como anfitriões locais, montamos um roteiro com o que realmente vale a pena — sem cair em armadilha de turista.</p>
+    <ul class="lista-atracoes" id="lista-atracoes"></ul>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" style="background:var(--areia-2)">
+  <div class="container">
+    <span class="kicker">Dúvidas comuns</span>
+    <h2 class="h2">Perguntas frequentes</h2>
+    <details><summary>Cabem mesmo 10 pessoas?</summary><div class="resp">Sim: são 7 lugares em camas (2 de casal, 1 de solteiro e 1 sofá-cama) mais 3 colchões extras, distribuídos nas 2 suítes. Com 3 banheiros, ninguém fica na fila de manhã. Roupa de cama está inclusa.</div></details>
+    <details><summary>Como funciona o check-in?</summary><div class="resp">Check-in autônomo a partir das 15h, com cofre de chaves — você chega no seu horário, sem depender de ninguém. Enviamos as instruções completas de chegada (com fotos do caminho) pelo WhatsApp antes da viagem.</div></details>
+    <details><summary>Posso levar meu pet?</summary><div class="resp">Pode sim, amigos de quatro patas são bem-vindos! Só nos avise antes para prepararmos a casa. O terreno é cercado e tem bastante espaço para eles correrem.</div></details>
+    <details><summary>Como é o acesso ao rio e à cachoeira?</summary><div class="resp">A casa tem acesso privativo ao Ribeirão dos Padres — é só descer, sem sair da propriedade. O Poço do Motor fica pertinho, dá para ir a pé. Em época de chuva a água pode ficar mais turva e a correnteza mais forte: sempre confira com a gente antes de entrar.</div></details>
+    <details><summary>Tem Wi-Fi e ar-condicionado?</summary><div class="resp">Wi-Fi rápido em toda a casa, Smart TV na sala e ar-condicionado em uma das suítes. A cozinha é equipada e tem estacionamento gratuito no local.</div></details>
+    <details><summary>Por que reservar pelo Airbnb e não por fora?</summary><div class="resp">Pela sua segurança: pagamento protegido, avaliações verificadas, cobertura AirCover e suporte 24h. Você reserva com tranquilidade e a gente cuida do resto.</div></details>
+  </div>
+</section>
+
+<!-- Captura de leads -->
+<section class="captura" id="contato">
+  <div class="container">
+    <span class="kicker">Fale com o anfitrião</span>
+    <h2 class="h2">Quer ajuda para planejar? Deixa com a gente</h2>
+    <p style="max-width:62ch;opacity:.9">Conte quando você quer vir e quantas pessoas vêm. Respondemos com disponibilidade, valores e um mini-roteiro personalizado da região — sem compromisso.</p>
+    <div class="form-wrap">
+      <!-- FormSubmit: no 1º envio você receberá um e-mail para ATIVAR o formulário (passo obrigatório — veja docs/CONFIGURACAO-OBRIGATORIA.md) -->
+      <form id="form-lead" action="https://formsubmit.co/purushlis@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="🌿 NOVO LEAD — Landing page da hospedagem 2">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="obrigado.html">
+        <input type="text" name="_honey" style="display:none">
+        <div>
+          <label for="f-nome">Seu nome</label>
+          <input id="f-nome" type="text" name="Nome" required placeholder="Como podemos te chamar?">
+        </div>
+        <div>
+          <label for="f-zap">WhatsApp (com DDD)</label>
+          <input id="f-zap" type="tel" name="WhatsApp" required placeholder="(61) 99999-9999">
+        </div>
+        <div class="linha-2">
+          <div>
+            <label for="f-in">Chegada</label>
+            <input id="f-in" type="date" name="Check-in">
+          </div>
+          <div>
+            <label for="f-out">Saída</label>
+            <input id="f-out" type="date" name="Check-out">
+          </div>
+        </div>
+        <div>
+          <label for="f-qtd">Quantas pessoas?</label>
+          <select id="f-qtd" name="Pessoas">
+            <option>1</option><option selected>2</option><option>3</option><option>4</option><option>5+</option>
+          </select>
+        </div>
+        <div>
+          <label for="f-msg">Mensagem (opcional)</label>
+          <textarea id="f-msg" name="Mensagem" rows="3" placeholder="Ex.: vamos comemorar aniversário, tem alguma dica?"></textarea>
+        </div>
+        <label class="consent"><input type="checkbox" required> Autorizo o contato pelo WhatsApp/e-mail informados, conforme a LGPD. Seus dados não são compartilhados com terceiros.</label>
+        <button class="btn btn-primario" type="submit">Quero receber disponibilidade ✨</button>
+      </form>
+      <div class="alt-zap">
+        <h3 style="font-size:1.25rem">Prefere conversar agora?</h3>
+        <p>Chama direto no WhatsApp — normalmente respondemos em poucos minutos. Vale para dúvidas, datas especiais e grupos maiores.</p>
+        <a class="btn btn-zap" data-link="whats" target="_blank" rel="noopener">💬 Chamar no WhatsApp</a>
+        <p style="margin-top:1.6rem"><strong style="color:var(--dourado)">Dica:</strong> as datas de alta temporada (feriados e férias) costumam esgotar primeiro. Se seu plano é fixo, garanta logo pelo Airbnb.</p>
+        <a class="btn btn-fantasma" data-link="airbnb" target="_blank" rel="noopener">Ver calendário no Airbnb</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div>© <span id="ano"></span> <span data-bind="nome">Hospedagem</span> · <span data-bind="cidade">Cidade</span></div>
+    <div>Siga no Instagram: <a data-link="insta" target="_blank" rel="noopener" data-bind-insta>@instagram</a></div>
+  </div>
+</footer>
+
+<!-- Barra fixa mobile -->
+<div class="barra-fixa">
+  <a class="btn btn-zap" data-link="whats" target="_blank" rel="noopener">💬 WhatsApp</a>
+  <a class="btn btn-primario" data-link="airbnb" target="_blank" rel="noopener">📅 Reservar</a>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="fechar" onclick="fecharLightbox()">×</button>
+  <img id="lightbox-img" src="" alt="Foto da hospedagem">
+</div>
+
+<script>
+/* ============ Renderização a partir do CONFIG (não editar) ============ */
+(function(){
+  const ehPlaceholder = t => typeof t === "string" && t.includes("«");
+
+  // Título/SEO dinâmicos
+  if(!ehPlaceholder(CONFIG.nome)){
+    document.title = CONFIG.nome + " | Reserve seu refúgio na natureza";
+  }
+
+  // Campos simples. Dados "de número" (nota, avaliações, preço, capacidade)
+  // ficam OCULTOS enquanto não forem preenchidos de verdade no CONFIG —
+  // a página nunca exibe estatísticas fictícias.
+  const chavesNumericas = new Set(["avaliacao","numAvaliacoes","precoAPartir","capacidade"]);
+  document.querySelectorAll("[data-bind]").forEach(el=>{
+    const chave = el.getAttribute("data-bind");
+    if(!CONFIG[chave]) return;
+    if(!ehPlaceholder(CONFIG[chave])){ el.textContent = CONFIG[chave]; return; }
+    if(chavesNumericas.has(chave)){ el.parentElement.style.display = "none"; return; }
+    el.textContent = CONFIG[chave].replaceAll("«","").replaceAll("»","");
+  });
+  document.getElementById("ano").textContent = new Date().getFullYear();
+
+  // Links
+  const numeroZap = (CONFIG.whatsapp||"").replace(/\D/g,"");
+  const msgZap = encodeURIComponent("Olá! Vi a página da hospedagem "+(ehPlaceholder(CONFIG.nome)?"":CONFIG.nome)+" e quero saber a disponibilidade. 😊");
+  const links = {
+    airbnb: CONFIG.linkAirbnb,
+    whats:  "https://wa.me/"+numeroZap+"?text="+msgZap,
+    insta:  "https://instagram.com/"+(CONFIG.instagram||"").replace("@","").replaceAll("«","").replaceAll("»","")
+  };
+  document.querySelectorAll("[data-link]").forEach(a=>{ a.href = links[a.getAttribute("data-link")] || "#"; });
+  const elInsta = document.querySelector("[data-bind-insta]");
+  if(elInsta && !ehPlaceholder(CONFIG.instagram)) elInsta.textContent = "@"+CONFIG.instagram.replace("@","");
+
+  // Hero: usa foto 1 se existir
+  const testeFoto = new Image();
+  testeFoto.onload = ()=>document.querySelector(".hero").classList.add("tem-foto");
+  testeFoto.src = CONFIG.fotos[0];
+
+  // Seção do rio: só aparece se a foto existir
+  if(CONFIG.fotoRio){
+    const testeRio = new Image();
+    testeRio.onload = ()=>{
+      document.getElementById("img-rio").src = CONFIG.fotoRio;
+      document.getElementById("secao-rio").hidden = false;
+    };
+    testeRio.src = CONFIG.fotoRio;
+  }
+
+  // Diferenciais
+  document.getElementById("lista-diferenciais").innerHTML = CONFIG.diferenciais.map(d=>(
+    '<div class="card"><div class="ico">'+d.icone+'</div><h3>'+d.titulo+'</h3><p>'+d.texto+'</p></div>'
+  )).join("");
+
+  // Galeria (com placeholder elegante se a foto não existir)
+  document.getElementById("grid-fotos").innerHTML = CONFIG.fotos.map((f,i)=>(
+    '<div class="foto" onclick="abrirLightbox(\''+f+'\')">'+
+      '<img src="'+f+'" alt="Foto '+(i+1)+' da hospedagem" loading="lazy" '+
+      'onerror="this.remove();this.parentElement.insertAdjacentHTML(\'beforeend\',\'<div class=ph>📷 Adicione a foto '+(i+1)+' em assets/fotos/</div>\');this.parentElement.onclick=null;">'+
+    '</div>'
+  )).join("");
+
+  // Selos de destaque do Airbnb
+  const elDestaques = document.getElementById("lista-destaques");
+  if(elDestaques && Array.isArray(CONFIG.destaques)){
+    elDestaques.innerHTML = CONFIG.destaques.map(d=>"<span>"+d+"</span>").join("");
+  }
+
+  // Depoimentos
+  document.getElementById("lista-depoimentos").innerHTML = CONFIG.depoimentos.map(d=>(
+    '<div class="depo"><span class="aspas">”</span><p>"'+d.texto.replaceAll("«","").replaceAll("»","")+'"</p><span class="autor">— '+d.nome.replaceAll("«","").replaceAll("»","")+' · avaliação no Airbnb</span></div>'
+  )).join("");
+
+  // Atrações
+  document.getElementById("lista-atracoes").innerHTML = CONFIG.atracoes.map(a=>(
+    '<li>🥾 '+a.replaceAll("«","").replaceAll("»","")+'</li>'
+  )).join("");
+
+  // _next do formulário: URL absoluta da página de obrigado
+  const form = document.getElementById("form-lead");
+  form.querySelector('[name="_next"]').value = new URL("obrigado.html", location.href).href;
+
+  // JSON-LD para SEO
+  const ld = {
+    "@context":"https://schema.org","@type":"LodgingBusiness",
+    "name": ehPlaceholder(CONFIG.nome)?"Hospedagem":CONFIG.nome,
+    "description": CONFIG.subFraseHero,
+    "address":{"@type":"PostalAddress","addressLocality":CONFIG.cidade.replaceAll("«","").replaceAll("»",""),"addressCountry":"BR"},
+    "url": location.href.split("#")[0],
+    "sameAs":[CONFIG.linkAirbnb]
+  };
+  if(!ehPlaceholder(CONFIG.avaliacao) && !ehPlaceholder(CONFIG.numAvaliacoes)){
+    ld.aggregateRating = {"@type":"AggregateRating","ratingValue":CONFIG.avaliacao.replace(",","."),"reviewCount":CONFIG.numAvaliacoes};
+  }
+  const s = document.createElement("script"); s.type="application/ld+json"; s.textContent = JSON.stringify(ld);
+  document.head.appendChild(s);
+})();
+
+function abrirLightbox(src){
+  document.getElementById("lightbox-img").src = src;
+  document.getElementById("lightbox").classList.add("aberto");
+}
+function fecharLightbox(){ document.getElementById("lightbox").classList.remove("aberto"); }
+document.getElementById("lightbox").addEventListener("click", e=>{ if(e.target.id==="lightbox") fecharLightbox(); });
+</script>
+</body>
+</html>
