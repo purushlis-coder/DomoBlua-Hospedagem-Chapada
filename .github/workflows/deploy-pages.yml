@@ -32,7 +32,12 @@ jobs:
           mkdir -p _site
           rsync -a --exclude '.git' --exclude '.github' --exclude '_site' ./ _site/
 
+      # enablement: liga o GitHub Pages sozinho, sem precisar mexer em Settings.
+      # (Só funciona em repositório público ou em plano pago — no plano gratuito
+      #  com repositório privado o Pages não existe.)
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:

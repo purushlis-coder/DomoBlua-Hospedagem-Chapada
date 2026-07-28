@@ -49,13 +49,17 @@ Ele precisa ir para a `main`, que é a branch que o site publica.
 ✅ *Como saber que deu certo:* a aba **Code** do repositório passa a mostrar as
 pastas `assets`, `docs`, `instagram` e o arquivo `index.html`.
 
-### Passo 1.2 — Tornar o repositório público · 2 min
+### Passo 1.2 — Tornar o repositório público · 2 min ⭐ FAÇA ANTES DO PAGES
 
-O GitHub Pages só é gratuito em repositório público. Sem isso, não há link.
+O GitHub Pages só é gratuito em repositório público. **Enquanto o repositório for
+privado, o menu Pages nem mostra a opção de origem** — ele só avisa que o recurso
+não está disponível. É por isso que a opção "some".
 
-1. **Settings** (engrenagem no topo do repositório) → role até o fim.
-2. Em **Danger Zone** → **Change repository visibility** → **Change to public**.
-3. Digite o nome do repositório para confirmar.
+1. **Settings** — na barra do repositório, à direita de *Insights*.
+2. Você já cai na aba **General**. Role até o **fim da página**.
+3. Caixa vermelha **Danger Zone** → **Change repository visibility** →
+   **Change visibility** → **Make public**.
+4. Confirme digitando o nome do repositório.
 
 > 🔒 Isso torna o *código* visível, não seus dados. Não há nenhuma senha, token ou
 > informação pessoal nos arquivos — as chaves do Instagram ficam nos **Secrets**,
@@ -63,11 +67,21 @@ O GitHub Pages só é gratuito em repositório público. Sem isso, não há link
 
 ### Passo 1.3 — Ligar o GitHub Pages · 2 min
 
-1. **Settings** → menu lateral **Pages**.
+Com o repositório já público, o menu passa a funcionar:
+
+1. **Settings** → menu lateral **esquerdo** → seção *Code and automation* → **Pages**.
 2. Em *Build and deployment* → **Source**: selecione **GitHub Actions**.
-3. Vá na aba **Actions** → workflow **"Site — publicar no GitHub Pages"** →
-   botão **Run workflow** → **Run workflow** (verde).
+3. Aba **Actions** → workflow **"Site — publicar no GitHub Pages"** →
+   **Run workflow**. (Se houver uma execução vermelha antiga, pode usar
+   **Re-run jobs** nela — dá no mesmo.)
 4. Espere ~1 minuto até a bolinha ficar verde ✅.
+
+> 💡 Os workflows usam `enablement: true`, então tentam ligar o Pages sozinhos.
+> Se isso funcionar, o passo 1.3 acontece automático e você só precisa do 1.2.
+
+> ❌ **Erro `Get Pages site failed ... Not Found`?** É exatamente o sintoma de
+> Pages ainda não habilitado. Faça o passo 1.2 e rode o workflow de novo.
+> Nada quebrou — o site é publicado na primeira execução bem-sucedida.
 
 ### 🎉 Pronto: abra **https://purushlis-coder.github.io/DomoBlua-Hospedagem-Chapada/**
 
