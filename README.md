@@ -14,8 +14,15 @@ Ribeirão dos Padres · Poço do Motor a poucos metros · pet friendly · check-
 
 ## 🚀 Comece por aqui
 
-**➡️ [`docs/CONFIGURACAO-OBRIGATORIA.md`](docs/CONFIGURACAO-OBRIGATORIA.md)** — checklist
-único do que só você pode fazer (≈1h30). Depois dele, tudo roda sozinho.
+**➡️ [`docs/CONFIGURACAO-OBRIGATORIA.md`](docs/CONFIGURACAO-OBRIGATORIA.md)**
+
+- **Parte 1 (10 min)** → o site no ar em `https://purushlis-coder.github.io/airbnb-goal/`
+- **Parte 2 (45 min)** → o robô postando sozinho no Instagram, 4x por semana
+- **Parte 3 (opcional)** → ajustes que aumentam a conversão
+
+> ⚠️ O link acima **só passa a funcionar depois da Parte 1** — publicar exige
+> tornar o repositório público e ligar o GitHub Pages, coisas que apenas o dono
+> da conta pode fazer.
 
 Demais documentos:
 - [`docs/COMO-ENVIAR-AS-FOTOS.md`](docs/COMO-ENVIAR-AS-FOTOS.md) — onde colocar as fotos do rio e da cachoeira

@@ -1,145 +1,169 @@
-# ✅ Configuração obrigatória (faça uma única vez)
+# 🚦 Comece aqui — do zero ao site no ar e ao robô postando
 
-Este é o checklist do que **só você pode fazer**. Depois dele, tudo roda sozinho:
-site publicado, posts automáticos no Instagram e leads chegando no seu e-mail.
-
-Tempo total estimado: **1h30 a 2h** (o passo 7 é o mais longo).
-
-> ⚠️ **Separação das hospedagens:** este repositório é 100% dedicado a ESTA
-> hospedagem (anúncio `airbnb.com.br/rooms/1482393056413027238`) e à página de
-> Instagram de ecoturismo. Não use aqui fotos, links ou textos da outra hospedagem.
+> ## ❓ "Cadê o link da landing page?"
+>
+> **Ele ainda não existe.** A página está pronta e testada, mas é código guardado
+> numa branch do GitHub. Um site só ganha endereço depois de ser *publicado*, e a
+> publicação exige 3 cliques que **só o dono da conta pode dar** (ligar o GitHub
+> Pages, tornar o repositório público e juntar a branch à `main`).
+>
+> Faça a **PARTE 1** abaixo — leva 10 minutos — e o link passa a existir em:
+>
+> ### 🔗 https://purushlis-coder.github.io/airbnb-goal/
+>
+> Esse endereço é fixo. Depois da Parte 1 ele funciona para sempre, e cada
+> alteração no conteúdo é publicada sozinha.
 
 ---
 
-## Passo 0 — Colocar o trabalho no ar (branch → main) · 2 min
+# PARTE 1 — Colocar o site no ar (10 min) → resultado: **o link funcionando**
 
-O código está na branch `claude/landing-page-instagram-automation-ic13ev`.
+### Passo 1.1 — Juntar o trabalho à branch principal · 3 min
 
-1. Abra o repositório no GitHub → aba **Pull requests** → **New pull request**.
-2. Base: `main` ← compare: `claude/landing-page-instagram-automation-ic13ev`.
-3. **Create pull request** → **Merge pull request**.
+Todo o código está na branch `claude/landing-page-instagram-automation-ic13ev`.
+Ele precisa ir para a `main`, que é a branch que o site publica.
 
-## Passo 1 — Tornar o repositório público · 1 min
+1. Abra: **https://github.com/purushlis-coder/airbnb-goal/pulls**
+2. Clique em **New pull request**.
+3. Em *base* escolha `main`; em *compare* escolha `claude/landing-page-instagram-automation-ic13ev`.
+4. **Create pull request** → depois **Merge pull request** → **Confirm merge**.
 
-Necessário para o GitHub Pages gratuito e para as imagens dos posts terem URL pública.
+✅ *Como saber que deu certo:* a aba **Code** do repositório passa a mostrar as
+pastas `assets`, `docs`, `instagram` e o arquivo `index.html`.
 
-1. **Settings** → **General** → role até **Danger Zone** → **Change visibility** → *Public*.
+### Passo 1.2 — Tornar o repositório público · 2 min
 
-> 🔒 Regra de segurança: com o repositório público, **nunca** escreva tokens ou
-> senhas em arquivos. Tokens vão apenas em **Settings → Secrets** (passo 7).
+O GitHub Pages só é gratuito em repositório público. Sem isso, não há link.
 
-## Passo 2 — Ativar o GitHub Pages (o site) · 2 min
+1. **Settings** (engrenagem no topo do repositório) → role até o fim.
+2. Em **Danger Zone** → **Change repository visibility** → **Change to public**.
+3. Digite o nome do repositório para confirmar.
 
-1. **Settings** → **Pages** → em *Build and deployment*, **Source: GitHub Actions**.
-2. Aba **Actions** → workflow **"Site — publicar no GitHub Pages"** → **Run workflow**.
-3. Em ~1 minuto seu site estará em: **https://purushlis-coder.github.io/airbnb-goal/**
+> 🔒 Isso torna o *código* visível, não seus dados. Não há nenhuma senha, token ou
+> informação pessoal nos arquivos — as chaves do Instagram ficam nos **Secrets**,
+> que continuam privados mesmo em repositório público (Parte 2).
 
-Esse endereço é a sua landing page — é ele que vai na bio do Instagram.
+### Passo 1.3 — Ligar o GitHub Pages · 2 min
 
-## Passo 3 — Preencher o que ainda falta · 5 min
+1. **Settings** → menu lateral **Pages**.
+2. Em *Build and deployment* → **Source**: selecione **GitHub Actions**.
+3. Vá na aba **Actions** → workflow **"Site — publicar no GitHub Pages"** →
+   botão **Run workflow** → **Run workflow** (verde).
+4. Espere ~1 minuto até a bolinha ficar verde ✅.
 
-A maior parte já veio preenchida do seu anúncio (nome DomoBlua, Colinas do Sul,
-10 hóspedes, 2 quartos, 5 camas, 3 banheiros, diferenciais, avaliação do Ronald,
-atrações da região). **Só faltam 3 campos**, todos marcados com `⚠️ FALTA`:
+### 🎉 Pronto: abra **https://purushlis-coder.github.io/airbnb-goal/**
 
-| Arquivo | O que ainda falta |
-|---|---|
-| `index.html` (bloco `CONFIG`) | `whatsapp`, `instagram`, `precoAPartir` |
-| `obrigado.html` (constante `WHATSAPP`) | o mesmo número de WhatsApp |
-| `instagram/config.json` | `handle` e `assinatura_card` (seu @) |
+O site está no ar. Salve esse link — ele vai na bio do Instagram, no WhatsApp e
+em qualquer divulgação. **A Parte 1 acabou aqui.**
 
-Tudo que está entre `«...»` precisa ser trocado. Enquanto não trocar:
-- a página **esconde** preço e nota (nunca exibe dado fictício);
-- o robô do Instagram continua publicando conteúdo normalmente.
+---
 
-> 💡 **Sobre a nota:** ela está escondida de propósito. Com 2 avaliações, o próprio
-> Airbnb ainda não mostra média ("aparece depois de 3 avaliações"). Assim que a 3ª
-> chegar, preencha `avaliacao` e `numAvaliacoes` e ela aparece sozinha.
+# PARTE 2 — Conectar o robô ao Instagram (45 min) → resultado: **posts automáticos**
 
-## Passo 4 — Melhorar as fotos · 15 min (opcional)
+> ⚠️ Faça a Parte 1 antes. O robô publica imagens hospedadas no seu próprio site —
+> sem o site no ar, o Instagram não consegue baixar a foto.
 
-As 6 fotos do anúncio já estão em `assets/fotos/` (extraídas do PDF que você enviou).
-Elas funcionam, mas 4 delas são verticais e de resolução média. Para deixar a página
-ainda melhor, substitua pelos originais em alta do seu Drive, mantendo os nomes:
+### Passo 2.1 — Preparar a conta do Instagram · 10 min
 
-| Arquivo | Foto atual |
-|---|---|
-| `foto-1.jpg` | deck panorâmico *(é o fundo do topo da página — a mais importante)* |
-| `foto-2.jpg` | fachada ao pôr do sol |
-| `foto-3.jpg` | fachada com a rede |
-| `foto-4.jpg` | sala de jantar / varanda |
-| `foto-5.jpg` | sala de estar |
-| `foto-6.jpg` | suíte 1 |
-
-**⭐ Prioridade:** subir as fotos do **Ribeirão dos Padres** e do **Poço do Motor**.
-São seus maiores diferenciais, a landing page já tem uma seção inteira reservada para
-elas e as legendas do Instagram já estão escritas esperando os arquivos.
-Passo a passo em **[`docs/COMO-ENVIAR-AS-FOTOS.md`](COMO-ENVIAR-AS-FOTOS.md)**.
-
-Também jogue fotos em `instagram/media/` sempre que puder — o robô prioriza fotos
-reais sobre os cards gerados (instruções em `instagram/media/LEIA-ME.md`).
-
-## Passo 5 — Ativar o formulário de leads · 5 min
-
-O formulário envia os leads para **purushlis@gmail.com** via FormSubmit (gratuito).
-
-1. Com o site no ar, abra a página, preencha o formulário com dados de teste e envie.
-2. Você receberá um e-mail do FormSubmit → clique em **Activate** (só na 1ª vez).
-3. Envie um segundo teste e confirme que o lead chegou na sua caixa de entrada.
-4. (Recomendado) No e-mail de ativação o FormSubmit mostra um **alias aleatório**
-   (ex.: `formsubmit.co/a1b2c3...`). Troque o e-mail pelo alias na linha `action=` do
-   formulário em `index.html` — isso esconde seu e-mail do código público.
-
-## Passo 6 — Preparar o Instagram · 10 min
-
-1. Crie a conta da página de ecoturismo (sugestões de nome no protocolo de divulgação).
-2. No app: **Configurações → Central de contas → Tipo de conta → Mudar para conta
-   profissional → Empresa** (obrigatório para a automação).
-3. Crie uma **Página no Facebook** com o mesmo nome e **vincule-a ao Instagram**
-   (Editar perfil → Página). A API só funciona com esse vínculo.
-4. Bio pronta para usar (edite o que quiser):
+1. Crie (ou use) a conta da página de ecoturismo.
+   Sugestões de @: `domoblua`, `domoblua.chapada`, `ecocerrado.colinas`.
+2. No app do Instagram: **Configurações → Central de contas → Tipo de conta →
+   Mudar para conta profissional → Empresa**.
+   ⚠️ Conta pessoal **não funciona** com a automação.
+3. Crie uma **Página no Facebook** com o mesmo nome e **vincule ao Instagram**
+   (Editar perfil → Página). A API da Meta exige esse vínculo.
+4. Coloque na bio:
    > 🌿 Ecoturismo, cerrado e cachoeiras
    > 📍 Colinas do Sul · Chapada dos Veadeiros
    > 🏡 DomoBlua: casa com rio privativo ↓
    > `https://purushlis-coder.github.io/airbnb-goal/`
 
-   Sugestões de @: `domoblua`, `domoblua.chapada`, `ecocerrado.colinas`.
+### Passo 2.2 — Gerar as duas chaves na Meta · 30 min
 
-## Passo 7 — Chaves da automação (Meta) · 30–45 min
+Passo a passo com telas em **[`INSTAGRAM-SETUP.md`](INSTAGRAM-SETUP.md)**.
+No fim você terá dois valores:
 
-Siga o passo a passo detalhado em **[`docs/INSTAGRAM-SETUP.md`](INSTAGRAM-SETUP.md)**.
-Ao final você terá dois valores:
+- `IG_USER_ID` — o número da sua conta profissional
+- `IG_ACCESS_TOKEN` — o token de acesso (escolha o que **não expira**)
 
-- `IG_USER_ID` — o ID da sua conta profissional do Instagram
-- `IG_ACCESS_TOKEN` — o token de acesso (recomendado: token de usuário do sistema, que não expira)
+### Passo 2.3 — Guardar as chaves no GitHub · 2 min
 
-Cadastre-os em: **Settings → Secrets and variables → Actions → New repository secret**
-(um secret para cada, com exatamente esses nomes).
+1. **Settings → Secrets and variables → Actions → New repository secret**.
+2. Crie os dois, com os nomes **exatamente** assim:
 
-## Passo 8 — Testar o robô · 5 min
+| Name | Value |
+|---|---|
+| `IG_USER_ID` | o número do passo anterior |
+| `IG_ACCESS_TOKEN` | o token do passo anterior |
 
-1. Aba **Actions** → **"Instagram — publicar post"** → **Run workflow**.
-2. Acompanhe a execução (bolinha verde = sucesso) e confira o post no seu perfil.
-3. Pronto: a partir daqui ele posta sozinho **seg/qua/sex 17h30 e sáb 10h** (Brasília).
+### Passo 2.4 — Testar · 3 min
 
-## Passo 9 — Medição e anúncios (opcional, recomendado) · 20 min
+Aba **Actions** → **"Instagram — publicar post"** → **Run workflow**.
+Em ~2 minutos o log termina com `🎉 publicado!` e o post aparece no perfil.
 
-1. **GA4**: crie uma propriedade em analytics.google.com e cole o snippet nos espaços
-   marcados com `ANALYTICS` no `index.html` e no `obrigado.html`.
-2. **Meta Pixel**: crie em Gerenciador de Eventos da Meta e cole nos mesmos espaços —
-   no `obrigado.html`, dispare `fbq('track','Lead')` (o comentário no arquivo mostra onde).
-   Sem o Pixel você não consegue fazer remarketing depois.
+### 🎉 Pronto: o robô está no ar
 
 ---
 
-## 🚦 Depois de tudo configurado, o que roda sozinho?
+## 📅 Frequência de postagem (já configurada)
 
-| Automático (sem você) | Manual (seu papel) |
+| Dia | Horário (Brasília) |
 |---|---|
-| Site publicado e atualizado a cada alteração | Responder leads e WhatsApp (ideal < 15 min) |
-| 4 posts/semana no Instagram com conteúdo + imagem | Stories e interação (30–40 min/semana) |
-| Rotação 80% conteúdo / 20% promoção | Subir fotos novas de vez em quando |
-| Fotos reais priorizadas sobre cards | Renovar token (se optar pelo de 60 dias) |
-| Leads do formulário direto no seu e-mail | Ajustar preços/calendário no Airbnb |
+| Segunda | 17h30 |
+| Quarta | 17h30 |
+| Sexta | 17h30 |
+| Sábado | 10h00 |
 
-O plano completo de divulgação está em **[`docs/PROTOCOLO-DIVULGACAO.md`](PROTOCOLO-DIVULGACAO.md)**.
+**4 posts por semana**, alternando conteúdo do cerrado, Chapada dos Veadeiros,
+cachoeiras de Colinas do Sul, dicas de ecoturismo e — a cada 5 posts — uma
+divulgação da DomoBlua. São 46 posts no banco (11 semanas sem repetir).
+
+**Para mudar a frequência:** edite as duas linhas `cron` no arquivo
+`.github/workflows/instagram-post.yml`. Elas usam UTC (Brasília + 3h).
+
+| Você quer | Coloque |
+|---|---|
+| Seg/Qua/Sex 17h30 *(atual)* | `30 20 * * 1,3,5` |
+| Sábado 10h *(atual)* | `0 13 * * 6` |
+| Todo dia às 18h | `0 21 * * *` |
+| Só terça e quinta às 12h | `0 15 * * 2,4` |
+
+---
+
+# PARTE 3 — Ajustes que aumentam a conversão (opcional)
+
+### 3.1 — Os 3 campos que faltam · 5 min
+No `index.html` (bloco `CONFIG` no topo), procure por `⚠️ FALTA`:
+`whatsapp`, `instagram` e `precoAPartir`. No `obrigado.html`, a constante `WHATSAPP`.
+No `instagram/config.json`, o `handle` e a `assinatura_card`.
+
+### 3.2 — Ativar o formulário de leads · 5 min
+Os leads vão para **purushlis@gmail.com** via FormSubmit (gratuito).
+Com o site no ar, envie um teste pelo formulário → você recebe um e-mail do
+FormSubmit → clique em **Activate**. Só é preciso uma vez.
+
+### 3.3 — Fotos do rio e da cachoeira · 5 min
+São seus maiores diferenciais e a página já tem uma seção reservada para elas.
+Passo a passo em **[`COMO-ENVIAR-AS-FOTOS.md`](COMO-ENVIAR-AS-FOTOS.md)**.
+
+### 3.4 — Medição (para poder anunciar depois) · 20 min
+Cole o Google Analytics 4 e o Meta Pixel nos espaços marcados com `ANALYTICS`
+no `index.html` e no `obrigado.html`. Sem o Pixel não há remarketing.
+
+### 3.5 — Consertar o que trava o anúncio hoje
+As avaliações reais apontam problemas concretos (mato alto na chegada, taxa de
+resposta de 80%, só 2 avaliações). Está tudo na **Fase 0** do
+**[`PROTOCOLO-DIVULGACAO.md`](PROTOCOLO-DIVULGACAO.md)** — é o que mais afeta
+suas reservas hoje, mais do que qualquer divulgação.
+
+---
+
+## 🤖 Depois disso, o que roda sozinho?
+
+| Automático | Seu papel |
+|---|---|
+| Site publicado e atualizado a cada alteração | Responder leads e WhatsApp (< 15 min) |
+| 4 posts/semana no Instagram, com imagem e legenda | Stories e comentários (~30 min/semana) |
+| Rotação 80% conteúdo / 20% divulgação | Subir fotos novas de vez em quando |
+| Fotos reais priorizadas sobre cards gerados | Ajustar preços e calendário no Airbnb |
+| Leads do formulário direto no seu e-mail | Pedir avaliação a cada saída de hóspede |
