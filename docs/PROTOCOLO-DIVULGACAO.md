@@ -24,19 +24,42 @@ cada reserva no Airbnb melhora seu ranking e gera avaliação pública.
 
 ---
 
+## Fase 0 — Consertar o que está travando a DomoBlua hoje ⚠️
+
+Antes de investir energia em divulgação, resolva estes pontos. Eles vieram das suas
+**2 avaliações reais** e dos dados do próprio anúncio — e hoje são o maior limitador.
+
+| Problema | Evidência | O que fazer |
+|---|---|---|
+| **Mato alto na chegada** | Avaliação de fev/2026: *"chegamos à noite com 1 criança e um bebê e quase não achamos a entrada devido ao mato alto (...) no dia seguinte pegamos a enxada"* | Roçada agendada **antes de cada check-in**. Foi o motivo explícito de não dar 5 estrelas. |
+| **Entrada difícil de achar à noite** | mesma avaliação | Placa refletiva com o nome DomoBlua no portão + luz de sensor + **guia de chegada com fotos** (você já começou o mapa de 800 m da GO-239 — finalize e mande sempre 24h antes). |
+| **Taxa de resposta 80% / "responde em até um dia"** | painel do anúncio | Meta: **100% e < 1h**. Ative notificações do app. Isso pesa no ranking do Airbnb e é o fator nº 1 de conversão. |
+| **Só 2 avaliações · nota 4,5** | o Airbnb nem exibe média antes de 3 | Prioridade absoluta: **chegar a 3-5 avaliações**. Veja a estratégia de lançamento abaixo. |
+| **Sem cama "de verdade" no térreo** | avaliação do Ronald | Se couber no orçamento, uma cama box no térreo resolve a crítica mais repetida e sobe a nota. |
+| **Detectores "não informados"** | seção Segurança do anúncio | Instale e **marque no anúncio** fumaça + monóxido: aparece como selo de segurança. |
+| **Check-in 15h / checkout 15h** | Regras da casa | Parece erro de cadastro. Corrija o checkout (ex.: 11h ou 12h) para dar tempo de limpeza. |
+| **"30 m do Poço do Motor"** | anúncio diz 30 m, seu guia diz 300 m | Meça e padronize. Distância errada gera frustração e avaliação ruim. |
+
+### Estratégia de lançamento para sair de 2 → 5 avaliações (30-45 dias)
+1. Baixe a diária ~15% e ative **desconto semanal** e **desconto para novo anúncio**.
+2. Ative **Reserva instantânea** (melhora ranking).
+3. Foque em **meio de semana**: preço agressivo enche datas ociosas e gera avaliação.
+4. Após cada estadia, mensagem em até 24h: agradeça, pergunte se faltou algo e peça
+   a avaliação. Nota alta cedo vale mais que diária alta cedo.
+
 ## Fase 1 — Fundação (semana 1)
 
-É o checklist de `CONFIGURACAO-OBRIGATORIA.md` + estes ajustes no anúncio do Airbnb:
+Checklist de `CONFIGURACAO-OBRIGATORIA.md` + estes ajustes no anúncio:
 
-1. **Título do anúncio com benefício**, não só descrição. Fórmula:
-   `[Tipo] + [diferencial nº 1] + [emoção]` — ex.: "Chalé com vista | silêncio, rede e céu estrelado".
-2. **Fotos**: 20+, começando pela mais impactante; inclua pessoas usando os espaços
-   (café na varanda, rede) — foto com vida converte mais que foto de imóvel vazio.
-3. **Preço de lançamento**: até as 5 primeiras avaliações, fique ~10-15% abaixo dos
-   concorrentes diretos + **desconto semanal** ativado. Depois, suba gradualmente.
-4. **Reserva instantânea ativada** (melhora ranking) + tempo de resposta < 1h.
-5. **Google Business Profile** (google.com/business): crie o perfil gratuito com
-   fotos, link da landing e WhatsApp — colhe busca direta "hospedagem em [cidade]".
+1. **Fotos**: 20+, começando pelo deck panorâmico (é o seu maior diferencial visual).
+   Inclua pessoas usando os espaços — foto com vida converte mais que imóvel vazio.
+   Fotografe o Ribeirão dos Padres e o Poço do Motor: é o que ninguém mais tem.
+2. **Título já é bom** ("Casa com Rio Privativo+Deck Panorâmico na Chapada").
+   Teste variações citando **Colinas do Sul** e **pet friendly** — dois filtros de busca.
+3. **Público certo**: grupos de 8-10, famílias grandes e **retiros** (yoga, bem-estar).
+   O deck e a casa inteira para 10 pessoas são feitos para isso — inclua "retiro" no texto.
+4. **Google Business Profile** (google.com/business): perfil gratuito com fotos, link da
+   landing e WhatsApp — captura a busca "hospedagem em Colinas do Sul".
 
 ## Fase 2 — Tração (semanas 2 a 6)
 

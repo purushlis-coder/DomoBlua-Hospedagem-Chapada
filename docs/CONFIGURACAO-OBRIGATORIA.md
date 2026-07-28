@@ -36,25 +36,46 @@ Necessário para o GitHub Pages gratuito e para as imagens dos posts terem URL p
 
 Esse endereço é a sua landing page — é ele que vai na bio do Instagram.
 
-## Passo 3 — Preencher os dados da hospedagem · 15 min
+## Passo 3 — Preencher o que ainda falta · 5 min
 
-Edite direto no GitHub (ícone de lápis) ou localmente:
+A maior parte já veio preenchida do seu anúncio (nome DomoBlua, Colinas do Sul,
+10 hóspedes, 2 quartos, 5 camas, 3 banheiros, diferenciais, avaliação do Ronald,
+atrações da região). **Só faltam 3 campos**, todos marcados com `⚠️ FALTA`:
 
-| Arquivo | O que preencher |
+| Arquivo | O que ainda falta |
 |---|---|
-| `index.html` (bloco `CONFIG` no topo) | nome, cidade, WhatsApp, Instagram, nota, nº de avaliações, preço, capacidade, diferenciais, 3 avaliações reais copiadas do Airbnb, 4 atrações da região |
+| `index.html` (bloco `CONFIG`) | `whatsapp`, `instagram`, `precoAPartir` |
 | `obrigado.html` (constante `WHATSAPP`) | o mesmo número de WhatsApp |
-| `instagram/config.json` | `handle`, `nome_hospedagem`, `cidade_hospedagem`, `assinatura_card` |
+| `instagram/config.json` | `handle` e `assinatura_card` (seu @) |
 
 Tudo que está entre `«...»` precisa ser trocado. Enquanto não trocar:
-- a página **esconde** nota/preço/capacidade (para nunca exibir dado fictício);
-- o robô do Instagram **pula os posts promocionais** e publica só conteúdo de valor.
+- a página **esconde** preço e nota (nunca exibe dado fictício);
+- o robô do Instagram continua publicando conteúdo normalmente.
 
-## Passo 4 — Subir as fotos · 15 min
+> 💡 **Sobre a nota:** ela está escondida de propósito. Com 2 avaliações, o próprio
+> Airbnb ainda não mostra média ("aparece depois de 3 avaliações"). Assim que a 3ª
+> chegar, preencha `avaliacao` e `numAvaliacoes` e ela aparece sozinha.
 
-1. `assets/fotos/` → `foto-1.jpg` … `foto-6.jpg` (instruções em `assets/fotos/LEIA-ME.md`).
-2. `instagram/media/` → jogue fotos reais de cachoeiras/da hospedagem sempre que tiver
-   (o robô prioriza fotos reais; instruções em `instagram/media/LEIA-ME.md`).
+## Passo 4 — Melhorar as fotos · 15 min (opcional)
+
+As 6 fotos do anúncio já estão em `assets/fotos/` (extraídas do PDF que você enviou).
+Elas funcionam, mas 4 delas são verticais e de resolução média. Para deixar a página
+ainda melhor, substitua pelos originais em alta do seu Drive, mantendo os nomes:
+
+| Arquivo | Foto atual |
+|---|---|
+| `foto-1.jpg` | deck panorâmico *(é o fundo do topo da página — a mais importante)* |
+| `foto-2.jpg` | fachada ao pôr do sol |
+| `foto-3.jpg` | fachada com a rede |
+| `foto-4.jpg` | sala de jantar / varanda |
+| `foto-5.jpg` | sala de estar |
+| `foto-6.jpg` | suíte 1 |
+
+**Faltando e valioso:** fotos do **Ribeirão dos Padres** e do **Poço do Motor**.
+São seus maiores diferenciais e não aparecem em nenhuma foto atual.
+
+Também jogue fotos em `instagram/media/` sempre que puder — o robô prioriza fotos
+reais sobre os cards gerados (instruções em `instagram/media/LEIA-ME.md`).
 
 ## Passo 5 — Ativar o formulário de leads · 5 min
 
@@ -76,9 +97,11 @@ O formulário envia os leads para **purushlis@gmail.com** via FormSubmit (gratui
    (Editar perfil → Página). A API só funciona com esse vínculo.
 4. Bio pronta para usar (edite o que quiser):
    > 🌿 Ecoturismo, cerrado e cachoeiras
-   > 📍 Chapada dos Veadeiros e além
-   > 🏡 Hospedagem com anfitrião local ↓
+   > 📍 Colinas do Sul · Chapada dos Veadeiros
+   > 🏡 DomoBlua: casa com rio privativo ↓
    > `https://purushlis-coder.github.io/airbnb-goal/`
+
+   Sugestões de @: `domoblua`, `domoblua.chapada`, `ecocerrado.colinas`.
 
 ## Passo 7 — Chaves da automação (Meta) · 30–45 min
 

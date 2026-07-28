@@ -10,11 +10,11 @@
      Você só precisa editar o CONFIG — o resto se ajusta sozinho.
      ============================================================ -->
 
-<title>Reserve seu refúgio na natureza | Hospedagem</title>
-<meta name="description" content="Hospedagem aconchegante para quem busca natureza, descanso e experiências reais. Veja fotos, avaliações e reserve com o anfitrião.">
+<title>Casa em Colinas do Sul – GO | Chapada dos Veadeiros e Lago Serra da Mesa</title>
+<meta name="description" content="Casa inteira em Colinas do Sul (GO), no portal da Chapada dos Veadeiros: 2 quartos, 5 camas e 3 banheiros, perto das cachoeiras e do Lago Serra da Mesa. Reserve com o anfitrião local.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Reserve seu refúgio na natureza">
-<meta property="og:description" content="Hospedagem aconchegante para quem busca natureza, descanso e experiências reais. Reserve direto com o anfitrião.">
+<meta property="og:title" content="Casa em Colinas do Sul – GO | Chapada dos Veadeiros">
+<meta property="og:description" content="Casa inteira no portal da Chapada dos Veadeiros: 2 quartos, 5 camas e 3 banheiros, entre as cachoeiras e o Lago Serra da Mesa.">
 <meta property="og:image" content="assets/fotos/foto-1.jpg">
 <meta property="og:locale" content="pt_BR">
 <meta name="robots" content="index, follow">
@@ -32,21 +32,25 @@
    ================================================================ */
 const CONFIG = {
   // — Identidade da hospedagem (NÃO misture com a outra hospedagem) —
-  nome:            "«Nome da hospedagem»",          // ex.: "Chalé Flor do Ipê"
-  cidade:          "«Cidade – UF»",                 // ex.: "Alto Paraíso de Goiás – GO"
-  fraseHero:       "Acorde no meio da natureza, longe do barulho e perto de tudo que importa",
-  subFraseHero:    "Conforto de casa, silêncio de mato e um anfitrião local que conhece cada trilha, cachoeira e restaurante da região.",
+  // ✅ Dados confirmados no anúncio do Airbnb (PDF de 28/07/2026).
+  nome:            "DomoBlua",
+  cidade:          "Colinas do Sul – GO",
+  fraseHero:       "Rio privativo, deck panorâmico e a Chapada inteira ao seu redor",
+  subFraseHero:    "Casa completa em Colinas do Sul com acesso exclusivo ao Ribeirão dos Padres, deck com vista panorâmica e o Poço do Motor a poucos metros. Espaço para até 10 pessoas — e sim, seu pet vem junto.",
 
   // — Links de conversão (o link do Airbnb já é o real) —
   linkAirbnb:      "https://www.airbnb.com.br/rooms/1482393056413027238?guests=1&adults=1&s=67&unique_share_id=ff2f1b2e-acb2-416a-9163-8b88e3bd4119",
-  whatsapp:        "«5561999999999»",               // só números, com DDI 55 + DDD. ex.: "5562981234567"
-  instagram:       "«seu.instagram»",               // sem @. ex.: "ecocerrado.chapada"
+  whatsapp:        "«5561999999999»",               // ⚠️ FALTA: só números, com DDI 55 + DDD
+  instagram:       "«seu.instagram»",               // ⚠️ FALTA: sem @. ex.: "domoblua"
 
-  // — Números que geram confiança (copie do seu anúncio no Airbnb) —
-  avaliacao:       "«5,0»",                          // nota do anúncio. ex.: "4,93"
-  numAvaliacoes:   "«12»",                           // qtde de avaliações. ex.: "27"
-  precoAPartir:    "«R$ 250»",                       // diária "a partir de"
-  capacidade:      "«4» hóspedes · «1» quarto · «2» camas · «1» banheiro",
+  // — Números que geram confiança —
+  // ⚠️ A nota fica ESCONDIDA de propósito: com 2 avaliações o próprio Airbnb ainda
+  //    não exibe média ("aparece depois de 3 avaliações"). Assim que a 3ª chegar,
+  //    troque os dois campos abaixo pelos valores reais e eles aparecem sozinhos.
+  avaliacao:       "«4,5»",
+  numAvaliacoes:   "«3»",
+  precoAPartir:    "«R$ 450»",                       // ⚠️ FALTA: diária "a partir de"
+  capacidade:      "10 hóspedes · 2 quartos · 5 camas · 3 banheiros",
 
   // — Fotos (coloque os arquivos em assets/fotos/ com estes nomes) —
   fotos: [
@@ -58,29 +62,36 @@ const CONFIG = {
     "assets/fotos/foto-6.jpg"
   ],
 
-  // — Diferenciais (troque pelos reais do SEU espaço) —
+  // — Diferenciais — todos confirmados no anúncio do Airbnb —
   diferenciais: [
-    { icone: "🌿", titulo: "Imerso na natureza",      texto: "Área verde, ar puro e som de passarinho — o cenário perfeito para desligar." },
-    { icone: "🛏️", titulo: "Cama confortável",        texto: "Roupa de cama limpa e caprichada para você dormir de verdade." },
-    { icone: "📶", titulo: "Wi-Fi que funciona",       texto: "Internet estável para quem precisa trabalhar ou postar as fotos da viagem." },
-    { icone: "🍳", titulo: "Cozinha equipada",         texto: "Prepare suas refeições no seu horário, do café da manhã ao jantar." },
-    { icone: "🚗", titulo: "Fácil de chegar",          texto: "Acesso simples e estacionamento no local, sem perrengue." },
-    { icone: "🤝", titulo: "Anfitrião local",          texto: "Dicas de quem nasceu na região: trilhas, cachoeiras e os melhores horários." }
+    { icone: "🏞️", titulo: "Rio privativo",              texto: "Acesso exclusivo ao Ribeirão dos Padres. Dormir ouvindo o barulho da água é o padrão da casa." },
+    { icone: "🌄", titulo: "Deck panorâmico",            texto: "Um deck suspenso com vista aberta do cerrado — o melhor lugar da casa para o café da manhã e o pôr do sol." },
+    { icone: "💦", titulo: "Poço do Motor a poucos metros", texto: "A cachoeira fica logo ali. Dá para ir a pé, sem pegar estrada nem pagar passeio." },
+    { icone: "👨‍👩‍👧‍👦", titulo: "Cabe todo mundo",           texto: "Até 10 pessoas em 2 suítes e 3 banheiros. Ideal para famílias grandes, grupos de amigos e retiros." },
+    { icone: "🐶", titulo: "Pet é bem-vindo",            texto: "Seu cachorro faz parte da família — e vem junto, sem taxa surpresa." },
+    { icone: "🔑", titulo: "Check-in sozinho",            texto: "Cofre de chaves: chegue no seu horário, sem depender de ninguém te esperar." }
   ],
 
-  // — Depoimentos (copie avaliações REAIS do seu anúncio no Airbnb) —
+  // — Depoimentos — avaliação REAL do Airbnb (Ronald, fev/2026) —
+  // Conforme novas avaliações chegarem, acrescente aqui no mesmo formato.
   depoimentos: [
-    { nome: "«Nome do hóspede»", texto: "«Cole aqui uma avaliação real do Airbnb — prova social é o que mais converte.»" },
-    { nome: "«Nome do hóspede»", texto: "«Cole aqui outra avaliação real. Prefira as que citam limpeza, localização e anfitrião.»" },
-    { nome: "«Nome do hóspede»", texto: "«Cole aqui mais uma avaliação real, de preferência mencionando a natureza ao redor.»" }
+    { nome: "Ronald, fevereiro de 2026",
+      texto: "Local hiper agradável, seguro, tudo funciona, cozinha ampla, ideal para família, vista maravilhosa, cama aconchegante, local tranquilo e a única companhia são os macacos." }
   ],
 
-  // — O que fazer na região (edite com atrações REAIS perto de você) —
+  // — Selos que o próprio Airbnb exibe no anúncio ("o que os hóspedes destacam") —
+  destaques: ["🏞️ Rio", "🍳 Cozinha", "👨‍👩‍👧 Família"],
+
+  // — O que fazer na região —
+  // ⚠️ Confirme as distâncias a partir da casa antes de divulgar.
   atracoes: [
-    "«Cachoeira ou atração nº 1 — a quantos minutos fica»",
-    "«Trilha ou mirante nº 2»",
-    "«Restaurante ou feira local nº 3»",
-    "«Passeio nº 4»"
+    "Poço do Motor — a cachoeira mais perto, dá para ir a pé",
+    "Ribeirão dos Padres — o rio da própria casa, com acesso privativo",
+    "Lago Serra da Mesa — passeio de barco, pesca e pôr do sol",
+    "Cachoeira das Pedras Bonitas — trilha curta e poços amplos para banho",
+    "Cachoeira Véu de Noiva — acesso simples, ideal para quem quer só relaxar na água",
+    "Vila de São Jorge e o Parque Nacional da Chapada dos Veadeiros — cerca de 34 km",
+    "Alto Paraíso de Goiás — cerca de 71 km, com restaurantes, feiras e vida noturna"
   ]
 };
 /* ============== FIM DO CONFIG — não edite daqui pra baixo ============== */
@@ -162,8 +173,10 @@ section{padding:4.5rem 0}
 .lightbox .fechar{position:absolute;top:1.2rem;right:1.6rem;color:#fff;font-size:2.2rem;cursor:pointer;background:none;border:none}
 
 /* Depoimentos */
+.destaques{display:flex;gap:.6rem;flex-wrap:wrap;margin:1.4rem 0 .4rem}
+.destaques span{background:#fff;border:1.5px solid var(--areia-2);border-radius:999px;padding:.45rem 1.1rem;font-size:.9rem;font-weight:600;color:var(--verde-700);box-shadow:0 2px 8px rgba(28,51,36,.06)}
 .depo{background:#fff;border-radius:var(--radius);padding:1.6rem;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:.8rem}
-.depo .estrelas{color:var(--dourado);letter-spacing:.15em}
+.depo .aspas{font-family:'Fraunces',serif;font-size:2.6rem;line-height:.6;color:var(--dourado);height:1.1rem}
 .depo p{font-size:.95rem;color:var(--ink)}
 .depo .autor{font-weight:700;font-size:.88rem;color:var(--verde-700)}
 
@@ -174,6 +187,11 @@ section{padding:4.5rem 0}
 .passo{display:flex;gap:1.1rem;align-items:flex-start;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);padding:1.4rem}
 .passo .num{flex:0 0 auto;width:2.4rem;height:2.4rem;border-radius:50%;background:var(--dourado);color:var(--verde-900);display:flex;align-items:center;justify-content:center;font-weight:800;font-family:'Fraunces',serif}
 .passo p{font-size:.92rem;opacity:.9}
+
+/* Widget oficial do Airbnb */
+.embed-airbnb{margin-top:2.4rem;display:flex;justify-content:center}
+.embed-airbnb .airbnb-embed-frame{background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.embed-airbnb a{display:block;padding:.4rem 1rem;color:var(--verde-900);text-decoration:none;font-size:.9rem;font-weight:600}
 
 /* Localização */
 .lista-atracoes{margin-top:1.4rem;display:grid;gap:.7rem}
@@ -235,8 +253,10 @@ footer a{color:var(--dourado);text-decoration:none}
     </div>
     <div class="mini-prova">
       <span>⭐ <b data-bind="avaliacao">5,0</b> (<span data-bind="numAvaliacoes">—</span> avaliações)</span>
-      <span>👥 <span data-bind="capacidade">4 hóspedes</span></span>
+      <span>👥 <span data-bind="capacidade">10 hóspedes</span></span>
       <span>💰 a partir de <b data-bind="precoAPartir">R$ —</b>/noite</span>
+      <span>🐶 Pet friendly</span>
+      <span>🔑 Check-in autônomo</span>
     </div>
   </div>
 </header>
@@ -244,9 +264,9 @@ footer a{color:var(--dourado);text-decoration:none}
 <!-- Faixa de prova social -->
 <div class="prova">
   <div class="container">
-    <span>⭐ Nota <b data-bind="avaliacao">5,0</b> no Airbnb</span>
+    <span>🏞️ Acesso privativo ao rio</span>
     <span>✅ Reserva com proteção do Airbnb</span>
-    <span>💬 Anfitrião responde rápido</span>
+    <span>🏡 Anfitrião há <b>5 anos</b> no Airbnb</span>
   </div>
 </div>
 
@@ -273,7 +293,8 @@ footer a{color:var(--dourado);text-decoration:none}
 <section id="depoimentos">
   <div class="container">
     <span class="kicker">Quem já se hospedou</span>
-    <h2 class="h2">Hóspedes que viraram amigos</h2>
+    <h2 class="h2">O que os hóspedes mais destacam</h2>
+    <div class="destaques" id="lista-destaques"></div>
     <div class="grid-3" id="lista-depoimentos"></div>
   </div>
 </section>
@@ -286,13 +307,23 @@ footer a{color:var(--dourado);text-decoration:none}
     <div class="grid-3">
       <div class="passo"><span class="num">1</span><div><h3>Escolha as datas</h3><p>Toque em "Ver datas e reservar" e confira a disponibilidade em tempo real no Airbnb.</p></div></div>
       <div class="passo"><span class="num">2</span><div><h3>Reserve com proteção</h3><p>Pagamento seguro pelo Airbnb, com política de cancelamento clara e suporte 24h.</p></div></div>
-      <div class="passo"><span class="num">3</span><div><h3>Receba as boas-vindas</h3><p>Enviamos o guia de chegada e dicas locais direto no seu WhatsApp. É só chegar e relaxar.</p></div></div>
+      <div class="passo"><span class="num">3</span><div><h3>Receba o guia de chegada</h3><p>Mandamos o caminho com fotos, a senha do cofre de chaves e o roteiro de cachoeiras no seu WhatsApp. É só chegar.</p></div></div>
     </div>
+    <!-- Widget oficial do Airbnb: mostra o anúncio real, com selo da plataforma.
+         Se o visitante usar bloqueador de anúncios, os links abaixo aparecem no lugar. -->
+    <div class="embed-airbnb">
+      <div class="airbnb-embed-frame" data-id="1482393056413027238" data-view="home" data-hide-price="true" style="width:100%;max-width:450px;height:300px;margin:auto">
+        <a href="https://www.airbnb.com.br/rooms/1482393056413027238?guests=1&amp;adults=1&amp;s=66&amp;source=embed_widget">Ver no Airbnb</a>
+        <a href="https://www.airbnb.com.br/rooms/1482393056413027238?guests=1&amp;adults=1&amp;s=66&amp;source=embed_widget" rel="nofollow">Casa · Colinas do Sul · 2 quartos · 5 camas · 3 banheiros</a>
+      </div>
+    </div>
+
     <div style="text-align:center;margin-top:2.2rem">
       <a class="btn btn-primario" data-link="airbnb" target="_blank" rel="noopener">📅 Quero ver as datas disponíveis</a>
     </div>
   </div>
 </section>
+<script async src="https://www.airbnb.com.br/embeddable/airbnb_jssdk"></script>
 
 <!-- Localização -->
 <section id="regiao">
@@ -309,11 +340,12 @@ footer a{color:var(--dourado);text-decoration:none}
   <div class="container">
     <span class="kicker">Dúvidas comuns</span>
     <h2 class="h2">Perguntas frequentes</h2>
-    <details><summary>Como funciona o check-in e o check-out?</summary><div class="resp">Após a reserva pelo Airbnb, você recebe todas as instruções de chegada pelo app e pelo WhatsApp. Horários e detalhes estão no anúncio — e se precisar de flexibilidade, é só falar com a gente.</div></details>
-    <details><summary>Posso cancelar se meus planos mudarem?</summary><div class="resp">Sim. A reserva segue a política de cancelamento exibida no anúncio do Airbnb, com reembolso conforme as regras da plataforma — tudo transparente antes de você pagar.</div></details>
-    <details><summary>O espaço é bom para trabalhar remoto?</summary><div class="resp">Sim! Temos Wi-Fi estável e cantinhos tranquilos. Se a sua estadia depende de internet, chame no WhatsApp que contamos a velocidade atual medida.</div></details>
-    <details><summary>Crianças e pets são bem-vindos?</summary><div class="resp">As regras completas estão no anúncio do Airbnb. Na dúvida, manda mensagem no WhatsApp — a gente adora ajudar a planejar a viagem da família toda.</div></details>
-    <details><summary>Por que reservar pelo Airbnb e não por fora?</summary><div class="resp">Pela sua segurança: pagamento protegido, avaliações verificadas, suporte 24h e seguro. Você reserva com tranquilidade e a gente cuida do resto.</div></details>
+    <details><summary>Cabem mesmo 10 pessoas?</summary><div class="resp">Sim: são 7 lugares em camas (2 de casal, 1 de solteiro e 1 sofá-cama) mais 3 colchões extras, distribuídos nas 2 suítes. Com 3 banheiros, ninguém fica na fila de manhã. Roupa de cama está inclusa.</div></details>
+    <details><summary>Como funciona o check-in?</summary><div class="resp">Check-in autônomo a partir das 15h, com cofre de chaves — você chega no seu horário, sem depender de ninguém. Enviamos as instruções completas de chegada (com fotos do caminho) pelo WhatsApp antes da viagem.</div></details>
+    <details><summary>Posso levar meu pet?</summary><div class="resp">Pode sim, amigos de quatro patas são bem-vindos! Só nos avise antes para prepararmos a casa. O terreno é cercado e tem bastante espaço para eles correrem.</div></details>
+    <details><summary>Como é o acesso ao rio e à cachoeira?</summary><div class="resp">A casa tem acesso privativo ao Ribeirão dos Padres — é só descer, sem sair da propriedade. O Poço do Motor fica pertinho, dá para ir a pé. Em época de chuva a água pode ficar mais turva e a correnteza mais forte: sempre confira com a gente antes de entrar.</div></details>
+    <details><summary>Tem Wi-Fi e ar-condicionado?</summary><div class="resp">Wi-Fi rápido em toda a casa, Smart TV na sala e ar-condicionado em uma das suítes. A cozinha é equipada e tem estacionamento gratuito no local.</div></details>
+    <details><summary>Por que reservar pelo Airbnb e não por fora?</summary><div class="resp">Pela sua segurança: pagamento protegido, avaliações verificadas, cobertura AirCover e suporte 24h. Você reserva com tranquilidade e a gente cuida do resto.</div></details>
   </div>
 </section>
 
@@ -444,9 +476,15 @@ footer a{color:var(--dourado);text-decoration:none}
     '</div>'
   )).join("");
 
+  // Selos de destaque do Airbnb
+  const elDestaques = document.getElementById("lista-destaques");
+  if(elDestaques && Array.isArray(CONFIG.destaques)){
+    elDestaques.innerHTML = CONFIG.destaques.map(d=>"<span>"+d+"</span>").join("");
+  }
+
   // Depoimentos
   document.getElementById("lista-depoimentos").innerHTML = CONFIG.depoimentos.map(d=>(
-    '<div class="depo"><span class="estrelas">★★★★★</span><p>"'+d.texto.replaceAll("«","").replaceAll("»","")+'"</p><span class="autor">— '+d.nome.replaceAll("«","").replaceAll("»","")+'</span></div>'
+    '<div class="depo"><span class="aspas">”</span><p>"'+d.texto.replaceAll("«","").replaceAll("»","")+'"</p><span class="autor">— '+d.nome.replaceAll("«","").replaceAll("»","")+' · avaliação no Airbnb</span></div>'
   )).join("");
 
   // Atrações

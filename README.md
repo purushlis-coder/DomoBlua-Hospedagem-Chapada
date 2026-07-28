@@ -1,9 +1,13 @@
-# 🌿 Hospedagem no cerrado — landing page + automação de Instagram
+# 🌿 DomoBlua — landing page + automação de Instagram
 
-Sistema completo de captação de hóspedes para a hospedagem anunciada no Airbnb
-([anúncio](https://www.airbnb.com.br/rooms/1482393056413027238)): landing page de
-alta conversão publicada no GitHub Pages, posts automáticos no Instagram sobre
-ecoturismo/cerrado/Chapada dos Veadeiros e um protocolo de divulgação passo a passo.
+Sistema completo de captação de hóspedes para a **DomoBlua**, casa com rio privativo e
+deck panorâmico em **Colinas do Sul – GO**, no portal da Chapada dos Veadeiros
+([anúncio no Airbnb](https://www.airbnb.com.br/rooms/1482393056413027238)):
+landing page de alta conversão publicada no GitHub Pages, posts automáticos no
+Instagram sobre ecoturismo/cerrado/Chapada e um protocolo de divulgação passo a passo.
+
+**A casa:** 10 hóspedes · 2 suítes · 5 camas · 3 banheiros · acesso privativo ao
+Ribeirão dos Padres · Poço do Motor a poucos metros · pet friendly · check-in autônomo.
 
 > ℹ️ Este repositório é dedicado **exclusivamente a esta hospedagem**. Dados, fotos,
 > links e textos de outras hospedagens não devem ser misturados aqui.
