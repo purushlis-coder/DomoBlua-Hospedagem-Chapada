@@ -71,8 +71,10 @@ ainda melhor, substitua pelos originais em alta do seu Drive, mantendo os nomes:
 | `foto-5.jpg` | sala de estar |
 | `foto-6.jpg` | suíte 1 |
 
-**Faltando e valioso:** fotos do **Ribeirão dos Padres** e do **Poço do Motor**.
-São seus maiores diferenciais e não aparecem em nenhuma foto atual.
+**⭐ Prioridade:** subir as fotos do **Ribeirão dos Padres** e do **Poço do Motor**.
+São seus maiores diferenciais, a landing page já tem uma seção inteira reservada para
+elas e as legendas do Instagram já estão escritas esperando os arquivos.
+Passo a passo em **[`docs/COMO-ENVIAR-AS-FOTOS.md`](COMO-ENVIAR-AS-FOTOS.md)**.
 
 Também jogue fotos em `instagram/media/` sempre que puder — o robô prioriza fotos
 reais sobre os cards gerados (instruções em `instagram/media/LEIA-ME.md`).

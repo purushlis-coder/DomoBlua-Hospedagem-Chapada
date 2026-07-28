@@ -53,14 +53,22 @@ const CONFIG = {
   capacidade:      "10 hóspedes · 2 quartos · 5 camas · 3 banheiros",
 
   // — Fotos (coloque os arquivos em assets/fotos/ com estes nomes) —
+  // As 6 primeiras são as do anúncio. As 3 últimas são do rio e da cachoeira:
+  // enquanto não existirem, a página mostra um espaço reservado elegante.
   fotos: [
     "assets/fotos/foto-1.jpg",
     "assets/fotos/foto-2.jpg",
     "assets/fotos/foto-3.jpg",
     "assets/fotos/foto-4.jpg",
     "assets/fotos/foto-5.jpg",
-    "assets/fotos/foto-6.jpg"
+    "assets/fotos/foto-6.jpg",
+    "assets/fotos/rio-1.jpg",
+    "assets/fotos/rio-2.jpg",
+    "assets/fotos/poco-do-motor.jpg"
   ],
+
+  // — Foto de destaque do rio (seção larga). Some sozinha se o arquivo não existir. —
+  fotoRio: "assets/fotos/rio-1.jpg",
 
   // — Diferenciais — todos confirmados no anúncio do Airbnb —
   diferenciais: [
@@ -159,6 +167,17 @@ section{padding:4.5rem 0}
 .card .ico{font-size:1.8rem;margin-bottom:.6rem}
 .card h3{font-size:1.1rem;margin-bottom:.4rem}
 .card p{font-size:.93rem;color:var(--cinza)}
+
+/* Destaque do rio */
+.destaque-rio{display:grid;grid-template-columns:1fr 1fr;gap:0;padding:0;align-items:stretch;background:var(--verde-900);color:#fff}
+.destaque-rio .rio-foto{min-height:420px}
+.destaque-rio .rio-foto img{width:100%;height:100%;object-fit:cover}
+.destaque-rio .rio-texto{padding:3.4rem clamp(1.6rem,4vw,3.4rem);align-self:center}
+.destaque-rio .h2,.destaque-rio h2{color:#fff}
+.destaque-rio .kicker{color:var(--dourado)}
+.destaque-rio p{opacity:.92;margin-bottom:1rem;font-size:.98rem}
+.destaque-rio .btn{margin-top:.6rem}
+@media(max-width:820px){.destaque-rio{grid-template-columns:1fr}.destaque-rio .rio-foto{min-height:300px}}
 
 /* Galeria */
 .galeria{background:var(--areia-2)}
@@ -277,6 +296,18 @@ footer a{color:var(--dourado);text-decoration:none}
     <h2 class="h2">Feito para quem quer descansar de verdade</h2>
     <p style="max-width:60ch;color:var(--cinza)">Não é só um lugar para dormir: é a base perfeita para explorar a região — e voltar para um espaço limpo, silencioso e acolhedor.</p>
     <div class="grid-3" id="lista-diferenciais"></div>
+  </div>
+</section>
+
+<!-- Destaque do rio (só aparece quando a foto existe) -->
+<section class="destaque-rio" id="secao-rio" hidden>
+  <div class="rio-foto"><img id="img-rio" src="" alt="Ribeirão dos Padres, o rio privativo da casa"></div>
+  <div class="rio-texto">
+    <span class="kicker">O diferencial que ninguém copia</span>
+    <h2 class="h2">O rio é seu. Literalmente.</h2>
+    <p>A casa tem acesso privativo ao <strong>Ribeirão dos Padres</strong>: é descer e mergulhar, sem sair da propriedade, sem dividir com ninguém. À noite, o barulho da água entra pela janela e resolve qualquer insônia.</p>
+    <p>E quando bater vontade de cachoeira de verdade, o <strong>Poço do Motor</strong> fica a poucos metros — dá para ir a pé, sem carro e sem pagar passeio.</p>
+    <a class="btn btn-primario" data-link="airbnb" target="_blank" rel="noopener">📅 Quero acordar assim</a>
   </div>
 </section>
 
@@ -462,6 +493,16 @@ footer a{color:var(--dourado);text-decoration:none}
   const testeFoto = new Image();
   testeFoto.onload = ()=>document.querySelector(".hero").classList.add("tem-foto");
   testeFoto.src = CONFIG.fotos[0];
+
+  // Seção do rio: só aparece se a foto existir
+  if(CONFIG.fotoRio){
+    const testeRio = new Image();
+    testeRio.onload = ()=>{
+      document.getElementById("img-rio").src = CONFIG.fotoRio;
+      document.getElementById("secao-rio").hidden = false;
+    };
+    testeRio.src = CONFIG.fotoRio;
+  }
 
   // Diferenciais
   document.getElementById("lista-diferenciais").innerHTML = CONFIG.diferenciais.map(d=>(

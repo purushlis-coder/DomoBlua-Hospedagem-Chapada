@@ -18,6 +18,7 @@ Ribeirão dos Padres · Poço do Motor a poucos metros · pet friendly · check-
 único do que só você pode fazer (≈1h30). Depois dele, tudo roda sozinho.
 
 Demais documentos:
+- [`docs/COMO-ENVIAR-AS-FOTOS.md`](docs/COMO-ENVIAR-AS-FOTOS.md) — onde colocar as fotos do rio e da cachoeira
 - [`docs/INSTAGRAM-SETUP.md`](docs/INSTAGRAM-SETUP.md) — como gerar as chaves da Meta (Graph API)
 - [`docs/PROTOCOLO-DIVULGACAO.md`](docs/PROTOCOLO-DIVULGACAO.md) — plano completo de divulgação e captura de hóspedes
 
