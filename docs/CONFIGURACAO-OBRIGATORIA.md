@@ -9,21 +9,39 @@
 >
 > Faça a **PARTE 1** abaixo — leva 10 minutos — e o link passa a existir em:
 >
-> ### 🔗 https://purushlis-coder.github.io/airbnb-goal/
+> ### 🔗 https://purushlis-coder.github.io/DomoBlua-Hospedagem-Chapada/
 >
 > Esse endereço é fixo. Depois da Parte 1 ele funciona para sempre, e cada
 > alteração no conteúdo é publicada sozinha.
 
 ---
 
-# PARTE 1 — Colocar o site no ar (10 min) → resultado: **o link funcionando**
+# PARTE 1 — Colocar o site no ar (12 min) → resultado: **o link funcionando**
+
+### Passo 1.0 — Renomear o repositório · 2 min ⭐ FAÇA ESTE PRIMEIRO
+
+O endereço do site é formado pelo nome do repositório. Para o link conter
+"DomoBlua-Hospedagem-Chapada", o repositório precisa ter esse nome.
+
+1. **Settings** → aba **General** (a primeira).
+2. No campo **Repository name**, apague `airbnb-goal` e escreva exatamente:
+   ```
+   DomoBlua-Hospedagem-Chapada
+   ```
+3. Clique em **Rename**.
+
+> ✅ Nada se perde: código, branches, histórico e as fotos continuam lá. O GitHub
+> ainda redireciona o endereço antigo por um tempo.
+>
+> ⚠️ Faça **antes** dos passos seguintes. Se renomear depois de ligar o Pages, o
+> endereço muda e você teria que refazer o passo 1.3.
 
 ### Passo 1.1 — Juntar o trabalho à branch principal · 3 min
 
 Todo o código está na branch `claude/landing-page-instagram-automation-ic13ev`.
 Ele precisa ir para a `main`, que é a branch que o site publica.
 
-1. Abra: **https://github.com/purushlis-coder/airbnb-goal/pulls**
+1. Abra: **https://github.com/purushlis-coder/DomoBlua-Hospedagem-Chapada/pulls**
 2. Clique em **New pull request**.
 3. Em *base* escolha `main`; em *compare* escolha `claude/landing-page-instagram-automation-ic13ev`.
 4. **Create pull request** → depois **Merge pull request** → **Confirm merge**.
@@ -51,7 +69,7 @@ O GitHub Pages só é gratuito em repositório público. Sem isso, não há link
    botão **Run workflow** → **Run workflow** (verde).
 4. Espere ~1 minuto até a bolinha ficar verde ✅.
 
-### 🎉 Pronto: abra **https://purushlis-coder.github.io/airbnb-goal/**
+### 🎉 Pronto: abra **https://purushlis-coder.github.io/DomoBlua-Hospedagem-Chapada/**
 
 O site está no ar. Salve esse link — ele vai na bio do Instagram, no WhatsApp e
 em qualquer divulgação. **A Parte 1 acabou aqui.**
@@ -76,7 +94,7 @@ em qualquer divulgação. **A Parte 1 acabou aqui.**
    > 🌿 Ecoturismo, cerrado e cachoeiras
    > 📍 Colinas do Sul · Chapada dos Veadeiros
    > 🏡 DomoBlua: casa com rio privativo ↓
-   > `https://purushlis-coder.github.io/airbnb-goal/`
+   > `https://purushlis-coder.github.io/DomoBlua-Hospedagem-Chapada/`
 
 ### Passo 2.2 — Gerar as duas chaves na Meta · 30 min
 

@@ -16,7 +16,7 @@ Ribeirão dos Padres · Poço do Motor a poucos metros · pet friendly · check-
 
 **➡️ [`docs/CONFIGURACAO-OBRIGATORIA.md`](docs/CONFIGURACAO-OBRIGATORIA.md)**
 
-- **Parte 1 (10 min)** → o site no ar em `https://purushlis-coder.github.io/airbnb-goal/`
+- **Parte 1 (10 min)** → o site no ar em `https://purushlis-coder.github.io/DomoBlua-Hospedagem-Chapada/`
 - **Parte 2 (45 min)** → o robô postando sozinho no Instagram, 4x por semana
 - **Parte 3 (opcional)** → ajustes que aumentam a conversão
 

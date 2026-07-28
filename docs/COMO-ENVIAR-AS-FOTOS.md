@@ -10,10 +10,10 @@ Escolha **um** dos caminhos abaixo. Os dois levam 2 minutos.
 
 ## Caminho A — Direto no GitHub (recomendado, não precisa de mais nada)
 
-1. Abra: `https://github.com/purushlis-coder/airbnb-goal/upload/main/assets/fotos`
+1. Abra: `https://github.com/purushlis-coder/DomoBlua-Hospedagem-Chapada/upload/main/assets/fotos`
 2. Arraste as fotos e **renomeie** para os nomes exatos abaixo.
 3. Escreva "fotos do rio" na caixa de commit e clique em **Commit changes**.
-4. Repita em `https://github.com/purushlis-coder/airbnb-goal/upload/main/instagram/media`
+4. Repita em `https://github.com/purushlis-coder/DomoBlua-Hospedagem-Chapada/upload/main/instagram/media`
    para alimentar o robô do Instagram.
 
 ## Caminho B — Aqui no chat
