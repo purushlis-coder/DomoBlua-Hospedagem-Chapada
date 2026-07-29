@@ -40,7 +40,8 @@ const CONFIG = {
 
   // — Links de conversão (o link do Airbnb já é o real) —
   linkAirbnb:      "https://www.airbnb.com.br/rooms/1482393056413027238?guests=1&adults=1&s=67&unique_share_id=ff2f1b2e-acb2-416a-9163-8b88e3bd4119",
-  whatsapp:        "«5561999999999»",               // ⚠️ FALTA: só números, com DDI 55 + DDD
+  // ⚠️ O WhatsApp é canal de DÚVIDAS. Reservas acontecem só pelo Airbnb.
+  whatsapp:        "5561991801500",
   instagram:       "domoblua.chapada",              // ✅ conta oficial da DomoBlua
 
   // — Números que geram confiança —
@@ -237,6 +238,7 @@ input:focus,textarea:focus,select:focus{outline:2px solid var(--verde-500);borde
 .consent input{width:auto;margin-top:.2rem}
 .alt-zap{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:var(--radius);padding:1.6rem}
 .alt-zap p{font-size:.95rem;opacity:.9;margin:.6rem 0 1.2rem}
+.alt-zap .aviso-reserva{background:rgba(217,164,65,.14);border-left:3px solid var(--dourado);border-radius:8px;padding:.9rem 1rem;margin:1.4rem 0 1.2rem;font-size:.87rem;opacity:1}
 
 /* Footer */
 footer{background:var(--verde-900);color:rgba(255,255,255,.75);padding:2.2rem 0 6.5rem;font-size:.85rem}
@@ -376,7 +378,7 @@ footer a{color:var(--dourado);text-decoration:none}
     <details><summary>Posso levar meu pet?</summary><div class="resp">Pode sim, amigos de quatro patas são bem-vindos! Só nos avise antes para prepararmos a casa. O terreno é cercado e tem bastante espaço para eles correrem.</div></details>
     <details><summary>Como é o acesso ao rio e à cachoeira?</summary><div class="resp">A casa tem acesso privativo ao Ribeirão dos Padres — é só descer, sem sair da propriedade. O Poço do Motor fica pertinho, dá para ir a pé. Em época de chuva a água pode ficar mais turva e a correnteza mais forte: sempre confira com a gente antes de entrar.</div></details>
     <details><summary>Tem Wi-Fi e ar-condicionado?</summary><div class="resp">Wi-Fi rápido em toda a casa, Smart TV na sala e ar-condicionado em uma das suítes. A cozinha é equipada e tem estacionamento gratuito no local.</div></details>
-    <details><summary>Por que reservar pelo Airbnb e não por fora?</summary><div class="resp">Pela sua segurança: pagamento protegido, avaliações verificadas, cobertura AirCover e suporte 24h. Você reserva com tranquilidade e a gente cuida do resto.</div></details>
+    <details><summary>Dá para reservar direto pelo WhatsApp?</summary><div class="resp">Não — e isso é para a sua proteção. O WhatsApp é o nosso canal de dúvidas: tire todas as perguntas que quiser por lá. Mas <strong>a reserva e o pagamento acontecem exclusivamente pelo Airbnb</strong>, com pagamento protegido, cobertura AirCover, avaliações verificadas e suporte 24h. Nunca peça nem aceite pagamento por fora da plataforma, nem conosco nem com qualquer outro anfitrião: é assim que golpes acontecem.</div></details>
   </div>
 </section>
 
@@ -385,7 +387,7 @@ footer a{color:var(--dourado);text-decoration:none}
   <div class="container">
     <span class="kicker">Fale com o anfitrião</span>
     <h2 class="h2">Quer ajuda para planejar? Deixa com a gente</h2>
-    <p style="max-width:62ch;opacity:.9">Conte quando você quer vir e quantas pessoas vêm. Respondemos com disponibilidade, valores e um mini-roteiro personalizado da região — sem compromisso.</p>
+    <p style="max-width:62ch;opacity:.9">Conte quando você quer vir e quantas pessoas vêm. Respondemos com disponibilidade, valores e um mini-roteiro personalizado da região — sem compromisso. <strong>A reserva você fecha no Airbnb</strong>, com toda a proteção da plataforma.</p>
     <div class="form-wrap">
       <!-- FormSubmit: no 1º envio você receberá um e-mail para ATIVAR o formulário (passo obrigatório — veja docs/CONFIGURACAO-OBRIGATORIA.md) -->
       <form id="form-lead" action="https://formsubmit.co/purushlis@gmail.com" method="POST">
@@ -425,11 +427,11 @@ footer a{color:var(--dourado);text-decoration:none}
         <button class="btn btn-primario" type="submit">Quero receber disponibilidade ✨</button>
       </form>
       <div class="alt-zap">
-        <h3 style="font-size:1.25rem">Prefere conversar agora?</h3>
-        <p>Chama direto no WhatsApp — normalmente respondemos em poucos minutos. Vale para dúvidas, datas especiais e grupos maiores.</p>
-        <a class="btn btn-zap" data-link="whats" target="_blank" rel="noopener">💬 Chamar no WhatsApp</a>
-        <p style="margin-top:1.6rem"><strong style="color:var(--dourado)">Dica:</strong> as datas de alta temporada (feriados e férias) costumam esgotar primeiro. Se seu plano é fixo, garanta logo pelo Airbnb.</p>
-        <a class="btn btn-fantasma" data-link="airbnb" target="_blank" rel="noopener">Ver calendário no Airbnb</a>
+        <h3 style="font-size:1.25rem">Ficou com dúvida? Chama no WhatsApp</h3>
+        <p>Tire qualquer dúvida com a gente: como chegar, o que levar, se cabe o seu grupo, roteiro de cachoeiras, pet, acessibilidade. Respondemos o quanto antes.</p>
+        <a class="btn btn-zap" data-link="whats" target="_blank" rel="noopener">💬 Tirar dúvidas no WhatsApp</a>
+        <p class="aviso-reserva">ℹ️ <strong>A reserva em si é feita apenas pelo Airbnb</strong>, com pagamento protegido, cobertura AirCover e suporte 24h. Pelo WhatsApp a gente só tira dúvidas e ajuda você a planejar — não fechamos reserva nem recebemos pagamento por fora.</p>
+        <a class="btn btn-fantasma" data-link="airbnb" target="_blank" rel="noopener">📅 Ver datas e reservar no Airbnb</a>
       </div>
     </div>
   </div>
@@ -444,8 +446,8 @@ footer a{color:var(--dourado);text-decoration:none}
 
 <!-- Barra fixa mobile -->
 <div class="barra-fixa">
-  <a class="btn btn-zap" data-link="whats" target="_blank" rel="noopener">💬 WhatsApp</a>
-  <a class="btn btn-primario" data-link="airbnb" target="_blank" rel="noopener">📅 Reservar</a>
+  <a class="btn btn-zap" data-link="whats" target="_blank" rel="noopener">💬 Dúvidas</a>
+  <a class="btn btn-primario" data-link="airbnb" target="_blank" rel="noopener">📅 Reservar no Airbnb</a>
 </div>
 
 <!-- Lightbox -->
@@ -479,7 +481,7 @@ footer a{color:var(--dourado);text-decoration:none}
 
   // Links
   const numeroZap = (CONFIG.whatsapp||"").replace(/\D/g,"");
-  const msgZap = encodeURIComponent("Olá! Vi a página da hospedagem "+(ehPlaceholder(CONFIG.nome)?"":CONFIG.nome)+" e quero saber a disponibilidade. 😊");
+  const msgZap = encodeURIComponent("Olá! Vi a página da "+(ehPlaceholder(CONFIG.nome)?"hospedagem":CONFIG.nome)+" e fiquei com uma dúvida. 😊");
   const links = {
     airbnb: CONFIG.linkAirbnb,
     whats:  "https://wa.me/"+numeroZap+"?text="+msgZap,
