@@ -3,8 +3,39 @@
 Este guia gera as duas chaves que o robô precisa: `IG_USER_ID` e `IG_ACCESS_TOKEN`.
 Feito uma vez, vale para sempre (ou por 60 dias, se optar pelo token simples).
 
-**Pré-requisitos** (passo 6 do checklist): Instagram como **conta profissional**
-vinculada a uma **Página do Facebook**.
+**Pré-requisitos**: Instagram como **conta profissional** vinculada a uma
+**Página do Facebook**.
+
+> ## ⚠️ Página ≠ "modo profissional" — não confunda
+>
+> São três coisas diferentes, e você precisa de duas delas:
+>
+> | O que é | Precisa? | Para quê |
+> |---|---|---|
+> | **Conta pessoal do Facebook** (seu perfil) | ✅ já tem | Ser o administrador da Página |
+> | **Página do Facebook** (Page) | ✅ **obrigatória** | É dela que sai o vínculo com o Instagram |
+> | **"Modo profissional" no perfil pessoal** | ❌ não serve | Recurso para criadores; **não gera uma Página** |
+>
+> Se a Meta te ofereceu "criar uma Página" ou "transformar o perfil em conta
+> profissional", **escolha criar a Página**. O modo profissional não produz o
+> Page ID que a API precisa, e o passo B abaixo não vai funcionar sem ele.
+>
+> Seu perfil pessoal continua existindo normalmente e vira o administrador da
+> Página — isso é o esperado, não um problema.
+>
+> **Bônus:** a Página também é obrigatória para anunciar no Meta Ads depois
+> (Fase 3 do protocolo de divulgação). Ou seja, você vai precisar dela de todo jeito.
+
+### Como criar a Página (2 min)
+
+1. No Facebook: menu **☰** → **Páginas** → **Criar nova Página**.
+2. Nome: `DomoBlua` (ou o mesmo @ do Instagram). Categoria: *Aluguel por temporada*
+   ou *Hospedagem*.
+3. Criada a Página, vá ao **Instagram** → **Editar perfil** → **Página** →
+   selecione a Página que você acabou de criar.
+
+✅ *Como saber que deu certo:* no app do Instagram, em Editar perfil, o campo
+**Página** mostra o nome da sua Página em vez de "Criar" ou "Nenhuma".
 
 ---
 
