@@ -1,5 +1,13 @@
 {
-  "proximo_indice": 0,
-  "fotos_usadas": [],
-  "historico": []
+  "proximo_indice": 1,
+  "fotos_usadas": [
+    "poco-do-motor.jpg"
+  ],
+  "historico": [
+    {
+      "data": "2026-07-29T15:15:40.721482+00:00",
+      "post_id": "cerrado-berco-das-aguas",
+      "arquivo": "instagram/generated/20260729-1515-foto-poco-do-motor-jpg.jpg"
+    }
+  ]
 }
