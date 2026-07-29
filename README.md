@@ -24,7 +24,13 @@ Ribeirão dos Padres · Poço do Motor a poucos metros · pet friendly · check-
 > tornar o repositório público e ligar o GitHub Pages, coisas que apenas o dono
 > da conta pode fazer.
 
+Estratégia de rentabilidade do imóvel:
+- **➡️ [`docs/PLANO-DE-ACAO.md`](docs/PLANO-DE-ACAO.md) — roteiro operacional: fases, checklists, painel e gatilhos de reavaliação**
+- [`docs/RELATORIO-DIAGNOSTICO-AIRBNB.md`](docs/RELATORIO-DIAGNOSTICO-AIRBNB.md) — **fonte de decisão**: funil real, 37 fotos, preços e indicadores do painel
+- [`docs/ESTRATEGIA-LIMPEZA-E-PRECO.md`](docs/ESTRATEGIA-LIMPEZA-E-PRECO.md) — economia da limpeza e a estrutura de preço que a sustenta
+
 Demais documentos:
+- [`docs/AUDITORIA-ANUNCIO.md`](docs/AUDITORIA-ANUNCIO.md) — auditoria preliminar (superada pelo relatório)
 - [`docs/COMO-ENVIAR-AS-FOTOS.md`](docs/COMO-ENVIAR-AS-FOTOS.md) — onde colocar as fotos do rio e da cachoeira
 - [`docs/INSTAGRAM-SETUP.md`](docs/INSTAGRAM-SETUP.md) — como gerar as chaves da Meta (Graph API)
 - [`docs/PROTOCOLO-DIVULGACAO.md`](docs/PROTOCOLO-DIVULGACAO.md) — plano completo de divulgação e captura de hóspedes

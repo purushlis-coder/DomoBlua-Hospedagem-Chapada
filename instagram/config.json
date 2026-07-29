@@ -1,7 +1,7 @@
 {
   "_comentario": "✏️ EDITE os campos entre «». Este arquivo controla a automação do Instagram. NÃO coloque tokens/senhas aqui — eles vão nos Secrets do GitHub (veja docs/INSTAGRAM-SETUP.md).",
 
-  "handle": "«seu.instagram»",
+  "handle": "domoblua.chapada",
   "nome_hospedagem": "DomoBlua",
   "cidade_hospedagem": "Colinas do Sul – GO",
 
@@ -15,5 +15,5 @@
 
   "rodape_legenda": "🌿 Ecoturismo de verdade, direto do cerrado.\n📍 Nossa base é a DomoBlua, em Colinas do Sul (GO): casa com rio privativo e deck panorâmico — link na bio!",
 
-  "assinatura_card": "@«seu.instagram»"
+  "assinatura_card": "@domoblua.chapada"
 }
