@@ -25,6 +25,7 @@ Ribeirão dos Padres · Poço do Motor a poucos metros · pet friendly · check-
 > da conta pode fazer.
 
 Demais documentos:
+- [`docs/AUDITORIA-ANUNCIO.md`](docs/AUDITORIA-ANUNCIO.md) — validação do anúncio: informações, fotos e preço
 - [`docs/COMO-ENVIAR-AS-FOTOS.md`](docs/COMO-ENVIAR-AS-FOTOS.md) — onde colocar as fotos do rio e da cachoeira
 - [`docs/INSTAGRAM-SETUP.md`](docs/INSTAGRAM-SETUP.md) — como gerar as chaves da Meta (Graph API)
 - [`docs/PROTOCOLO-DIVULGACAO.md`](docs/PROTOCOLO-DIVULGACAO.md) — plano completo de divulgação e captura de hóspedes
