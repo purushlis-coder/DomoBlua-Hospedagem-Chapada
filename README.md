@@ -25,7 +25,8 @@ Ribeirão dos Padres · Poço do Motor a poucos metros · pet friendly · check-
 > da conta pode fazer.
 
 Estratégia de rentabilidade do imóvel:
-- [`docs/RELATORIO-DIAGNOSTICO-AIRBNB.md`](docs/RELATORIO-DIAGNOSTICO-AIRBNB.md) — **fonte principal**: funil real, 37 fotos, preços e indicadores do painel
+- **➡️ [`docs/PLANO-DE-ACAO.md`](docs/PLANO-DE-ACAO.md) — roteiro operacional: fases, checklists, painel e gatilhos de reavaliação**
+- [`docs/RELATORIO-DIAGNOSTICO-AIRBNB.md`](docs/RELATORIO-DIAGNOSTICO-AIRBNB.md) — **fonte de decisão**: funil real, 37 fotos, preços e indicadores do painel
 - [`docs/ESTRATEGIA-LIMPEZA-E-PRECO.md`](docs/ESTRATEGIA-LIMPEZA-E-PRECO.md) — economia da limpeza e a estrutura de preço que a sustenta
 
 Demais documentos:

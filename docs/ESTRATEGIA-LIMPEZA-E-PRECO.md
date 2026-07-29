@@ -128,19 +128,38 @@ Hoje são **zero reservas**, então qualquer estrutura que converta é superior 
 
 ---
 
-## 5. Um número que precisa ser decomposto
+## 5. O custo fixo mensal ainda não existe como dado
 
-O guia do anfitrião assume **R$3.500/mês de "despesas médias, incluindo custos fixos e
-uma média dos variáveis"**. Esse valor não pode entrar em nenhum cálculo de ROI enquanto
-não for separado:
+Para saber quantas reservas por mês tornam a operação lucrativa, falta o outro lado da
+conta: **quanto a casa custa por mês mesmo vazia.**
 
-- **Fixos** (IPTU, seguro, internet, energia mínima, manutenção preventiva) — existem mesmo com a casa vazia
-- **Variáveis** (limpeza, consumíveis, energia de uso) — só existem quando há reserva
+Esse número precisa ser levantado da realidade — extratos, boletos e recibos —, não estimado:
 
-Se a limpeza já estiver dentro dos R$3.500, somá-la de novo por reserva conta duas vezes.
-Se não estiver, o custo mensal real é maior do que o guia projeta.
+| Item | Valor/mês | Onde conferir |
+|---|---|---|
+| IPTU (÷12) | | carnê |
+| Energia (consumo mínimo com a casa vazia) | | fatura |
+| Internet | | fatura |
+| Seguro | | apólice |
+| Água / poço / bomba | | fatura |
+| Manutenção preventiva (roçagem, dedetização, jardim) | | recibos |
+| Financiamento ou custo de capital, se houver | | contrato |
+| **Total fixo mensal** | | |
 
-**Enquanto essa separação não for feita, a projeção de ROI de 10% ao ano não é verificável.**
+Com esse total, o ponto de equilíbrio sai direto:
+
+> **reservas necessárias por mês = custo fixo ÷ contribuição por reserva**
+
+Usando a contribuição da tabela acima (R$1.057 a R$2.051 conforme o tamanho do grupo):
+
+| Se o custo fixo for | Reservas/mês para empatar |
+|---:|---:|
+| R$1.000 | ~1 |
+| R$2.000 | ~1,5 a 2 |
+| R$3.000 | ~2 a 3 |
+| R$4.000 | ~3 a 4 |
+
+**Nenhuma meta de ocupação ou projeção de retorno é confiável antes desse levantamento.**
 
 ---
 
@@ -196,5 +215,5 @@ sincronizados via iCal.
 
 **Nas próximas semanas:**
 9. Cadastrar uma segunda pessoa para limpeza/revisão
-10. Decompor os R$3.500 em fixo × variável
+10. Levantar o custo fixo mensal real (tabela do §5)
 11. Confirmar o número exato de reservas históricas

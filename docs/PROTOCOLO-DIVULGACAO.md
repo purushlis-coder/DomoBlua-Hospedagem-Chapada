@@ -38,7 +38,7 @@ Antes de investir energia em divulgação, resolva estes pontos. Eles vieram das
 | **Sem cama "de verdade" no térreo** | avaliação do Ronald | Se couber no orçamento, uma cama box no térreo resolve a crítica mais repetida e sobe a nota. |
 | **Detectores "não informados"** | seção Segurança do anúncio | Instale e **marque no anúncio** fumaça + monóxido: aparece como selo de segurança. |
 | **Check-in 15h / checkout 15h** | Regras da casa | Parece erro de cadastro. Corrija o checkout (ex.: 11h ou 12h) para dar tempo de limpeza. |
-| **"30 m do Poço do Motor"** | anúncio diz 30 m, seu guia diz 300 m | Meça e padronize. Distância errada gera frustração e avaliação ruim. |
+| **"30 m do Poço do Motor"** | o resumo do anúncio diz 30 m e a descrição longa diz 300 m — a contradição está dentro do próprio anúncio | Meça e padronize. Distância errada gera frustração e avaliação ruim. |
 
 ### Estratégia de lançamento para sair de 2 → 5 avaliações (30-45 dias)
 1. Baixe a diária ~15% e ative **desconto semanal** e **desconto para novo anúncio**.
