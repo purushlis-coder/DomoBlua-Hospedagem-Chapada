@@ -1,13 +1,19 @@
 {
-  "proximo_indice": 1,
+  "proximo_indice": 2,
   "fotos_usadas": [
-    "poco-do-motor.jpg"
+    "poco-do-motor.jpg",
+    "rio-1.jpg"
   ],
   "historico": [
     {
       "data": "2026-07-29T15:15:40.721482+00:00",
       "post_id": "cerrado-berco-das-aguas",
       "arquivo": "instagram/generated/20260729-1515-foto-poco-do-motor-jpg.jpg"
+    },
+    {
+      "data": "2026-07-29T21:25:37.465723+00:00",
+      "post_id": "chapada-vale-da-lua",
+      "arquivo": "instagram/generated/20260729-2125-foto-rio-1-jpg.jpg"
     }
   ]
 }
