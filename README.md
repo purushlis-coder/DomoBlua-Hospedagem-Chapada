@@ -32,6 +32,7 @@ Estratégia de rentabilidade do imóvel:
 - [`docs/ESTRATEGIA-LIMPEZA-E-PRECO.md`](docs/ESTRATEGIA-LIMPEZA-E-PRECO.md) — economia da limpeza e a estrutura de preço que a sustenta
 
 Demais documentos:
+- **[`docs/COMO-EDITAR-A-PAGINA.md`](docs/COMO-EDITAR-A-PAGINA.md) — como fazer revisões pontuais na landing page, direto do navegador**
 - [`docs/AUDITORIA-ANUNCIO.md`](docs/AUDITORIA-ANUNCIO.md) — auditoria preliminar (superada pelo relatório)
 - [`docs/COMO-ENVIAR-AS-FOTOS.md`](docs/COMO-ENVIAR-AS-FOTOS.md) — onde colocar as fotos do rio e da cachoeira
 - [`docs/INSTAGRAM-SETUP.md`](docs/INSTAGRAM-SETUP.md) — como gerar as chaves da Meta (Graph API)
