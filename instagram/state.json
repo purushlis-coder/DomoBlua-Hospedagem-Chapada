@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 3,
+  "proximo_indice": 4,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -20,6 +20,11 @@
       "data": "2026-07-31T21:35:08.355180+00:00",
       "post_id": "colinas-portal-chapada",
       "arquivo": "instagram/generated/20260731-2135-foto-rio-2-jpg.jpg"
+    },
+    {
+      "data": "2026-08-01T14:25:06.440408+00:00",
+      "post_id": "dica-melhor-epoca",
+      "arquivo": "instagram/generated/20260801-1425-card-dica-melhor-epoca.jpg"
     }
   ]
 }
