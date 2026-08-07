@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 6,
+  "proximo_indice": 7,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -35,6 +35,11 @@
       "data": "2026-08-05T21:41:40.116020+00:00",
       "post_id": "colinas-poco-do-motor",
       "arquivo": "instagram/generated/20260805-2141-card-colinas-poco-do-motor.jpg"
+    },
+    {
+      "data": "2026-08-07T21:07:25.783956+00:00",
+      "post_id": "cerrado-floresta-invertida",
+      "arquivo": "instagram/generated/20260807-2107-card-cerrado-floresta-invertida.jpg"
     }
   ]
 }
