@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 8,
+  "proximo_indice": 9,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -45,6 +45,11 @@
       "data": "2026-08-08T13:42:49.977863+00:00",
       "post_id": "cachoeira-seguranca-cabeca-dagua",
       "arquivo": "instagram/generated/20260808-1342-card-cachoeira-seguranca-cabeca-dagua.jpg"
+    },
+    {
+      "data": "2026-08-10T21:09:33.543859+00:00",
+      "post_id": "chapada-saltos-rio-preto",
+      "arquivo": "instagram/generated/20260810-2109-card-chapada-saltos-rio-preto.jpg"
     }
   ]
 }
