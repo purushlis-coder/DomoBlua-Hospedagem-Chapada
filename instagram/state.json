@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 9,
+  "proximo_indice": 10,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -50,6 +50,11 @@
       "data": "2026-08-10T21:09:33.543859+00:00",
       "post_id": "chapada-saltos-rio-preto",
       "arquivo": "instagram/generated/20260810-2109-card-chapada-saltos-rio-preto.jpg"
+    },
+    {
+      "data": "2026-08-12T21:11:29.449987+00:00",
+      "post_id": "colinas-ribeirao-dos-padres",
+      "arquivo": "instagram/generated/20260812-2111-card-colinas-ribeirao-dos-padres.jpg"
     }
   ]
 }
