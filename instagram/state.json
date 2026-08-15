@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 11,
+  "proximo_indice": 12,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -60,6 +60,11 @@
       "data": "2026-08-14T20:53:39.706536+00:00",
       "post_id": "promo-conheca-a-base",
       "arquivo": "instagram/generated/20260814-2053-card-promo-conheca-a-base.jpg"
+    },
+    {
+      "data": "2026-08-15T13:27:22.033816+00:00",
+      "post_id": "cerrado-ipes-na-seca",
+      "arquivo": "instagram/generated/20260815-1327-card-cerrado-ipes-na-seca.jpg"
     }
   ]
 }
