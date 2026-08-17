@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 12,
+  "proximo_indice": 13,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -65,6 +65,11 @@
       "data": "2026-08-15T13:27:22.033816+00:00",
       "post_id": "cerrado-ipes-na-seca",
       "arquivo": "instagram/generated/20260815-1327-card-cerrado-ipes-na-seca.jpg"
+    },
+    {
+      "data": "2026-08-17T20:51:00.190159+00:00",
+      "post_id": "chapada-loquinhas",
+      "arquivo": "instagram/generated/20260817-2051-card-chapada-loquinhas.jpg"
     }
   ]
 }
