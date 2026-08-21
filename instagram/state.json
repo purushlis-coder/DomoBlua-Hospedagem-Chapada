@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 14,
+  "proximo_indice": 15,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -75,6 +75,11 @@
       "data": "2026-08-19T20:51:42.614637+00:00",
       "post_id": "colinas-lago-serra-da-mesa",
       "arquivo": "instagram/generated/20260819-2051-card-colinas-lago-serra-da-mesa.jpg"
+    },
+    {
+      "data": "2026-08-21T20:46:50.363069+00:00",
+      "post_id": "dica-o-que-levar-trilha",
+      "arquivo": "instagram/generated/20260821-2046-card-dica-o-que-levar-trilha.jpg"
     }
   ]
 }
