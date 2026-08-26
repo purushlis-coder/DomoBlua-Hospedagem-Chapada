@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 17,
+  "proximo_indice": 18,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -90,6 +90,11 @@
       "data": "2026-08-24T20:56:23.323542+00:00",
       "post_id": "chapada-mirante-da-janela",
       "arquivo": "instagram/generated/20260824-2056-card-chapada-mirante-da-janela.jpg"
+    },
+    {
+      "data": "2026-08-26T23:52:54.254934+00:00",
+      "post_id": "cachoeira-banho-frio-beneficios",
+      "arquivo": "instagram/generated/20260826-2352-card-cachoeira-banho-frio-beneficios.jpg"
     }
   ]
 }
