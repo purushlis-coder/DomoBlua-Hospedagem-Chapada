@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 19,
+  "proximo_indice": 20,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -100,6 +100,11 @@
       "data": "2026-08-29T02:51:46.492665+00:00",
       "post_id": "colinas-pedras-bonitas",
       "arquivo": "instagram/generated/20260829-0251-card-colinas-pedras-bonitas.jpg"
+    },
+    {
+      "data": "2026-08-29T16:57:53.138482+00:00",
+      "post_id": "dica-nao-deixe-rastro",
+      "arquivo": "instagram/generated/20260829-1657-card-dica-nao-deixe-rastro.jpg"
     }
   ]
 }
