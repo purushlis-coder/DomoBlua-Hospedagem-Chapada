@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 21,
+  "proximo_indice": 22,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -110,6 +110,11 @@
       "data": "2026-08-31T23:57:40.813596+00:00",
       "post_id": "promo-roteiro-personalizado",
       "arquivo": "instagram/generated/20260831-2357-card-promo-roteiro-personalizado.jpg"
+    },
+    {
+      "data": "2026-09-02T22:44:17.409451+00:00",
+      "post_id": "chapada-almecegas",
+      "arquivo": "instagram/generated/20260902-2244-card-chapada-almecegas.jpg"
     }
   ]
 }
