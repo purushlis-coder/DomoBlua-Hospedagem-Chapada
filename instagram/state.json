@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 22,
+  "proximo_indice": 23,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -115,6 +115,11 @@
       "data": "2026-09-02T22:44:17.409451+00:00",
       "post_id": "chapada-almecegas",
       "arquivo": "instagram/generated/20260902-2244-card-chapada-almecegas.jpg"
+    },
+    {
+      "data": "2026-09-04T22:26:40.455756+00:00",
+      "post_id": "cerrado-frutos",
+      "arquivo": "instagram/generated/20260904-2226-card-cerrado-frutos.jpg"
     }
   ]
 }
