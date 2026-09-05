@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 23,
+  "proximo_indice": 24,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -120,6 +120,11 @@
       "data": "2026-09-04T22:26:40.455756+00:00",
       "post_id": "cerrado-frutos",
       "arquivo": "instagram/generated/20260904-2226-card-cerrado-frutos.jpg"
+    },
+    {
+      "data": "2026-09-05T15:46:01.217332+00:00",
+      "post_id": "dica-comece-cedo",
+      "arquivo": "instagram/generated/20260905-1546-card-dica-comece-cedo.jpg"
     }
   ]
 }
