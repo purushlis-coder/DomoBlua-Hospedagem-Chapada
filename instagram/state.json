@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 25,
+  "proximo_indice": 26,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -130,6 +130,11 @@
       "data": "2026-09-07T22:55:02.094125+00:00",
       "post_id": "colinas-macacos-vizinhos",
       "arquivo": "instagram/generated/20260907-2255-card-colinas-macacos-vizinhos.jpg"
+    },
+    {
+      "data": "2026-09-09T22:39:47.888462+00:00",
+      "post_id": "chapada-jardim-maytrea",
+      "arquivo": "instagram/generated/20260909-2239-card-chapada-jardim-maytrea.jpg"
     }
   ]
 }
