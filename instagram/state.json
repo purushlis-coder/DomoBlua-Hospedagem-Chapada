@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 26,
+  "proximo_indice": 27,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -135,6 +135,11 @@
       "data": "2026-09-09T22:39:47.888462+00:00",
       "post_id": "chapada-jardim-maytrea",
       "arquivo": "instagram/generated/20260909-2239-card-chapada-jardim-maytrea.jpg"
+    },
+    {
+      "data": "2026-09-11T22:41:23.448402+00:00",
+      "post_id": "cerrado-buriti-agua",
+      "arquivo": "instagram/generated/20260911-2241-card-cerrado-buriti-agua.jpg"
     }
   ]
 }
