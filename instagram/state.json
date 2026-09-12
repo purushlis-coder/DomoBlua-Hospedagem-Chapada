@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 27,
+  "proximo_indice": 28,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -140,6 +140,11 @@
       "data": "2026-09-11T22:41:23.448402+00:00",
       "post_id": "cerrado-buriti-agua",
       "arquivo": "instagram/generated/20260911-2241-card-cerrado-buriti-agua.jpg"
+    },
+    {
+      "data": "2026-09-12T15:58:38.339707+00:00",
+      "post_id": "cachoeira-etiqueta",
+      "arquivo": "instagram/generated/20260912-1558-card-cachoeira-etiqueta.jpg"
     }
   ]
 }
