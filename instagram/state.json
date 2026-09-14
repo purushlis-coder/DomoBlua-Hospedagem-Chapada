@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 28,
+  "proximo_indice": 29,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -145,6 +145,11 @@
       "data": "2026-09-12T15:58:38.339707+00:00",
       "post_id": "cachoeira-etiqueta",
       "arquivo": "instagram/generated/20260912-1558-card-cachoeira-etiqueta.jpg"
+    },
+    {
+      "data": "2026-09-14T23:14:48.776381+00:00",
+      "post_id": "dica-guias-locais",
+      "arquivo": "instagram/generated/20260914-2314-card-dica-guias-locais.jpg"
     }
   ]
 }
