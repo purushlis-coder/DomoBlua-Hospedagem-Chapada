@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 31,
+  "proximo_indice": 32,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -160,6 +160,11 @@
       "data": "2026-09-18T22:42:11.170067+00:00",
       "post_id": "chapada-catarata-couros",
       "arquivo": "instagram/generated/20260918-2242-card-chapada-catarata-couros.jpg"
+    },
+    {
+      "data": "2026-09-19T16:12:49.840092+00:00",
+      "post_id": "cerrado-patrimonio-unesco",
+      "arquivo": "instagram/generated/20260919-1612-card-cerrado-patrimonio-unesco.jpg"
     }
   ]
 }
