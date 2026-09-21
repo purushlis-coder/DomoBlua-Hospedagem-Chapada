@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 32,
+  "proximo_indice": 33,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -165,6 +165,11 @@
       "data": "2026-09-19T16:12:49.840092+00:00",
       "post_id": "cerrado-patrimonio-unesco",
       "arquivo": "instagram/generated/20260919-1612-card-cerrado-patrimonio-unesco.jpg"
+    },
+    {
+      "data": "2026-09-21T23:25:53.721112+00:00",
+      "post_id": "dica-hidratacao-sol",
+      "arquivo": "instagram/generated/20260921-2325-card-dica-hidratacao-sol.jpg"
     }
   ]
 }
