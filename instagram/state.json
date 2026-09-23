@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 33,
+  "proximo_indice": 34,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -170,6 +170,11 @@
       "data": "2026-09-21T23:25:53.721112+00:00",
       "post_id": "dica-hidratacao-sol",
       "arquivo": "instagram/generated/20260921-2325-card-dica-hidratacao-sol.jpg"
+    },
+    {
+      "data": "2026-09-23T23:01:32.954008+00:00",
+      "post_id": "chapada-sao-jorge",
+      "arquivo": "instagram/generated/20260923-2301-card-chapada-sao-jorge.jpg"
     }
   ]
 }
