@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 34,
+  "proximo_indice": 35,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -175,6 +175,11 @@
       "data": "2026-09-23T23:01:32.954008+00:00",
       "post_id": "chapada-sao-jorge",
       "arquivo": "instagram/generated/20260923-2301-card-chapada-sao-jorge.jpg"
+    },
+    {
+      "data": "2026-09-25T23:22:15.140412+00:00",
+      "post_id": "cerrado-nome-veadeiros",
+      "arquivo": "instagram/generated/20260925-2322-card-cerrado-nome-veadeiros.jpg"
     }
   ]
 }
