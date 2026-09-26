@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 35,
+  "proximo_indice": 36,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -180,6 +180,11 @@
       "data": "2026-09-25T23:22:15.140412+00:00",
       "post_id": "cerrado-nome-veadeiros",
       "arquivo": "instagram/generated/20260925-2322-card-cerrado-nome-veadeiros.jpg"
+    },
+    {
+      "data": "2026-09-26T16:52:05.746312+00:00",
+      "post_id": "cachoeira-melhor-horario-foto",
+      "arquivo": "instagram/generated/20260926-1652-card-cachoeira-melhor-horario-foto.jpg"
     }
   ]
 }
