@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 36,
+  "proximo_indice": 37,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -185,6 +185,11 @@
       "data": "2026-09-26T16:52:05.746312+00:00",
       "post_id": "cachoeira-melhor-horario-foto",
       "arquivo": "instagram/generated/20260926-1652-card-cachoeira-melhor-horario-foto.jpg"
+    },
+    {
+      "data": "2026-09-29T00:27:34.034572+00:00",
+      "post_id": "dica-respeito-comunidades",
+      "arquivo": "instagram/generated/20260929-0027-card-dica-respeito-comunidades.jpg"
     }
   ]
 }
