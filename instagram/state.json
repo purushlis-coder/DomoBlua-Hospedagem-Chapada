@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 37,
+  "proximo_indice": 38,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -190,6 +190,11 @@
       "data": "2026-09-29T00:27:34.034572+00:00",
       "post_id": "dica-respeito-comunidades",
       "arquivo": "instagram/generated/20260929-0027-card-dica-respeito-comunidades.jpg"
+    },
+    {
+      "data": "2026-10-01T00:00:52.606402+00:00",
+      "post_id": "promo-trabalho-remoto",
+      "arquivo": "instagram/generated/20261001-0000-card-promo-trabalho-remoto.jpg"
     }
   ]
 }
