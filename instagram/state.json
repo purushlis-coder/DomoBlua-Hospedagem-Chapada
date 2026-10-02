@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 38,
+  "proximo_indice": 39,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -195,6 +195,11 @@
       "data": "2026-10-01T00:00:52.606402+00:00",
       "post_id": "promo-trabalho-remoto",
       "arquivo": "instagram/generated/20261001-0000-card-promo-trabalho-remoto.jpg"
+    },
+    {
+      "data": "2026-10-02T23:54:00.064095+00:00",
+      "post_id": "chapada-travessia-sete-quedas",
+      "arquivo": "instagram/generated/20261002-2354-card-chapada-travessia-sete-quedas.jpg"
     }
   ]
 }
