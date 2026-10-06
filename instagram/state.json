@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 40,
+  "proximo_indice": 41,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -205,6 +205,11 @@
       "data": "2026-10-03T16:57:19.774938+00:00",
       "post_id": "cerrado-lobo-guara",
       "arquivo": "instagram/generated/20261003-1657-card-cerrado-lobo-guara.jpg"
+    },
+    {
+      "data": "2026-10-06T01:21:16.521488+00:00",
+      "post_id": "dica-chuva-plano-b",
+      "arquivo": "instagram/generated/20261006-0121-card-dica-chuva-plano-b.jpg"
     }
   ]
 }
