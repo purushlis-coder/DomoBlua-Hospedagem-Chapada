@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 41,
+  "proximo_indice": 42,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -210,6 +210,11 @@
       "data": "2026-10-06T01:21:16.521488+00:00",
       "post_id": "dica-chuva-plano-b",
       "arquivo": "instagram/generated/20261006-0121-card-dica-chuva-plano-b.jpg"
+    },
+    {
+      "data": "2026-10-08T00:17:09.535973+00:00",
+      "post_id": "chapada-ceu-estrelado",
+      "arquivo": "instagram/generated/20261008-0017-card-chapada-ceu-estrelado.jpg"
     }
   ]
 }
