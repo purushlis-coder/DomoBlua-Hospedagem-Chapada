@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 42,
+  "proximo_indice": 43,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -215,6 +215,11 @@
       "data": "2026-10-08T00:17:09.535973+00:00",
       "post_id": "chapada-ceu-estrelado",
       "arquivo": "instagram/generated/20261008-0017-card-chapada-ceu-estrelado.jpg"
+    },
+    {
+      "data": "2026-10-10T00:08:25.097786+00:00",
+      "post_id": "cerrado-capim-dourado",
+      "arquivo": "instagram/generated/20261010-0008-card-cerrado-capim-dourado.jpg"
     }
   ]
 }
