@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 43,
+  "proximo_indice": 44,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -220,6 +220,11 @@
       "data": "2026-10-10T00:08:25.097786+00:00",
       "post_id": "cerrado-capim-dourado",
       "arquivo": "instagram/generated/20261010-0008-card-cerrado-capim-dourado.jpg"
+    },
+    {
+      "data": "2026-10-10T17:37:38.919771+00:00",
+      "post_id": "dica-reservar-antecedencia",
+      "arquivo": "instagram/generated/20261010-1737-card-dica-reservar-antecedencia.jpg"
     }
   ]
 }
