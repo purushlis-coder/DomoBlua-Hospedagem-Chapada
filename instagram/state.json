@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 44,
+  "proximo_indice": 45,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -225,6 +225,11 @@
       "data": "2026-10-10T17:37:38.919771+00:00",
       "post_id": "dica-reservar-antecedencia",
       "arquivo": "instagram/generated/20261010-1737-card-dica-reservar-antecedencia.jpg"
+    },
+    {
+      "data": "2026-10-13T02:09:24.002247+00:00",
+      "post_id": "cachoeira-inverno-aguas-claras",
+      "arquivo": "instagram/generated/20261013-0209-card-cachoeira-inverno-aguas-claras.jpg"
     }
   ]
 }
