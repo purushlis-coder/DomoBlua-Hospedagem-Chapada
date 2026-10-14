@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 45,
+  "proximo_indice": 0,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -230,6 +230,11 @@
       "data": "2026-10-13T02:09:24.002247+00:00",
       "post_id": "cachoeira-inverno-aguas-claras",
       "arquivo": "instagram/generated/20261013-0209-card-cachoeira-inverno-aguas-claras.jpg"
+    },
+    {
+      "data": "2026-10-14T23:20:00.665600+00:00",
+      "post_id": "promo-fim-de-ano",
+      "arquivo": "instagram/generated/20261014-2320-card-promo-fim-de-ano.jpg"
     }
   ]
 }
