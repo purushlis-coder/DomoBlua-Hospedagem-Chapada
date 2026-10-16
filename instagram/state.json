@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 0,
+  "proximo_indice": 1,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -235,6 +235,11 @@
       "data": "2026-10-14T23:20:00.665600+00:00",
       "post_id": "promo-fim-de-ano",
       "arquivo": "instagram/generated/20261014-2320-card-promo-fim-de-ano.jpg"
+    },
+    {
+      "data": "2026-10-16T22:55:15.489719+00:00",
+      "post_id": "cerrado-berco-das-aguas",
+      "arquivo": "instagram/generated/20261016-2255-card-cerrado-berco-das-aguas.jpg"
     }
   ]
 }
