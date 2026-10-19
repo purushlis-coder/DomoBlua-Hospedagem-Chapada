@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 2,
+  "proximo_indice": 3,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -245,6 +245,11 @@
       "data": "2026-10-17T16:07:27.914297+00:00",
       "post_id": "chapada-vale-da-lua",
       "arquivo": "instagram/generated/20261017-1607-card-chapada-vale-da-lua.jpg"
+    },
+    {
+      "data": "2026-10-19T23:50:03.094704+00:00",
+      "post_id": "colinas-portal-chapada",
+      "arquivo": "instagram/generated/20261019-2350-card-colinas-portal-chapada.jpg"
     }
   ]
 }
