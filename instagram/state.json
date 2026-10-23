@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 4,
+  "proximo_indice": 5,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -255,6 +255,11 @@
       "data": "2026-10-21T23:29:08.081093+00:00",
       "post_id": "dica-melhor-epoca",
       "arquivo": "instagram/generated/20261021-2329-card-dica-melhor-epoca.jpg"
+    },
+    {
+      "data": "2026-10-23T23:16:53.617818+00:00",
+      "post_id": "chapada-santa-barbara",
+      "arquivo": "instagram/generated/20261023-2316-card-chapada-santa-barbara.jpg"
     }
   ]
 }
