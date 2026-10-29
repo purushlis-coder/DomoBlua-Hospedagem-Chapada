@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 7,
+  "proximo_indice": 8,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -270,6 +270,11 @@
       "data": "2026-10-26T23:57:46.990802+00:00",
       "post_id": "cerrado-floresta-invertida",
       "arquivo": "instagram/generated/20261026-2357-card-cerrado-floresta-invertida.jpg"
+    },
+    {
+      "data": "2026-10-29T00:06:43.483371+00:00",
+      "post_id": "cachoeira-seguranca-cabeca-dagua",
+      "arquivo": "instagram/generated/20261029-0006-card-cachoeira-seguranca-cabeca-dagua.jpg"
     }
   ]
 }
