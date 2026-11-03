@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 10,
+  "proximo_indice": 11,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -285,6 +285,11 @@
       "data": "2026-10-31T17:29:47.350343+00:00",
       "post_id": "colinas-ribeirao-dos-padres",
       "arquivo": "instagram/generated/20261031-1729-card-colinas-ribeirao-dos-padres.jpg"
+    },
+    {
+      "data": "2026-11-03T02:29:19.301686+00:00",
+      "post_id": "promo-conheca-a-base",
+      "arquivo": "instagram/generated/20261103-0229-card-promo-conheca-a-base.jpg"
     }
   ]
 }
