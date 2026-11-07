@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 13,
+  "proximo_indice": 14,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -300,6 +300,11 @@
       "data": "2026-11-07T00:10:36.485644+00:00",
       "post_id": "chapada-loquinhas",
       "arquivo": "instagram/generated/20261107-0010-card-chapada-loquinhas.jpg"
+    },
+    {
+      "data": "2026-11-07T17:55:58.430206+00:00",
+      "post_id": "colinas-lago-serra-da-mesa",
+      "arquivo": "instagram/generated/20261107-1755-card-colinas-lago-serra-da-mesa.jpg"
     }
   ]
 }
