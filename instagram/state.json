@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 16,
+  "proximo_indice": 17,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -315,6 +315,11 @@
       "data": "2026-11-12T01:57:06.918098+00:00",
       "post_id": "cerrado-biodiversidade",
       "arquivo": "instagram/generated/20261112-0157-card-cerrado-biodiversidade.jpg"
+    },
+    {
+      "data": "2026-11-14T00:56:18.370014+00:00",
+      "post_id": "chapada-mirante-da-janela",
+      "arquivo": "instagram/generated/20261114-0056-card-chapada-mirante-da-janela.jpg"
     }
   ]
 }
