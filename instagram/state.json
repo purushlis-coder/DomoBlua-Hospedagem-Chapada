@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 18,
+  "proximo_indice": 19,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -325,6 +325,11 @@
       "data": "2026-11-14T18:38:08.507409+00:00",
       "post_id": "cachoeira-banho-frio-beneficios",
       "arquivo": "instagram/generated/20261114-1838-card-cachoeira-banho-frio-beneficios.jpg"
+    },
+    {
+      "data": "2026-11-17T03:05:59.760960+00:00",
+      "post_id": "colinas-pedras-bonitas",
+      "arquivo": "instagram/generated/20261117-0305-card-colinas-pedras-bonitas.jpg"
     }
   ]
 }
