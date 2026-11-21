@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 20,
+  "proximo_indice": 21,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -335,6 +335,11 @@
       "data": "2026-11-19T01:55:58.642149+00:00",
       "post_id": "dica-nao-deixe-rastro",
       "arquivo": "instagram/generated/20261119-0155-card-dica-nao-deixe-rastro.jpg"
+    },
+    {
+      "data": "2026-11-21T01:37:39.600439+00:00",
+      "post_id": "promo-roteiro-personalizado",
+      "arquivo": "instagram/generated/20261121-0137-card-promo-roteiro-personalizado.jpg"
     }
   ]
 }
