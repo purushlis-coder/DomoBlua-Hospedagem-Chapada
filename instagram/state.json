@@ -1,5 +1,5 @@
 {
-  "proximo_indice": 24,
+  "proximo_indice": 25,
   "fotos_usadas": [
     "poco-do-motor.jpg",
     "rio-1.jpg",
@@ -355,6 +355,11 @@
       "data": "2026-11-26T02:57:13.320462+00:00",
       "post_id": "dica-comece-cedo",
       "arquivo": "instagram/generated/20261126-0257-card-dica-comece-cedo.jpg"
+    },
+    {
+      "data": "2026-11-28T02:51:10.389001+00:00",
+      "post_id": "colinas-macacos-vizinhos",
+      "arquivo": "instagram/generated/20261128-0251-card-colinas-macacos-vizinhos.jpg"
     }
   ]
 }
